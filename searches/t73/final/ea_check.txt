@@ -1,0 +1,25 @@
+515 printed leaves, 24 invariant groups
+group 0 b565c311d79990f4 F12 i=3 u=940 a=567 b=781: 48 leaves, 47 equivalent to the first, 0 not; equivalent to apndb representative; 6 s
+group 1 074896d2281f1e1f Beierle-Leander #5: 58 leaves, 57 equivalent to the first, 0 not; equivalent to apndb representative; 8 s
+group 2 cc9135ebccd0fd0d New (this work): F_4 coefficients, order-5 self-equivalence #1: 49 leaves, 48 equivalent to the first, 0 not; equivalent to apndb representative; 6 s
+group 3 dcffd811adb7bb59 New (this work): F_4 coefficients, order-5 self-equivalence #2: 50 leaves, 49 equivalent to the first, 0 not; equivalent to apndb representative; 7 s
+group 4 0a0ea0bfcbf7b32b New (this work): F_4 coefficients, order-5 self-equivalence #3: 52 leaves, 51 equivalent to the first, 0 not; equivalent to apndb representative; 7 s
+group 5 7d2a655d532f0971 F12 i=1 u=66 a=314 b=568: 58 leaves, 57 equivalent to the first, 0 not; equivalent to apndb representative; 8 s
+group 6 9149aa6fb2d88edd Beierle-Leander #1: 47 leaves, 46 equivalent to the first, 0 not; equivalent to apndb representative; 7 s
+group 7 fc409cf646cabcb1 New (this work): F_4 coefficients, order-5 self-equivalence #4: 55 leaves, 54 equivalent to the first, 0 not; equivalent to apndb representative; 8 s
+group 8 1ba0ae05c60f7c81 Budaghyan-Ivkovic-Kaleyski triplicate #5: 4 leaves, 3 equivalent to the first, 0 not; equivalent to apndb representative; 1 s
+group 9 a94a9a1c9b6989eb Budaghyan-Ivkovic-Kaleyski triplicate #3: 4 leaves, 3 equivalent to the first, 0 not; equivalent to apndb representative; 1 s
+group 10 403427c659007a97 F3 i=2 c=941 s=1007: 4 leaves, 3 equivalent to the first, 0 not; equivalent to apndb representative; 11 s
+group 11 cfcc301ea78df568 F13 i=3 k=0 a=1 b=236 c=1: 4 leaves, 3 equivalent to the first, 0 not; equivalent to apndb representative; 8 s
+group 12 026e1094aef26abe F13 i=3 k=0 a=1 b=236 c=237: 4 leaves, 3 equivalent to the first, 0 not; equivalent to apndb representative; 11 s
+group 13 f52474390867bdf1 F13 i=3 k=0 a=236 b=236 c=237: 4 leaves, 3 equivalent to the first, 0 not; equivalent to apndb representative; 9 s
+group 14 761eb83ea7e7ff28 F4 a=236: 4 leaves, 3 equivalent to the first, 0 not; equivalent to apndb representative; 1 s
+group 15 4ce138d3c68412fb F13 i=3 k=0 a=1 b=1 c=236: 4 leaves, 3 equivalent to the first, 0 not; equivalent to apndb representative; 6 s
+group 16 113fbf45f546c519 F3 i=1 c=1014 s=807: 4 leaves, 3 equivalent to the first, 0 not; equivalent to apndb representative; 11 s
+group 17 4574310b7a889fc2 Budaghyan-Ivkovic-Kaleyski triplicate #6: 4 leaves, 3 equivalent to the first, 0 not; equivalent to apndb representative; 1 s
+group 18 1a5b49709c2f9299 F13 i=3 k=2 a=236 b=0 c=0: 4 leaves, 3 equivalent to the first, 0 not; equivalent to apndb representative; 1 s
+group 19 e584848b79b87840 Gold x^3: 4 leaves, 3 equivalent to the first, 0 not; equivalent to apndb representative; 339 s
+group 20 d0f981f728367da2 F4 a=1: 4 leaves, 3 equivalent to the first, 0 not; equivalent to apndb representative; 1 s
+group 21 3db91379103daa29 Gold x^9: 4 leaves, 3 equivalent to the first, 0 not; equivalent to apndb representative; 803 s
+group 22 f9a31e2c5521a8bb Budaghyan-Ivkovic-Kaleyski triplicate #1: 21 leaves, 20 equivalent to the first, 0 not; equivalent to apndb representative; 3 s
+group 23 3b1918773555a014 Budaghyan-Ivkovic-Kaleyski triplicate #4: 21 leaves, 20 equivalent to the first, 0 not; equivalent to apndb representative; 3 s

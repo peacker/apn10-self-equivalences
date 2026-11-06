@@ -1,0 +1,8 @@
+11-06 17:55 search jobs: 67 agree, 0 differ (of 67); EA chunks done 581, ended 581; leaves equivalent 1458154, failed 0
+  type 129: Beierle-Leander #5 186; F13 i=3 k=2 a=236 b=0 c=0 62; Gold x^3 1; Gold x^9 1
+  type 170: F3 i=1 c=1014 s=807 338272
+  type 171: F3 i=2 c=941 s=1007 338272
+  type 175: Gold x^3 28029
+  type 176: Beierle-Leander #3 236661; F12 i=1 u=362 a=857 b=568 103218; F12 i=1 u=66 a=314 b=568 20627; F12 i=2 u=62 a=366 b=308 107447; F12 i=3 u=729 a=84 b=14 107455; F12 i=3 u=940 a=567 b=781 21493; F12 i=4 u=748 a=770 b=85 103179; F13 i=3 k=0 a=1 b=1 c=236 9229; F13 i=3 k=0 a=1 b=236 c=1 9615; F13 i=3 k=0 a=1 b=236 c=237 3059; F13 i=3 k=0 a=236 b=236 c=237 3054
+  type 180: Gold x^9 27333
+  type 231: Beierle-Leander #1 961

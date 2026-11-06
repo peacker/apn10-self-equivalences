@@ -1,0 +1,2 @@
+130	proof: a=1, dim D=5 (a in D), dim beta(a, D)=0; D=[1, 96, 144, 264, 516]
+169	proof: a=1, dim D=5 (a in D), dim beta(a, D)=0; D=[1, 2, 4, 8, 16]

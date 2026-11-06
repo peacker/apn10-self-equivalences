@@ -1,0 +1,22 @@
+{
+  "title": "Code and data for \"Quadratic APN functions of F_2^10 with a prime-order self-equivalence\"",
+  "upload_type": "software",
+  "version": "1.0",
+  "creators": [
+    {
+      "name": "Bellini, Emanuele",
+      "affiliation": "Technology Innovation Institute, Abu Dhabi, UAE",
+      "orcid": "0000-0002-2349-0247"
+    }
+  ],
+  "description": "Scripts, C and Python sources, generated data and stored results of the paper by E. Bellini, \"Quadratic APN functions of F_2^10 with a prime-order self-equivalence\". The repository contains the enumeration of the 299 types of prime-order linear self-equivalences (A, B) at n = 10, the proof criteria that exclude most of them, the generic symmetric tree search sym10 and the dedicated solvers for the hard types (24, 47, 73), the outputs and EA-equivalence checks of the searches, the four new quadratic APN classes, and verify.py to re-check the claims.",
+  "license": "MIT",
+  "keywords": [
+    "APN function",
+    "quadratic APN function",
+    "self-equivalence",
+    "EA-equivalence",
+    "classification",
+    "vectorial Boolean function"
+  ]
+}

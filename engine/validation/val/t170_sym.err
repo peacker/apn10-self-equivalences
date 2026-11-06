@@ -1,0 +1,3 @@
+sym10: n=10, d=25 free bits; per level: 5 0 0 0 15 5 0 0 0
+symmetry: skipped 0 values (symdepth 0, z = 10)
+done: nodes 8405371, leaves 338272, distinct fingerprints 1

@@ -1,0 +1,5 @@
+type 47: canonical basis 4.19e+17,  reordered basis 1.93e+20,
+type 24: canonical basis 1.02e+08,  reordered basis 1.41e+11,
+type 12: canonical basis 9.03e+07,  reordered basis 16,
+type 18: canonical basis 4.62e+08,  reordered basis 94.2,
+type 23: canonical basis 5.63e+08,  reordered basis 100,

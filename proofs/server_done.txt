@@ -1,0 +1,1315 @@
+srv1 sym10/out/t_100.0.done done: nodes 33270506338, leaves 0, distinct fingerprints 0 secs 9579
+srv1 sym10/out/t_100.1.done done: nodes 33326017123, leaves 0, distinct fingerprints 0 secs 9832
+srv1 sym10/out/t_100.10.done done: nodes 33003866902, leaves 0, distinct fingerprints 0 secs 9545
+srv1 sym10/out/t_100.100.done done: nodes 33090467758, leaves 0, distinct fingerprints 0 secs 9367
+srv1 sym10/out/t_100.101.done done: nodes 33140249659, leaves 0, distinct fingerprints 0 secs 9408
+srv1 sym10/out/t_100.102.done done: nodes 33537144922, leaves 0, distinct fingerprints 0 secs 9416
+srv1 sym10/out/t_100.103.done done: nodes 33474784153, leaves 0, distinct fingerprints 0 secs 9509
+srv1 sym10/out/t_100.104.done done: nodes 33153333244, leaves 0, distinct fingerprints 0 secs 9356
+srv1 sym10/out/t_100.105.done done: nodes 33053647819, leaves 0, distinct fingerprints 0 secs 9330
+srv1 sym10/out/t_100.106.done done: nodes 32994609088, leaves 0, distinct fingerprints 0 secs 9427
+srv1 sym10/out/t_100.107.done done: nodes 33217431886, leaves 0, distinct fingerprints 0 secs 9344
+srv1 sym10/out/t_100.108.done done: nodes 33391213855, leaves 0, distinct fingerprints 0 secs 9493
+srv1 sym10/out/t_100.109.done done: nodes 33100970125, leaves 0, distinct fingerprints 0 secs 9291
+srv1 sym10/out/t_100.11.done done: nodes 33328531096, leaves 0, distinct fingerprints 0 secs 9521
+srv1 sym10/out/t_100.110.done done: nodes 33222294130, leaves 0, distinct fingerprints 0 secs 9463
+srv1 sym10/out/t_100.111.done done: nodes 33512812147, leaves 0, distinct fingerprints 0 secs 9495
+srv1 sym10/out/t_100.112.done done: nodes 33390535912, leaves 0, distinct fingerprints 0 secs 9470
+srv1 sym10/out/t_100.113.done done: nodes 33098916214, leaves 0, distinct fingerprints 0 secs 9352
+srv1 sym10/out/t_100.114.done done: nodes 33118911856, leaves 0, distinct fingerprints 0 secs 9313
+srv1 sym10/out/t_100.115.done done: nodes 33091036882, leaves 0, distinct fingerprints 0 secs 9429
+srv1 sym10/out/t_100.116.done done: nodes 33057317932, leaves 0, distinct fingerprints 0 secs 9397
+srv1 sym10/out/t_100.117.done done: nodes 33143086894, leaves 0, distinct fingerprints 0 secs 9294
+srv1 sym10/out/t_100.118.done done: nodes 33498401062, leaves 0, distinct fingerprints 0 secs 9289
+srv1 sym10/out/t_100.119.done done: nodes 33363494197, leaves 0, distinct fingerprints 0 secs 9289
+srv1 sym10/out/t_100.12.done done: nodes 32984177992, leaves 0, distinct fingerprints 0 secs 9534
+srv1 sym10/out/t_100.120.done done: nodes 33330534175, leaves 0, distinct fingerprints 0 secs 9432
+srv1 sym10/out/t_100.121.done done: nodes 33121911529, leaves 0, distinct fingerprints 0 secs 9328
+srv1 sym10/out/t_100.122.done done: nodes 33285395008, leaves 0, distinct fingerprints 0 secs 9414
+srv1 sym10/out/t_100.123.done done: nodes 33289882225, leaves 0, distinct fingerprints 0 secs 9328
+srv1 sym10/out/t_100.124.done done: nodes 33441160726, leaves 0, distinct fingerprints 0 secs 9408
+srv1 sym10/out/t_100.125.done done: nodes 33244405594, leaves 0, distinct fingerprints 0 secs 9284
+srv1 sym10/out/t_100.126.done done: nodes 33293329348, leaves 0, distinct fingerprints 0 secs 9303
+srv1 sym10/out/t_100.127.done done: nodes 33570930319, leaves 0, distinct fingerprints 0 secs 9349
+srv1 sym10/out/t_100.13.done done: nodes 32931651958, leaves 0, distinct fingerprints 0 secs 9619
+srv1 sym10/out/t_100.14.done done: nodes 33374603311, leaves 0, distinct fingerprints 0 secs 9516
+srv1 sym10/out/t_100.15.done done: nodes 33544266565, leaves 0, distinct fingerprints 0 secs 9550
+srv1 sym10/out/t_100.16.done done: nodes 33158043046, leaves 0, distinct fingerprints 0 secs 9514
+srv1 sym10/out/t_100.17.done done: nodes 32804067331, leaves 0, distinct fingerprints 0 secs 9400
+srv1 sym10/out/t_100.18.done done: nodes 33194134600, leaves 0, distinct fingerprints 0 secs 9414
+srv1 sym10/out/t_100.19.done done: nodes 33018202864, leaves 0, distinct fingerprints 0 secs 9384
+srv1 sym10/out/t_100.2.done done: nodes 32971710271, leaves 0, distinct fingerprints 0 secs 9455
+srv1 sym10/out/t_100.20.done done: nodes 33232817167, leaves 0, distinct fingerprints 0 secs 9395
+srv1 sym10/out/t_100.21.done done: nodes 32990151346, leaves 0, distinct fingerprints 0 secs 9435
+srv1 sym10/out/t_100.22.done done: nodes 33367416697, leaves 0, distinct fingerprints 0 secs 9583
+srv1 sym10/out/t_100.23.done done: nodes 33140232919, leaves 0, distinct fingerprints 0 secs 9400
+srv1 sym10/out/t_100.24.done done: nodes 33349814938, leaves 0, distinct fingerprints 0 secs 9428
+srv1 sym10/out/t_100.25.done done: nodes 33131462425, leaves 0, distinct fingerprints 0 secs 9325
+srv1 sym10/out/t_100.26.done done: nodes 33327549205, leaves 0, distinct fingerprints 0 secs 9529
+srv1 sym10/out/t_100.27.done done: nodes 33385834921, leaves 0, distinct fingerprints 0 secs 9397
+srv1 sym10/out/t_100.28.done done: nodes 33172904146, leaves 0, distinct fingerprints 0 secs 9352
+srv1 sym10/out/t_100.29.done done: nodes 33056866306, leaves 0, distinct fingerprints 0 secs 9345
+srv1 sym10/out/t_100.3.done done: nodes 33254495905, leaves 0, distinct fingerprints 0 secs 9389
+srv1 sym10/out/t_100.30.done done: nodes 33455917951, leaves 0, distinct fingerprints 0 secs 9437
+srv1 sym10/out/t_100.31.done done: nodes 33572044252, leaves 0, distinct fingerprints 0 secs 9876
+srv1 sym10/out/t_100.32.done done: nodes 33160429396, leaves 0, distinct fingerprints 0 secs 9514
+srv1 sym10/out/t_100.33.done done: nodes 32934487612, leaves 0, distinct fingerprints 0 secs 9526
+srv1 sym10/out/t_100.34.done done: nodes 33110076301, leaves 0, distinct fingerprints 0 secs 9358
+srv1 sym10/out/t_100.35.done done: nodes 33008670841, leaves 0, distinct fingerprints 0 secs 9613
+srv1 sym10/out/t_100.36.done done: nodes 33294560959, leaves 0, distinct fingerprints 0 secs 9576
+srv1 sym10/out/t_100.37.done done: nodes 33014287000, leaves 0, distinct fingerprints 0 secs 9471
+srv1 sym10/out/t_100.38.done done: nodes 33229783018, leaves 0, distinct fingerprints 0 secs 9578
+srv1 sym10/out/t_100.39.done done: nodes 33360822349, leaves 0, distinct fingerprints 0 secs 9734
+srv1 sym10/out/t_100.4.done done: nodes 32957368696, leaves 0, distinct fingerprints 0 secs 9437
+srv1 sym10/out/t_100.40.done done: nodes 33006887230, leaves 0, distinct fingerprints 0 secs 9435
+srv1 sym10/out/t_100.41.done done: nodes 33224020672, leaves 0, distinct fingerprints 0 secs 9439
+srv1 sym10/out/t_100.42.done done: nodes 33242354188, leaves 0, distinct fingerprints 0 secs 9468
+srv1 sym10/out/t_100.43.done done: nodes 33062419003, leaves 0, distinct fingerprints 0 secs 9412
+srv1 sym10/out/t_100.44.done done: nodes 32937682666, leaves 0, distinct fingerprints 0 secs 9299
+srv1 sym10/out/t_100.45.done done: nodes 33209931619, leaves 0, distinct fingerprints 0 secs 9495
+srv1 sym10/out/t_100.46.done done: nodes 33595048720, leaves 0, distinct fingerprints 0 secs 9483
+srv1 sym10/out/t_100.47.done done: nodes 33357352858, leaves 0, distinct fingerprints 0 secs 9382
+srv1 sym10/out/t_100.48.done done: nodes 32846345773, leaves 0, distinct fingerprints 0 secs 9289
+srv1 sym10/out/t_100.49.done done: nodes 33085024036, leaves 0, distinct fingerprints 0 secs 9518
+srv1 sym10/out/t_100.5.done done: nodes 33284214139, leaves 0, distinct fingerprints 0 secs 9542
+srv1 sym10/out/t_100.50.done done: nodes 33079616884, leaves 0, distinct fingerprints 0 secs 9338
+srv1 sym10/out/t_100.51.done done: nodes 33098178265, leaves 0, distinct fingerprints 0 secs 9387
+srv1 sym10/out/t_100.52.done done: nodes 33209947447, leaves 0, distinct fingerprints 0 secs 9395
+srv1 sym10/out/t_100.53.done done: nodes 33081864016, leaves 0, distinct fingerprints 0 secs 9324
+srv1 sym10/out/t_100.54.done done: nodes 33330574213, leaves 0, distinct fingerprints 0 secs 9497
+srv1 sym10/out/t_100.55.done done: nodes 33285000031, leaves 0, distinct fingerprints 0 secs 9448
+srv1 sym10/out/t_100.56.done done: nodes 33393917986, leaves 0, distinct fingerprints 0 secs 9440
+srv1 sym10/out/t_100.57.done done: nodes 33238620112, leaves 0, distinct fingerprints 0 secs 9498
+srv1 sym10/out/t_100.58.done done: nodes 33460286764, leaves 0, distinct fingerprints 0 secs 9505
+srv1 sym10/out/t_100.59.done done: nodes 33125744302, leaves 0, distinct fingerprints 0 secs 9473
+srv1 sym10/out/t_100.6.done done: nodes 33194101999, leaves 0, distinct fingerprints 0 secs 9501
+srv1 sym10/out/t_100.60.done done: nodes 33112383001, leaves 0, distinct fingerprints 0 secs 9408
+srv1 sym10/out/t_100.61.done done: nodes 33277105369, leaves 0, distinct fingerprints 0 secs 9412
+srv1 sym10/out/t_100.62.done done: nodes 33706987693, leaves 0, distinct fingerprints 0 secs 9440
+srv1 sym10/out/t_100.63.done done: nodes 33602439583, leaves 0, distinct fingerprints 0 secs 9478
+srv1 sym10/out/t_100.64.done done: nodes 32825916691, leaves 0, distinct fingerprints 0 secs 9369
+srv1 sym10/out/t_100.65.done done: nodes 33294001873, leaves 0, distinct fingerprints 0 secs 9586
+srv1 sym10/out/t_100.66.done done: nodes 32881282879, leaves 0, distinct fingerprints 0 secs 9274
+srv1 sym10/out/t_100.67.done done: nodes 33347911522, leaves 0, distinct fingerprints 0 secs 9387
+srv1 sym10/out/t_100.68.done done: nodes 33012215878, leaves 0, distinct fingerprints 0 secs 9299
+srv1 sym10/out/t_100.69.done done: nodes 33290843005, leaves 0, distinct fingerprints 0 secs 9398
+srv1 sym10/out/t_100.7.done done: nodes 33583573498, leaves 0, distinct fingerprints 0 secs 9476
+srv1 sym10/out/t_100.70.done done: nodes 33343338013, leaves 0, distinct fingerprints 0 secs 9637
+srv1 sym10/out/t_100.71.done done: nodes 33489307426, leaves 0, distinct fingerprints 0 secs 9492
+srv1 sym10/out/t_100.72.done done: nodes 33040612639, leaves 0, distinct fingerprints 0 secs 9372
+srv1 sym10/out/t_100.73.done done: nodes 33329056192, leaves 0, distinct fingerprints 0 secs 9353
+srv1 sym10/out/t_100.74.done done: nodes 33102761935, leaves 0, distinct fingerprints 0 secs 9554
+srv1 sym10/out/t_100.75.done done: nodes 32986257196, leaves 0, distinct fingerprints 0 secs 9348
+srv1 sym10/out/t_100.76.done done: nodes 33175532551, leaves 0, distinct fingerprints 0 secs 9388
+srv1 sym10/out/t_100.77.done done: nodes 33355202119, leaves 0, distinct fingerprints 0 secs 9421
+srv1 sym10/out/t_100.78.done done: nodes 33369410899, leaves 0, distinct fingerprints 0 secs 9330
+srv1 sym10/out/t_100.79.done done: nodes 33154281400, leaves 0, distinct fingerprints 0 secs 9397
+srv1 sym10/out/t_100.8.done done: nodes 32927225899, leaves 0, distinct fingerprints 0 secs 9357
+srv1 sym10/out/t_100.80.done done: nodes 33063214261, leaves 0, distinct fingerprints 0 secs 9294
+srv1 sym10/out/t_100.81.done done: nodes 33367532173, leaves 0, distinct fingerprints 0 secs 9517
+srv1 sym10/out/t_100.82.done done: nodes 33114706414, leaves 0, distinct fingerprints 0 secs 9459
+srv1 sym10/out/t_100.83.done done: nodes 33086488045, leaves 0, distinct fingerprints 0 secs 9423
+srv1 sym10/out/t_100.84.done done: nodes 33181863253, leaves 0, distinct fingerprints 0 secs 9409
+srv1 sym10/out/t_100.85.done done: nodes 32912678605, leaves 0, distinct fingerprints 0 secs 9389
+srv1 sym10/out/t_100.86.done done: nodes 33664823926, leaves 0, distinct fingerprints 0 secs 9442
+srv1 sym10/out/t_100.87.done done: nodes 33311088322, leaves 0, distinct fingerprints 0 secs 9301
+srv1 sym10/out/t_100.88.done done: nodes 33452615452, leaves 0, distinct fingerprints 0 secs 9390
+srv1 sym10/out/t_100.89.done done: nodes 33140220571, leaves 0, distinct fingerprints 0 secs 9502
+srv1 sym10/out/t_100.9.done done: nodes 33202324099, leaves 0, distinct fingerprints 0 secs 9550
+srv1 sym10/out/t_100.90.done done: nodes 33328394425, leaves 0, distinct fingerprints 0 secs 9345
+srv1 sym10/out/t_100.91.done done: nodes 33093152620, leaves 0, distinct fingerprints 0 secs 9302
+srv1 sym10/out/t_100.92.done done: nodes 33244604560, leaves 0, distinct fingerprints 0 secs 9418
+srv1 sym10/out/t_100.93.done done: nodes 33458346961, leaves 0, distinct fingerprints 0 secs 9532
+srv1 sym10/out/t_100.94.done done: nodes 33626071936, leaves 0, distinct fingerprints 0 secs 9554
+srv1 sym10/out/t_100.95.done done: nodes 33480272011, leaves 0, distinct fingerprints 0 secs 9384
+srv1 sym10/out/t_100.96.done done: nodes 33127376575, leaves 0, distinct fingerprints 0 secs 9410
+srv1 sym10/out/t_100.97.done done: nodes 33140544934, leaves 0, distinct fingerprints 0 secs 9349
+srv1 sym10/out/t_100.98.done done: nodes 33282743803, leaves 0, distinct fingerprints 0 secs 9286
+srv1 sym10/out/t_100.99.done done: nodes 33097617142, leaves 0, distinct fingerprints 0 secs 9375
+srv1 sym10/out/t_107.0.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 169
+srv1 sym10/out/t_107.1.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 166
+srv1 sym10/out/t_107.10.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 165
+srv1 sym10/out/t_107.11.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 163
+srv1 sym10/out/t_107.12.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 166
+srv1 sym10/out/t_107.13.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 166
+srv1 sym10/out/t_107.14.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 162
+srv1 sym10/out/t_107.15.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 170
+srv1 sym10/out/t_107.16.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 170
+srv1 sym10/out/t_107.17.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 195
+srv1 sym10/out/t_107.18.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 164
+srv1 sym10/out/t_107.19.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 166
+srv1 sym10/out/t_107.2.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 166
+srv1 sym10/out/t_107.20.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 195
+srv1 sym10/out/t_107.21.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 193
+srv1 sym10/out/t_107.22.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 164
+srv1 sym10/out/t_107.23.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 194
+srv1 sym10/out/t_107.24.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 193
+srv1 sym10/out/t_107.25.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 158
+srv1 sym10/out/t_107.26.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 164
+srv1 sym10/out/t_107.27.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 195
+srv1 sym10/out/t_107.28.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 194
+srv1 sym10/out/t_107.29.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 170
+srv1 sym10/out/t_107.3.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 170
+srv1 sym10/out/t_107.30.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 193
+srv1 sym10/out/t_107.31.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 166
+srv1 sym10/out/t_107.32.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 194
+srv1 sym10/out/t_107.33.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 194
+srv1 sym10/out/t_107.34.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 192
+srv1 sym10/out/t_107.35.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 191
+srv1 sym10/out/t_107.36.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 166
+srv1 sym10/out/t_107.37.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 167
+srv1 sym10/out/t_107.38.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 193
+srv1 sym10/out/t_107.39.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 161
+srv1 sym10/out/t_107.4.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 195
+srv1 sym10/out/t_107.40.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 195
+srv1 sym10/out/t_107.41.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 169
+srv1 sym10/out/t_107.42.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 171
+srv1 sym10/out/t_107.43.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 177
+srv1 sym10/out/t_107.44.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 158
+srv1 sym10/out/t_107.45.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 185
+srv1 sym10/out/t_107.46.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 158
+srv1 sym10/out/t_107.47.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 160
+srv1 sym10/out/t_107.48.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 158
+srv1 sym10/out/t_107.49.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 184
+srv1 sym10/out/t_107.5.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 162
+srv1 sym10/out/t_107.50.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 158
+srv1 sym10/out/t_107.51.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 162
+srv1 sym10/out/t_107.52.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 165
+srv1 sym10/out/t_107.53.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 157
+srv1 sym10/out/t_107.54.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 189
+srv1 sym10/out/t_107.55.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 170
+srv1 sym10/out/t_107.56.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 157
+srv1 sym10/out/t_107.57.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 191
+srv1 sym10/out/t_107.58.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 158
+srv1 sym10/out/t_107.59.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 163
+srv1 sym10/out/t_107.6.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 170
+srv1 sym10/out/t_107.60.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 178
+srv1 sym10/out/t_107.61.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 173
+srv1 sym10/out/t_107.62.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 158
+srv1 sym10/out/t_107.63.done done: nodes 455458630, leaves 0, distinct fingerprints 0 secs 188
+srv1 sym10/out/t_107.7.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 171
+srv1 sym10/out/t_107.8.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 168
+srv1 sym10/out/t_107.9.done done: nodes 458218860, leaves 0, distinct fingerprints 0 secs 168
+srv1 sym10/out/t_116.0.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 377
+srv1 sym10/out/t_116.1.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 384
+srv1 sym10/out/t_116.10.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 315
+srv1 sym10/out/t_116.11.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 381
+srv1 sym10/out/t_116.12.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 357
+srv1 sym10/out/t_116.13.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 350
+srv1 sym10/out/t_116.14.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 378
+srv1 sym10/out/t_116.15.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 381
+srv1 sym10/out/t_116.16.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 378
+srv1 sym10/out/t_116.17.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 349
+srv1 sym10/out/t_116.18.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 348
+srv1 sym10/out/t_116.19.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 313
+srv1 sym10/out/t_116.2.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 314
+srv1 sym10/out/t_116.20.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 346
+srv1 sym10/out/t_116.21.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 362
+srv1 sym10/out/t_116.22.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 378
+srv1 sym10/out/t_116.23.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 311
+srv1 sym10/out/t_116.24.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 343
+srv1 sym10/out/t_116.25.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 344
+srv1 sym10/out/t_116.26.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 310
+srv1 sym10/out/t_116.27.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 376
+srv1 sym10/out/t_116.28.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 314
+srv1 sym10/out/t_116.29.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 314
+srv1 sym10/out/t_116.3.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 381
+srv1 sym10/out/t_116.30.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 389
+srv1 sym10/out/t_116.31.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 372
+srv1 sym10/out/t_116.32.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 311
+srv1 sym10/out/t_116.33.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 376
+srv1 sym10/out/t_116.34.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 377
+srv1 sym10/out/t_116.35.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 376
+srv1 sym10/out/t_116.36.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 375
+srv1 sym10/out/t_116.37.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 312
+srv1 sym10/out/t_116.38.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 316
+srv1 sym10/out/t_116.39.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 376
+srv1 sym10/out/t_116.4.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 347
+srv1 sym10/out/t_116.40.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 376
+srv1 sym10/out/t_116.41.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 387
+srv1 sym10/out/t_116.42.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 376
+srv1 sym10/out/t_116.43.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 327
+srv1 sym10/out/t_116.44.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 323
+srv1 sym10/out/t_116.45.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 312
+srv1 sym10/out/t_116.46.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 379
+srv1 sym10/out/t_116.47.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 374
+srv1 sym10/out/t_116.48.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 373
+srv1 sym10/out/t_116.49.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 312
+srv1 sym10/out/t_116.5.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 377
+srv1 sym10/out/t_116.50.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 371
+srv1 sym10/out/t_116.51.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 380
+srv1 sym10/out/t_116.52.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 380
+srv1 sym10/out/t_116.53.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 378
+srv1 sym10/out/t_116.54.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 323
+srv1 sym10/out/t_116.55.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 372
+srv1 sym10/out/t_116.56.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 378
+srv1 sym10/out/t_116.57.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 374
+srv1 sym10/out/t_116.58.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 374
+srv1 sym10/out/t_116.59.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 375
+srv1 sym10/out/t_116.6.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 356
+srv1 sym10/out/t_116.60.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 376
+srv1 sym10/out/t_116.61.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 325
+srv1 sym10/out/t_116.62.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 377
+srv1 sym10/out/t_116.63.done done: nodes 909417190, leaves 0, distinct fingerprints 0 secs 372
+srv1 sym10/out/t_116.7.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 361
+srv1 sym10/out/t_116.8.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 315
+srv1 sym10/out/t_116.9.done done: nodes 914928684, leaves 0, distinct fingerprints 0 secs 361
+srv1 sym10/out/t_129.0.done done: nodes 3601804749, leaves 19, distinct fingerprints 2 secs 702
+srv1 sym10/out/t_129.1.done done: nodes 3601783616, leaves 19, distinct fingerprints 2 secs 694
+srv1 sym10/out/t_129.10.done done: nodes 3601949637, leaves 15, distinct fingerprints 2 secs 691
+srv1 sym10/out/t_129.11.done done: nodes 3601991568, leaves 12, distinct fingerprints 2 secs 679
+srv1 sym10/out/t_129.12.done done: nodes 3601713567, leaves 14, distinct fingerprints 2 secs 691
+srv1 sym10/out/t_129.13.done done: nodes 3601871045, leaves 14, distinct fingerprints 2 secs 679
+srv1 sym10/out/t_129.14.done done: nodes 3601893037, leaves 20, distinct fingerprints 2 secs 685
+srv1 sym10/out/t_129.15.done done: nodes 3601912735, leaves 15, distinct fingerprints 2 secs 707
+srv1 sym10/out/t_129.2.done done: nodes 3601898374, leaves 13, distinct fingerprints 2 secs 789
+srv1 sym10/out/t_129.3.done done: nodes 3602027541, leaves 12, distinct fingerprints 2 secs 689
+srv1 sym10/out/t_129.4.done done: nodes 3601773148, leaves 16, distinct fingerprints 3 secs 700
+srv1 sym10/out/t_129.5.done done: nodes 3601827646, leaves 19, distinct fingerprints 3 secs 692
+srv1 sym10/out/t_129.6.done done: nodes 3601940884, leaves 13, distinct fingerprints 2 secs 681
+srv1 sym10/out/t_129.7.done done: nodes 3601894396, leaves 14, distinct fingerprints 2 secs 676
+srv1 sym10/out/t_129.8.done done: nodes 3601794438, leaves 14, distinct fingerprints 2 secs 684
+srv1 sym10/out/t_129.9.done done: nodes 3601819400, leaves 21, distinct fingerprints 2 secs 679
+srv1 sym10/out/t_175.0.done done: nodes 1166783611, leaves 492032, distinct fingerprints 1 secs 6652
+srv1 sym10/out/t_175.1.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_175.10.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_175.11.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_175.12.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_175.13.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_175.14.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_175.15.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_175.2.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_175.3.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_175.4.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_175.5.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_175.6.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_175.7.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_175.8.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_175.9.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_176.0.done done: nodes 1215433293, leaves 1168576, distinct fingerprints 5 secs 9449
+srv1 sym10/out/t_176.1.done done: nodes 1359491821, leaves 852128, distinct fingerprints 11 secs 8285
+srv1 sym10/out/t_176.10.done done: nodes 28, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_176.11.done done: nodes 28, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_176.12.done done: nodes 28, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_176.13.done done: nodes 28, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_176.14.done done: nodes 28, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_176.15.done done: nodes 28, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_176.2.done done: nodes 1216048333, leaves 1168576, distinct fingerprints 5 secs 8875
+srv1 sym10/out/t_176.3.done done: nodes 28, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_176.4.done done: nodes 28, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_176.5.done done: nodes 28, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_176.6.done done: nodes 28, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_176.7.done done: nodes 28, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_176.8.done done: nodes 28, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_176.9.done done: nodes 28, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_180.0.done done: nodes 1162847355, leaves 492032, distinct fingerprints 1 secs 6818
+srv1 sym10/out/t_180.1.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_180.10.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_180.11.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_180.12.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_180.13.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_180.14.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_180.15.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_180.2.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_180.3.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_180.4.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_180.5.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_180.6.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_180.7.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_180.8.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_180.9.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_245.0.done done: nodes 3806976107, leaves 0, distinct fingerprints 0 secs 4287
+srv1 sym10/out/t_245.1.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_245.10.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_245.11.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_245.12.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_245.13.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_245.14.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_245.15.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_245.2.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_245.3.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_245.4.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_245.5.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_245.6.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_245.7.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_245.8.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_245.9.done done: nodes 10, leaves 0, distinct fingerprints 0 secs 0
+srv1 sym10/out/t_93.0.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27154
+srv1 sym10/out/t_93.1.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26587
+srv1 sym10/out/t_93.10.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26639
+srv1 sym10/out/t_93.100.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26273
+srv1 sym10/out/t_93.101.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26443
+srv1 sym10/out/t_93.102.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 27061
+srv1 sym10/out/t_93.103.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26049
+srv1 sym10/out/t_93.104.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26805
+srv1 sym10/out/t_93.105.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26396
+srv1 sym10/out/t_93.106.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26295
+srv1 sym10/out/t_93.107.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26607
+srv1 sym10/out/t_93.108.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26363
+srv1 sym10/out/t_93.109.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26586
+srv1 sym10/out/t_93.11.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26607
+srv1 sym10/out/t_93.110.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26676
+srv1 sym10/out/t_93.111.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26522
+srv1 sym10/out/t_93.112.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26565
+srv1 sym10/out/t_93.113.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 27477
+srv1 sym10/out/t_93.114.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26090
+srv1 sym10/out/t_93.115.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26841
+srv1 sym10/out/t_93.116.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26613
+srv1 sym10/out/t_93.117.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26514
+srv1 sym10/out/t_93.118.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26531
+srv1 sym10/out/t_93.119.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26744
+srv1 sym10/out/t_93.12.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26744
+srv1 sym10/out/t_93.120.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26351
+srv1 sym10/out/t_93.121.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 27028
+srv1 sym10/out/t_93.122.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26199
+srv1 sym10/out/t_93.123.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 27779
+srv1 sym10/out/t_93.124.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26822
+srv1 sym10/out/t_93.125.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26485
+srv1 sym10/out/t_93.126.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26952
+srv1 sym10/out/t_93.127.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26421
+srv1 sym10/out/t_93.13.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26896
+srv1 sym10/out/t_93.14.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26653
+srv1 sym10/out/t_93.15.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26976
+srv1 sym10/out/t_93.16.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26817
+srv1 sym10/out/t_93.17.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26544
+srv1 sym10/out/t_93.18.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27651
+srv1 sym10/out/t_93.19.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 28074
+srv1 sym10/out/t_93.2.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26668
+srv1 sym10/out/t_93.20.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26784
+srv1 sym10/out/t_93.21.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26616
+srv1 sym10/out/t_93.22.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26824
+srv1 sym10/out/t_93.23.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26995
+srv1 sym10/out/t_93.24.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26858
+srv1 sym10/out/t_93.25.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27089
+srv1 sym10/out/t_93.26.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27060
+srv1 sym10/out/t_93.27.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26930
+srv1 sym10/out/t_93.28.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27291
+srv1 sym10/out/t_93.29.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27539
+srv1 sym10/out/t_93.3.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27226
+srv1 sym10/out/t_93.30.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27133
+srv1 sym10/out/t_93.31.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26613
+srv1 sym10/out/t_93.32.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26969
+srv1 sym10/out/t_93.33.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27011
+srv1 sym10/out/t_93.34.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26990
+srv1 sym10/out/t_93.35.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26562
+srv1 sym10/out/t_93.36.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27000
+srv1 sym10/out/t_93.37.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27752
+srv1 sym10/out/t_93.38.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27065
+srv1 sym10/out/t_93.39.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26587
+srv1 sym10/out/t_93.4.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27548
+srv1 sym10/out/t_93.40.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26502
+srv1 sym10/out/t_93.41.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26720
+srv1 sym10/out/t_93.42.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26932
+srv1 sym10/out/t_93.43.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27290
+srv1 sym10/out/t_93.44.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26381
+srv1 sym10/out/t_93.45.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27504
+srv1 sym10/out/t_93.46.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26534
+srv1 sym10/out/t_93.47.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27266
+srv1 sym10/out/t_93.48.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26642
+srv1 sym10/out/t_93.49.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26614
+srv1 sym10/out/t_93.5.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26614
+srv1 sym10/out/t_93.50.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27567
+srv1 sym10/out/t_93.51.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26809
+srv1 sym10/out/t_93.52.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27489
+srv1 sym10/out/t_93.53.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26424
+srv1 sym10/out/t_93.54.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27111
+srv1 sym10/out/t_93.55.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26677
+srv1 sym10/out/t_93.56.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27780
+srv1 sym10/out/t_93.57.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26426
+srv1 sym10/out/t_93.58.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26861
+srv1 sym10/out/t_93.59.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27232
+srv1 sym10/out/t_93.6.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26887
+srv1 sym10/out/t_93.60.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27758
+srv1 sym10/out/t_93.61.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26407
+srv1 sym10/out/t_93.62.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26909
+srv1 sym10/out/t_93.63.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26770
+srv1 sym10/out/t_93.64.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26645
+srv1 sym10/out/t_93.65.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26669
+srv1 sym10/out/t_93.66.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26518
+srv1 sym10/out/t_93.67.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26709
+srv1 sym10/out/t_93.68.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26945
+srv1 sym10/out/t_93.69.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26393
+srv1 sym10/out/t_93.7.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27244
+srv1 sym10/out/t_93.70.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26486
+srv1 sym10/out/t_93.71.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27094
+srv1 sym10/out/t_93.72.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26823
+srv1 sym10/out/t_93.73.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27142
+srv1 sym10/out/t_93.74.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26980
+srv1 sym10/out/t_93.75.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26460
+srv1 sym10/out/t_93.76.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27317
+srv1 sym10/out/t_93.77.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26570
+srv1 sym10/out/t_93.78.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26787
+srv1 sym10/out/t_93.79.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26563
+srv1 sym10/out/t_93.8.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27352
+srv1 sym10/out/t_93.80.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26766
+srv1 sym10/out/t_93.81.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26685
+srv1 sym10/out/t_93.82.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26996
+srv1 sym10/out/t_93.83.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26644
+srv1 sym10/out/t_93.84.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27038
+srv1 sym10/out/t_93.85.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 27202
+srv1 sym10/out/t_93.86.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26320
+srv1 sym10/out/t_93.87.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26964
+srv1 sym10/out/t_93.88.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26664
+srv1 sym10/out/t_93.89.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26476
+srv1 sym10/out/t_93.9.done done: nodes 65396336374, leaves 0, distinct fingerprints 0 secs 26333
+srv1 sym10/out/t_93.90.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26390
+srv1 sym10/out/t_93.91.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26203
+srv1 sym10/out/t_93.92.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26684
+srv1 sym10/out/t_93.93.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26152
+srv1 sym10/out/t_93.94.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26961
+srv1 sym10/out/t_93.95.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26669
+srv1 sym10/out/t_93.96.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26175
+srv1 sym10/out/t_93.97.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26224
+srv1 sym10/out/t_93.98.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26625
+srv1 sym10/out/t_93.99.done done: nodes 64608428956, leaves 0, distinct fingerprints 0 secs 26629
+srv1 sym10/out/t_98.0.done done: nodes 3552878045, leaves 0, distinct fingerprints 0 secs 70131
+srv1 sym10/out/t_98.1.done done: nodes 3549039968, leaves 0, distinct fingerprints 0 secs 81736
+srv1 sym10/out/t_98.10.done done: nodes 3488986583, leaves 0, distinct fingerprints 0 secs 72086
+srv1 sym10/out/t_98.11.done done: nodes 3503914322, leaves 0, distinct fingerprints 0 secs 70148
+srv1 sym10/out/t_98.12.done done: nodes 3484222961, leaves 0, distinct fingerprints 0 secs 80235
+srv1 sym10/out/t_98.13.done done: nodes 3488304689, leaves 0, distinct fingerprints 0 secs 70283
+srv1 sym10/out/t_98.14.done done: nodes 3488140835, leaves 0, distinct fingerprints 0 secs 68729
+srv1 sym10/out/t_98.15.done done: nodes 3489978359, leaves 0, distinct fingerprints 0 secs 70038
+srv1 sym10/out/t_98.16.done done: nodes 3549174683, leaves 0, distinct fingerprints 0 secs 82069
+srv1 sym10/out/t_98.17.done done: nodes 3548319584, leaves 0, distinct fingerprints 0 secs 82669
+srv1 sym10/out/t_98.18.done done: nodes 3591191711, leaves 0, distinct fingerprints 0 secs 81712
+srv1 sym10/out/t_98.19.done done: nodes 3592482911, leaves 0, distinct fingerprints 0 secs 71272
+srv1 sym10/out/t_98.2.done done: nodes 3553124699, leaves 0, distinct fingerprints 0 secs 79866
+srv1 sym10/out/t_98.20.done done: nodes 3625355876, leaves 0, distinct fingerprints 0 secs 72704
+srv1 sym10/out/t_98.21.done done: nodes 3625227056, leaves 0, distinct fingerprints 0 secs 82681
+srv1 sym10/out/t_98.22.done done: nodes 3587016341, leaves 0, distinct fingerprints 0 secs 82554
+srv1 sym10/out/t_98.23.done done: nodes 3591461330, leaves 0, distinct fingerprints 0 secs 72417
+srv1 sym10/out/t_98.24.done done: nodes 3577674806, leaves 0, distinct fingerprints 0 secs 82157
+srv1 sym10/out/t_98.25.done done: nodes 3578426270, leaves 0, distinct fingerprints 0 secs 82843
+srv1 sym10/out/t_98.26.done done: nodes 3537089372, leaves 0, distinct fingerprints 0 secs 81475
+srv1 sym10/out/t_98.27.done done: nodes 3552123239, leaves 0, distinct fingerprints 0 secs 82554
+srv1 sym10/out/t_98.28.done done: nodes 3505839422, leaves 0, distinct fingerprints 0 secs 71233
+srv1 sym10/out/t_98.29.done done: nodes 3507561551, leaves 0, distinct fingerprints 0 secs 70064
+srv1 sym10/out/t_98.3.done done: nodes 3551954114, leaves 0, distinct fingerprints 0 secs 82752
+srv1 sym10/out/t_98.30.done done: nodes 3469385279, leaves 0, distinct fingerprints 0 secs 79304
+srv1 sym10/out/t_98.31.done done: nodes 3472417037, leaves 0, distinct fingerprints 0 secs 80487
+srv1 sym10/out/t_98.32.done done: nodes 3557566907, leaves 0, distinct fingerprints 0 secs 80499
+srv1 sym10/out/t_98.33.done done: nodes 3553067141, leaves 0, distinct fingerprints 0 secs 81639
+srv1 sym10/out/t_98.34.done done: nodes 3555660110, leaves 0, distinct fingerprints 0 secs 82218
+srv1 sym10/out/t_98.35.done done: nodes 3556196810, leaves 0, distinct fingerprints 0 secs 70933
+srv1 sym10/out/t_98.36.done done: nodes 3559676849, leaves 0, distinct fingerprints 0 secs 81763
+srv1 sym10/out/t_98.37.done done: nodes 3557545628, leaves 0, distinct fingerprints 0 secs 72803
+srv1 sym10/out/t_98.38.done done: nodes 3474972002, leaves 0, distinct fingerprints 0 secs 81928
+srv1 sym10/out/t_98.39.done done: nodes 3478624274, leaves 0, distinct fingerprints 0 secs 70679
+srv1 sym10/out/t_98.4.done done: nodes 3542905637, leaves 0, distinct fingerprints 0 secs 81560
+srv1 sym10/out/t_98.40.done done: nodes 3485438483, leaves 0, distinct fingerprints 0 secs 80876
+srv1 sym10/out/t_98.41.done done: nodes 3488096252, leaves 0, distinct fingerprints 0 secs 81456
+srv1 sym10/out/t_98.42.done done: nodes 3474009944, leaves 0, distinct fingerprints 0 secs 79086
+srv1 sym10/out/t_98.43.done done: nodes 3490280690, leaves 0, distinct fingerprints 0 secs 70678
+srv1 sym10/out/t_98.44.done done: nodes 3484270232, leaves 0, distinct fingerprints 0 secs 81651
+srv1 sym10/out/t_98.45.done done: nodes 3486210299, leaves 0, distinct fingerprints 0 secs 70682
+srv1 sym10/out/t_98.46.done done: nodes 3473745491, leaves 0, distinct fingerprints 0 secs 81690
+srv1 sym10/out/t_98.47.done done: nodes 3477742529, leaves 0, distinct fingerprints 0 secs 82482
+srv1 sym10/out/t_98.48.done done: nodes 3561648962, leaves 0, distinct fingerprints 0 secs 82709
+srv1 sym10/out/t_98.49.done done: nodes 3559863077, leaves 0, distinct fingerprints 0 secs 82581
+srv1 sym10/out/t_98.5.done done: nodes 3542561522, leaves 0, distinct fingerprints 0 secs 80988
+srv1 sym10/out/t_98.50.done done: nodes 3591719765, leaves 0, distinct fingerprints 0 secs 82004
+srv1 sym10/out/t_98.51.done done: nodes 3594678689, leaves 0, distinct fingerprints 0 secs 73228
+srv1 sym10/out/t_98.52.done done: nodes 3625775375, leaves 0, distinct fingerprints 0 secs 82966
+srv1 sym10/out/t_98.53.done done: nodes 3628630289, leaves 0, distinct fingerprints 0 secs 84234
+srv1 sym10/out/t_98.54.done done: nodes 3590683628, leaves 0, distinct fingerprints 0 secs 82808
+srv1 sym10/out/t_98.55.done done: nodes 3594330020, leaves 0, distinct fingerprints 0 secs 72062
+srv1 sym10/out/t_98.56.done done: nodes 3577953212, leaves 0, distinct fingerprints 0 secs 70701
+srv1 sym10/out/t_98.57.done done: nodes 3580320911, leaves 0, distinct fingerprints 0 secs 72375
+srv1 sym10/out/t_98.58.done done: nodes 3539625239, leaves 0, distinct fingerprints 0 secs 71362
+srv1 sym10/out/t_98.59.done done: nodes 3550302929, leaves 0, distinct fingerprints 0 secs 72381
+srv1 sym10/out/t_98.6.done done: nodes 3486482576, leaves 0, distinct fingerprints 0 secs 82297
+srv1 sym10/out/t_98.60.done done: nodes 3501878798, leaves 0, distinct fingerprints 0 secs 80565
+srv1 sym10/out/t_98.61.done done: nodes 3503147261, leaves 0, distinct fingerprints 0 secs 80683
+srv1 sym10/out/t_98.62.done done: nodes 3491370938, leaves 0, distinct fingerprints 0 secs 80922
+srv1 sym10/out/t_98.63.done done: nodes 3491729600, leaves 0, distinct fingerprints 0 secs 80481
+srv1 sym10/out/t_98.7.done done: nodes 3485920136, leaves 0, distinct fingerprints 0 secs 80676
+srv1 sym10/out/t_98.8.done done: nodes 3485175278, leaves 0, distinct fingerprints 0 secs 80612
+srv1 sym10/out/t_98.9.done done: nodes 3490097672, leaves 0, distinct fingerprints 0 secs 70983
+srv1 sym10b/out/t_176.done 
+srv1 sym10b/out/t_6.done 
+srv1 sym10b/out2/t_108.0.done done: nodes 199154846, leaves 0, distinct fingerprints 0 secs 171
+srv1 sym10b/out2/t_108.1.done done: nodes 476177775, leaves 0, distinct fingerprints 0 secs 366
+srv1 sym10b/out2/t_108.10.done done: nodes 32182, leaves 0, distinct fingerprints 0 secs 9
+srv1 sym10b/out2/t_108.11.done done: nodes 32182, leaves 0, distinct fingerprints 0 secs 9
+srv1 sym10b/out2/t_108.12.done done: nodes 9003194113, leaves 0, distinct fingerprints 0 secs 7511
+srv1 sym10b/out2/t_108.13.done done: nodes 1997454358, leaves 0, distinct fingerprints 0 secs 565
+srv1 sym10b/out2/t_108.14.done done: nodes 32182, leaves 0, distinct fingerprints 0 secs 9
+srv1 sym10b/out2/t_108.15.done done: nodes 32182, leaves 0, distinct fingerprints 0 secs 9
+srv1 sym10b/out2/t_108.2.done done: nodes 617606544, leaves 0, distinct fingerprints 0 secs 460
+srv1 sym10b/out2/t_108.3.done done: nodes 617606544, leaves 0, distinct fingerprints 0 secs 460
+srv1 sym10b/out2/t_108.4.done done: nodes 395120358, leaves 0, distinct fingerprints 0 secs 340
+srv1 sym10b/out2/t_108.5.done done: nodes 32484, leaves 0, distinct fingerprints 0 secs 9
+srv1 sym10b/out2/t_108.6.done done: nodes 10430590606, leaves 0, distinct fingerprints 0 secs 8787
+srv1 sym10b/out2/t_108.7.done done: nodes 32289, leaves 0, distinct fingerprints 0 secs 9
+srv1 sym10b/out2/t_108.8.done done: nodes 32182, leaves 0, distinct fingerprints 0 secs 9
+srv1 sym10b/out2/t_108.9.done done: nodes 32182, leaves 0, distinct fingerprints 0 secs 9
+srv1 sym10b/out2/t_109.0.done done: nodes 28018, leaves 0, distinct fingerprints 0 secs 11
+srv1 sym10b/out2/t_109.10.done done: nodes 28016, leaves 0, distinct fingerprints 0 secs 12
+srv1 sym10b/out2/t_109.11.done done: nodes 28016, leaves 0, distinct fingerprints 0 secs 11
+srv1 sym10b/out2/t_109.12.done done: nodes 28016, leaves 0, distinct fingerprints 0 secs 12
+srv1 sym10b/out2/t_109.13.done done: nodes 28016, leaves 0, distinct fingerprints 0 secs 12
+srv1 sym10b/out2/t_109.14.done done: nodes 28016, leaves 0, distinct fingerprints 0 secs 11
+srv1 sym10b/out2/t_109.15.done done: nodes 28016, leaves 0, distinct fingerprints 0 secs 11
+srv1 sym10b/out2/t_109.2.done done: nodes 28018, leaves 0, distinct fingerprints 0 secs 11
+srv1 sym10b/out2/t_109.3.done done: nodes 28018, leaves 0, distinct fingerprints 0 secs 12
+srv1 sym10b/out2/t_109.4.done done: nodes 13159542593, leaves 0, distinct fingerprints 0 secs 32981
+srv1 sym10b/out2/t_109.5.done done: nodes 28128, leaves 0, distinct fingerprints 0 secs 12
+srv1 sym10b/out2/t_109.7.done done: nodes 28016, leaves 0, distinct fingerprints 0 secs 12
+srv1 sym10b/out2/t_109.8.done done: nodes 28016, leaves 0, distinct fingerprints 0 secs 12
+srv1 sym10b/out2/t_109.9.done done: nodes 28016, leaves 0, distinct fingerprints 0 secs 11
+srv1 sym10b/out2/t_63.10.done done: nodes 198, leaves 0, distinct fingerprints 0 secs 19
+srv1 sym10b/out4/*.done 
+srv1 sym10b/out5/t_73.0.done done: nodes 10008024553, leaves 24, distinct fingerprints 4 secs 229584
+srv1 sym10b/out5/t_73.1.done done: nodes 9132528881, leaves 24, distinct fingerprints 3 secs 220227
+srv1 sym10b/out5/t_73.10.done done: nodes 10742945360, leaves 18, distinct fingerprints 2 secs 250789
+srv1 sym10b/out5/t_73.100.done done: nodes 9918443348, leaves 6, distinct fingerprints 1 secs 230872
+srv1 sym10b/out5/t_73.101.done done: nodes 8592707948, leaves 18, distinct fingerprints 3 secs 211716
+srv1 sym10b/out5/t_73.102.done done: nodes 10886250548, leaves 0, distinct fingerprints 0 secs 252331
+srv1 sym10b/out5/t_73.103.done done: nodes 9892569397, leaves 30, distinct fingerprints 4 secs 238393
+srv1 sym10b/out5/t_73.104.done done: nodes 9968503211, leaves 6, distinct fingerprints 1 secs 236647
+srv1 sym10b/out5/t_73.105.done done: nodes 8984546462, leaves 12, distinct fingerprints 2 secs 221158
+srv1 sym10b/out5/t_73.106.done done: nodes 10477302354, leaves 12, distinct fingerprints 2 secs 257130
+srv1 sym10b/out5/t_73.107.done done: nodes 10093526546, leaves 12, distinct fingerprints 2 secs 241652
+srv1 sym10b/out5/t_73.108.done done: nodes 9868524260, leaves 12, distinct fingerprints 2 secs 236266
+srv1 sym10b/out5/t_73.109.done done: nodes 8989870930, leaves 18, distinct fingerprints 2 secs 223004
+srv1 sym10b/out5/t_73.11.done done: nodes 9807079339, leaves 18, distinct fingerprints 3 secs 243209
+srv1 sym10b/out5/t_73.110.done done: nodes 10764852957, leaves 6, distinct fingerprints 1 secs 251117
+srv1 sym10b/out5/t_73.111.done done: nodes 10239611996, leaves 12, distinct fingerprints 1 secs 242604
+srv1 sym10b/out5/t_73.112.done done: nodes 9804289612, leaves 318, distinct fingerprints 17 secs 237780
+srv1 sym10b/out5/t_73.113.done done: nodes 8699988417, leaves 6, distinct fingerprints 1 secs 212793
+srv1 sym10b/out5/t_73.114.done done: nodes 11108799759, leaves 18, distinct fingerprints 3 secs 253470
+srv1 sym10b/out5/t_73.115.done done: nodes 10102090389, leaves 24, distinct fingerprints 3 secs 242159
+srv1 sym10b/out5/t_73.116.done done: nodes 9951862771, leaves 30, distinct fingerprints 4 secs 236776
+srv1 sym10b/out5/t_73.117.done done: nodes 9122607137, leaves 0, distinct fingerprints 0 secs 220458
+srv1 sym10b/out5/t_73.118.done done: nodes 10597378542, leaves 12, distinct fingerprints 2 secs 252763
+srv1 sym10b/out5/t_73.119.done done: nodes 10113190103, leaves 18, distinct fingerprints 3 secs 242131
+srv1 sym10b/out5/t_73.12.done done: nodes 10187752600, leaves 6, distinct fingerprints 1 secs 235545
+srv1 sym10b/out5/t_73.120.done done: nodes 10219280842, leaves 12, distinct fingerprints 2 secs 241844
+srv1 sym10b/out5/t_73.121.done done: nodes 8809499849, leaves 12, distinct fingerprints 2 secs 214883
+srv1 sym10b/out5/t_73.122.done done: nodes 10800297403, leaves 6, distinct fingerprints 1 secs 250779
+srv1 sym10b/out5/t_73.123.done done: nodes 10233435216, leaves 12, distinct fingerprints 2 secs 236422
+srv1 sym10b/out5/t_73.124.done done: nodes 10100797273, leaves 30, distinct fingerprints 4 secs 236837
+srv1 sym10b/out5/t_73.125.done done: nodes 9263995741, leaves 18, distinct fingerprints 3 secs 228032
+srv1 sym10b/out5/t_73.126.done done: nodes 10503192254, leaves 18, distinct fingerprints 2 secs 245760
+srv1 sym10b/out5/t_73.127.done done: nodes 10704557993, leaves 24, distinct fingerprints 3 secs 248905
+srv1 sym10b/out5/t_73.128.done done: nodes 10132145976, leaves 12, distinct fingerprints 2 secs 234639
+srv1 sym10b/out5/t_73.129.done done: nodes 8893382000, leaves 12, distinct fingerprints 2 secs 219367
+srv1 sym10b/out5/t_73.13.done done: nodes 9449188386, leaves 12, distinct fingerprints 2 secs 222669
+srv1 sym10b/out5/t_73.130.done done: nodes 10818854853, leaves 24, distinct fingerprints 4 secs 250940
+srv1 sym10b/out5/t_73.131.done done: nodes 9979664831, leaves 0, distinct fingerprints 0 secs 236171
+srv1 sym10b/out5/t_73.132.done done: nodes 9471177064, leaves 0, distinct fingerprints 0 secs 222979
+srv1 sym10b/out5/t_73.133.done done: nodes 9135018085, leaves 30, distinct fingerprints 3 secs 214045
+srv1 sym10b/out5/t_73.134.done done: nodes 10449474377, leaves 18, distinct fingerprints 3 secs 244379
+srv1 sym10b/out5/t_73.135.done done: nodes 10149158119, leaves 12, distinct fingerprints 2 secs 239430
+srv1 sym10b/out5/t_73.136.done done: nodes 10207794840, leaves 6, distinct fingerprints 1 secs 244373
+srv1 sym10b/out5/t_73.137.done done: nodes 8998051213, leaves 18, distinct fingerprints 2 secs 221043
+srv1 sym10b/out5/t_73.138.done done: nodes 10607951386, leaves 6, distinct fingerprints 1 secs 254684
+srv1 sym10b/out5/t_73.139.done done: nodes 10347586882, leaves 24, distinct fingerprints 4 secs 242968
+srv1 sym10b/out5/t_73.14.done done: nodes 10189162458, leaves 18, distinct fingerprints 3 secs 238938
+srv1 sym10b/out5/t_73.140.done done: nodes 9762650302, leaves 6, distinct fingerprints 1 secs 227692
+srv1 sym10b/out5/t_73.141.done done: nodes 8908377087, leaves 18, distinct fingerprints 2 secs 214692
+srv1 sym10b/out5/t_73.142.done done: nodes 10837958545, leaves 12, distinct fingerprints 2 secs 248942
+srv1 sym10b/out5/t_73.143.done done: nodes 9828618379, leaves 126, distinct fingerprints 5 secs 237770
+srv1 sym10b/out5/t_73.144.done done: nodes 9961573680, leaves 12, distinct fingerprints 2 secs 232781
+srv1 sym10b/out5/t_73.145.done done: nodes 9286594461, leaves 0, distinct fingerprints 0 secs 214684
+srv1 sym10b/out5/t_73.146.done done: nodes 10405660774, leaves 24, distinct fingerprints 2 secs 248498
+srv1 sym10b/out5/t_73.147.done done: nodes 10204633655, leaves 6, distinct fingerprints 1 secs 244144
+srv1 sym10b/out5/t_73.148.done done: nodes 9812327234, leaves 18, distinct fingerprints 3 secs 234894
+srv1 sym10b/out5/t_73.149.done done: nodes 8760125928, leaves 30, distinct fingerprints 4 secs 215474
+srv1 sym10b/out5/t_73.15.done done: nodes 10466260568, leaves 54, distinct fingerprints 6 secs 246371
+srv1 sym10b/out5/t_73.150.done done: nodes 11226405868, leaves 12, distinct fingerprints 2 secs 249387
+srv1 sym10b/out5/t_73.151.done done: nodes 10441375640, leaves 30, distinct fingerprints 3 secs 240147
+srv1 sym10b/out5/t_73.152.done done: nodes 9730511830, leaves 6, distinct fingerprints 1 secs 233031
+srv1 sym10b/out5/t_73.153.done done: nodes 9386046857, leaves 18, distinct fingerprints 3 secs 222877
+srv1 sym10b/out5/t_73.154.done done: nodes 10851033195, leaves 0, distinct fingerprints 0 secs 251916
+srv1 sym10b/out5/t_73.155.done done: nodes 9869231911, leaves 312, distinct fingerprints 16 secs 237533
+srv1 sym10b/out5/t_73.156.done done: nodes 10258420675, leaves 36, distinct fingerprints 4 secs 239843
+srv1 sym10b/out5/t_73.157.done done: nodes 9365628721, leaves 18, distinct fingerprints 3 secs 224610
+srv1 sym10b/out5/t_73.158.done done: nodes 10286120620, leaves 12, distinct fingerprints 2 secs 243200
+srv1 sym10b/out5/t_73.159.done done: nodes 9663328396, leaves 12, distinct fingerprints 2 secs 237653
+srv1 sym10b/out5/t_73.16.done done: nodes 9695927587, leaves 18, distinct fingerprints 3 secs 234036
+srv1 sym10b/out5/t_73.160.done done: nodes 10455498997, leaves 18, distinct fingerprints 3 secs 242064
+srv1 sym10b/out5/t_73.161.done done: nodes 8723174750, leaves 6, distinct fingerprints 1 secs 222258
+srv1 sym10b/out5/t_73.162.done done: nodes 10336968464, leaves 36, distinct fingerprints 5 secs 247538
+srv1 sym10b/out5/t_73.163.done done: nodes 10707828723, leaves 30, distinct fingerprints 4 secs 244400
+srv1 sym10b/out5/t_73.164.done done: nodes 9316558061, leaves 24, distinct fingerprints 4 secs 228280
+srv1 sym10b/out5/t_73.165.done done: nodes 9179902333, leaves 18, distinct fingerprints 3 secs 220906
+srv1 sym10b/out5/t_73.166.done done: nodes 11051541601, leaves 30, distinct fingerprints 4 secs 249729
+srv1 sym10b/out5/t_73.167.done done: nodes 9549685719, leaves 18, distinct fingerprints 2 secs 236196
+srv1 sym10b/out5/t_73.168.done done: nodes 10249178726, leaves 12, distinct fingerprints 1 secs 239765
+srv1 sym10b/out5/t_73.169.done done: nodes 9129512135, leaves 24, distinct fingerprints 4 secs 210047
+srv1 sym10b/out5/t_73.17.done done: nodes 8991679737, leaves 24, distinct fingerprints 3 secs 219472
+srv1 sym10b/out5/t_73.170.done done: nodes 10247305850, leaves 12, distinct fingerprints 1 secs 246113
+srv1 sym10b/out5/t_73.171.done done: nodes 10203523846, leaves 48, distinct fingerprints 7 secs 247918
+srv1 sym10b/out5/t_73.172.done done: nodes 10483849822, leaves 12, distinct fingerprints 2 secs 243778
+srv1 sym10b/out5/t_73.173.done done: nodes 8433767028, leaves 6, distinct fingerprints 1 secs 217735
+srv1 sym10b/out5/t_73.174.done done: nodes 10674447976, leaves 6, distinct fingerprints 1 secs 241673
+srv1 sym10b/out5/t_73.175.done done: nodes 10337547360, leaves 24, distinct fingerprints 4 secs 248360
+srv1 sym10b/out5/t_73.176.done done: nodes 9964413069, leaves 0, distinct fingerprints 0 secs 238076
+srv1 sym10b/out5/t_73.177.done done: nodes 9159104010, leaves 18, distinct fingerprints 2 secs 219458
+srv1 sym10b/out5/t_73.178.done done: nodes 10869800777, leaves 18, distinct fingerprints 2 secs 254735
+srv1 sym10b/out5/t_73.179.done done: nodes 9946938996, leaves 42, distinct fingerprints 6 secs 237980
+srv1 sym10b/out5/t_73.18.done done: nodes 10888185706, leaves 36, distinct fingerprints 4 secs 249230
+srv1 sym10b/out5/t_73.180.done done: nodes 9939006403, leaves 18, distinct fingerprints 3 secs 237250
+srv1 sym10b/out5/t_73.181.done done: nodes 9158555475, leaves 12, distinct fingerprints 2 secs 213644
+srv1 sym10b/out5/t_73.182.done done: nodes 10257936153, leaves 6, distinct fingerprints 1 secs 240095
+srv1 sym10b/out5/t_73.183.done done: nodes 9991788948, leaves 12, distinct fingerprints 1 secs 241329
+srv1 sym10b/out5/t_73.184.done done: nodes 10092474066, leaves 24, distinct fingerprints 3 secs 236196
+srv1 sym10b/out5/t_73.185.done done: nodes 8563056796, leaves 18, distinct fingerprints 3 secs 219515
+srv1 sym10b/out5/t_73.186.done done: nodes 10811035692, leaves 18, distinct fingerprints 3 secs 250387
+srv1 sym10b/out5/t_73.187.done done: nodes 10496292180, leaves 24, distinct fingerprints 3 secs 246736
+srv1 sym10b/out5/t_73.188.done done: nodes 9660092862, leaves 24, distinct fingerprints 4 secs 233493
+srv1 sym10b/out5/t_73.189.done done: nodes 9313515754, leaves 6, distinct fingerprints 1 secs 219225
+srv1 sym10b/out5/t_73.19.done done: nodes 10003906906, leaves 24, distinct fingerprints 4 secs 243150
+srv1 sym10b/out5/t_73.190.done done: nodes 10625012932, leaves 36, distinct fingerprints 3 secs 250870
+srv1 sym10b/out5/t_73.191.done done: nodes 10055215225, leaves 24, distinct fingerprints 4 secs 238909
+srv1 sym10b/out5/t_73.2.done done: nodes 10389430815, leaves 12, distinct fingerprints 2 secs 249231
+srv1 sym10b/out5/t_73.20.done done: nodes 9861585645, leaves 12, distinct fingerprints 2 secs 235149
+srv1 sym10b/out5/t_73.21.done done: nodes 8949461607, leaves 12, distinct fingerprints 1 secs 215996
+srv1 sym10b/out5/t_73.22.done done: nodes 10681450246, leaves 12, distinct fingerprints 2 secs 244464
+srv1 sym10b/out5/t_73.23.done done: nodes 9708938373, leaves 12, distinct fingerprints 2 secs 243138
+srv1 sym10b/out5/t_73.24.done done: nodes 10516163442, leaves 30, distinct fingerprints 4 secs 238759
+srv1 sym10b/out5/t_73.25.done done: nodes 9365175417, leaves 12, distinct fingerprints 2 secs 224610
+srv1 sym10b/out5/t_73.26.done done: nodes 10115240257, leaves 12, distinct fingerprints 2 secs 246307
+srv1 sym10b/out5/t_73.27.done done: nodes 10418601732, leaves 24, distinct fingerprints 4 secs 247287
+srv1 sym10b/out5/t_73.28.done done: nodes 10423410283, leaves 12, distinct fingerprints 1 secs 240769
+srv1 sym10b/out5/t_73.29.done done: nodes 9064508217, leaves 18, distinct fingerprints 2 secs 218673
+srv1 sym10b/out5/t_73.3.done done: nodes 9893826363, leaves 12, distinct fingerprints 2 secs 236207
+srv1 sym10b/out5/t_73.30.done done: nodes 11168669052, leaves 18, distinct fingerprints 3 secs 257509
+srv1 sym10b/out5/t_73.31.done done: nodes 10254133910, leaves 18, distinct fingerprints 3 secs 249531
+srv1 sym10b/out5/t_73.32.done done: nodes 10491303234, leaves 36, distinct fingerprints 4 secs 240489
+srv1 sym10b/out5/t_73.33.done done: nodes 8978001354, leaves 12, distinct fingerprints 2 secs 218510
+srv1 sym10b/out5/t_73.34.done done: nodes 11067335007, leaves 6, distinct fingerprints 1 secs 247044
+srv1 sym10b/out5/t_73.35.done done: nodes 10301628737, leaves 18, distinct fingerprints 3 secs 243014
+srv1 sym10b/out5/t_73.36.done done: nodes 10281953036, leaves 12, distinct fingerprints 2 secs 238396
+srv1 sym10b/out5/t_73.37.done done: nodes 9273789675, leaves 18, distinct fingerprints 2 secs 216203
+srv1 sym10b/out5/t_73.38.done done: nodes 10554517819, leaves 336, distinct fingerprints 18 secs 246113
+srv1 sym10b/out5/t_73.39.done done: nodes 10670918181, leaves 48, distinct fingerprints 5 secs 246230
+srv1 sym10b/out5/t_73.4.done done: nodes 10266555799, leaves 24, distinct fingerprints 4 secs 238982
+srv1 sym10b/out5/t_73.40.done done: nodes 10526620026, leaves 18, distinct fingerprints 3 secs 243796
+srv1 sym10b/out5/t_73.41.done done: nodes 8797336447, leaves 6, distinct fingerprints 1 secs 215943
+srv1 sym10b/out5/t_73.42.done done: nodes 10981114820, leaves 12, distinct fingerprints 2 secs 249134
+srv1 sym10b/out5/t_73.43.done done: nodes 10597107855, leaves 6, distinct fingerprints 1 secs 242978
+srv1 sym10b/out5/t_73.44.done done: nodes 9349092457, leaves 36, distinct fingerprints 4 secs 232015
+srv1 sym10b/out5/t_73.45.done done: nodes 9486211594, leaves 24, distinct fingerprints 4 secs 217591
+srv1 sym10b/out5/t_73.46.done done: nodes 11083947405, leaves 18, distinct fingerprints 3 secs 250906
+srv1 sym10b/out5/t_73.47.done done: nodes 9640954297, leaves 24, distinct fingerprints 4 secs 234554
+srv1 sym10b/out5/t_73.48.done done: nodes 10140636544, leaves 30, distinct fingerprints 4 secs 236968
+srv1 sym10b/out5/t_73.49.done done: nodes 9325362263, leaves 6, distinct fingerprints 1 secs 227795
+srv1 sym10b/out5/t_73.5.done done: nodes 8890271648, leaves 12, distinct fingerprints 2 secs 216225
+srv1 sym10b/out5/t_73.50.done done: nodes 10475575006, leaves 6, distinct fingerprints 1 secs 248599
+srv1 sym10b/out5/t_73.51.done done: nodes 9957292543, leaves 12, distinct fingerprints 2 secs 240508
+srv1 sym10b/out5/t_73.52.done done: nodes 10110383835, leaves 6, distinct fingerprints 1 secs 235544
+srv1 sym10b/out5/t_73.53.done done: nodes 8923916354, leaves 18, distinct fingerprints 2 secs 225917
+srv1 sym10b/out5/t_73.54.done done: nodes 10997206545, leaves 18, distinct fingerprints 3 secs 247948
+srv1 sym10b/out5/t_73.55.done done: nodes 10057193741, leaves 6, distinct fingerprints 1 secs 242444
+srv1 sym10b/out5/t_73.56.done done: nodes 10164331487, leaves 12, distinct fingerprints 2 secs 236614
+srv1 sym10b/out5/t_73.57.done done: nodes 9533537268, leaves 30, distinct fingerprints 3 secs 225397
+srv1 sym10b/out5/t_73.58.done done: nodes 10858023310, leaves 0, distinct fingerprints 0 secs 252077
+srv1 sym10b/out5/t_73.59.done done: nodes 10415507410, leaves 6, distinct fingerprints 1 secs 247925
+srv1 sym10b/out5/t_73.6.done done: nodes 10595856212, leaves 24, distinct fingerprints 4 secs 247912
+srv1 sym10b/out5/t_73.60.done done: nodes 9908633204, leaves 12, distinct fingerprints 2 secs 235636
+srv1 sym10b/out5/t_73.61.done done: nodes 8939756203, leaves 6, distinct fingerprints 1 secs 219629
+srv1 sym10b/out5/t_73.62.done done: nodes 10992063866, leaves 6, distinct fingerprints 1 secs 244356
+srv1 sym10b/out5/t_73.63.done done: nodes 10102841369, leaves 24, distinct fingerprints 3 secs 241520
+srv1 sym10b/out5/t_73.64.done done: nodes 10129103103, leaves 6, distinct fingerprints 1 secs 235200
+srv1 sym10b/out5/t_73.65.done done: nodes 8530046387, leaves 0, distinct fingerprints 0 secs 213961
+srv1 sym10b/out5/t_73.66.done done: nodes 11290392052, leaves 30, distinct fingerprints 5 secs 251441
+srv1 sym10b/out5/t_73.67.done done: nodes 10268757245, leaves 6, distinct fingerprints 1 secs 241435
+srv1 sym10b/out5/t_73.68.done done: nodes 9856452335, leaves 12, distinct fingerprints 2 secs 231139
+srv1 sym10b/out5/t_73.69.done done: nodes 9305074379, leaves 24, distinct fingerprints 3 secs 220664
+srv1 sym10b/out5/t_73.7.done done: nodes 10502303208, leaves 24, distinct fingerprints 4 secs 247095
+srv1 sym10b/out5/t_73.70.done done: nodes 10751381130, leaves 6, distinct fingerprints 1 secs 252287
+srv1 sym10b/out5/t_73.71.done done: nodes 10045000696, leaves 300, distinct fingerprints 14 secs 236478
+srv1 sym10b/out5/t_73.72.done done: nodes 10246741371, leaves 30, distinct fingerprints 4 secs 243001
+srv1 sym10b/out5/t_73.73.done done: nodes 9137881046, leaves 18, distinct fingerprints 1 secs 226778
+srv1 sym10b/out5/t_73.74.done done: nodes 10333551017, leaves 30, distinct fingerprints 5 secs 247233
+srv1 sym10b/out5/t_73.75.done done: nodes 10332298243, leaves 24, distinct fingerprints 3 secs 249128
+srv1 sym10b/out5/t_73.76.done done: nodes 9606225845, leaves 24, distinct fingerprints 2 secs 233015
+srv1 sym10b/out5/t_73.77.done done: nodes 8965855305, leaves 18, distinct fingerprints 3 secs 221671
+srv1 sym10b/out5/t_73.78.done done: nodes 11278224816, leaves 12, distinct fingerprints 2 secs 252968
+srv1 sym10b/out5/t_73.79.done done: nodes 9734218312, leaves 24, distinct fingerprints 3 secs 230390
+srv1 sym10b/out5/t_73.8.done done: nodes 9647612203, leaves 12, distinct fingerprints 1 secs 235891
+srv1 sym10b/out5/t_73.80.done done: nodes 9808196451, leaves 18, distinct fingerprints 1 secs 236637
+srv1 sym10b/out5/t_73.81.done done: nodes 9164965581, leaves 24, distinct fingerprints 4 secs 226478
+srv1 sym10b/out5/t_73.82.done done: nodes 10383067428, leaves 0, distinct fingerprints 0 secs 249821
+srv1 sym10b/out5/t_73.83.done done: nodes 9802766172, leaves 24, distinct fingerprints 3 secs 237211
+srv1 sym10b/out5/t_73.84.done done: nodes 10227757519, leaves 18, distinct fingerprints 3 secs 238247
+srv1 sym10b/out5/t_73.85.done done: nodes 9178745584, leaves 6, distinct fingerprints 1 secs 226698
+srv1 sym10b/out5/t_73.86.done done: nodes 10435381100, leaves 12, distinct fingerprints 1 secs 247589
+srv1 sym10b/out5/t_73.87.done done: nodes 10389233605, leaves 36, distinct fingerprints 5 secs 250210
+srv1 sym10b/out5/t_73.88.done done: nodes 9400518687, leaves 24, distinct fingerprints 3 secs 231906
+srv1 sym10b/out5/t_73.89.done done: nodes 8914400919, leaves 30, distinct fingerprints 4 secs 217817
+srv1 sym10b/out5/t_73.9.done done: nodes 9003713544, leaves 12, distinct fingerprints 2 secs 222184
+srv1 sym10b/out5/t_73.90.done done: nodes 10711574097, leaves 6, distinct fingerprints 1 secs 248008
+srv1 sym10b/out5/t_73.91.done done: nodes 9773704254, leaves 12, distinct fingerprints 2 secs 236265
+srv1 sym10b/out5/t_73.92.done done: nodes 10068589584, leaves 30, distinct fingerprints 5 secs 233798
+srv1 sym10b/out5/t_73.93.done done: nodes 9268665269, leaves 24, distinct fingerprints 4 secs 224666
+srv1 sym10b/out5/t_73.94.done done: nodes 10696843678, leaves 30, distinct fingerprints 4 secs 249400
+srv1 sym10b/out5/t_73.95.done done: nodes 10157772920, leaves 12, distinct fingerprints 2 secs 245252
+srv1 sym10b/out5/t_73.96.done done: nodes 10113432677, leaves 0, distinct fingerprints 0 secs 242099
+srv1 sym10b/out5/t_73.97.done done: nodes 9053477015, leaves 24, distinct fingerprints 2 secs 217632
+srv1 sym10b/out5/t_73.98.done done: nodes 10781130247, leaves 12, distinct fingerprints 2 secs 249557
+srv1 sym10b/out5/t_73.99.done done: nodes 10352359702, leaves 6, distinct fingerprints 1 secs 241649
+srv2 sym10/out/t_0.done done: nodes 524799, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_1.0.done done: nodes 100776671487, leaves 0, distinct fingerprints 0 secs 2821
+srv2 sym10/out/t_1.1.done done: nodes 100776671487, leaves 0, distinct fingerprints 0 secs 2843
+srv2 sym10/out/t_1.10.done done: nodes 100776671487, leaves 0, distinct fingerprints 0 secs 2832
+srv2 sym10/out/t_1.11.done done: nodes 100776671487, leaves 0, distinct fingerprints 0 secs 2820
+srv2 sym10/out/t_1.12.done done: nodes 100776671487, leaves 0, distinct fingerprints 0 secs 2831
+srv2 sym10/out/t_1.13.done done: nodes 100776671487, leaves 0, distinct fingerprints 0 secs 2812
+srv2 sym10/out/t_1.14.done done: nodes 100776671487, leaves 0, distinct fingerprints 0 secs 2912
+srv2 sym10/out/t_1.15.done done: nodes 100776671487, leaves 0, distinct fingerprints 0 secs 2835
+srv2 sym10/out/t_1.2.done done: nodes 100776671487, leaves 0, distinct fingerprints 0 secs 2867
+srv2 sym10/out/t_1.3.done done: nodes 100776671487, leaves 0, distinct fingerprints 0 secs 3038
+srv2 sym10/out/t_1.4.done done: nodes 100776671487, leaves 0, distinct fingerprints 0 secs 2884
+srv2 sym10/out/t_1.5.done done: nodes 100776671487, leaves 0, distinct fingerprints 0 secs 2864
+srv2 sym10/out/t_1.6.done done: nodes 100776671487, leaves 0, distinct fingerprints 0 secs 2980
+srv2 sym10/out/t_1.7.done done: nodes 100776671487, leaves 0, distinct fingerprints 0 secs 2903
+srv2 sym10/out/t_1.8.done done: nodes 100776671487, leaves 0, distinct fingerprints 0 secs 2854
+srv2 sym10/out/t_1.9.done done: nodes 100776671487, leaves 0, distinct fingerprints 0 secs 2829
+srv2 sym10/out/t_101.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_102.done done: nodes 16, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_103.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_104.done done: nodes 122264, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_105.done done: nodes 24160488, leaves 0, distinct fingerprints 0 secs 3
+srv2 sym10/out/t_106.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_107.0.done moved to another server (new engine)
+srv2 sym10/out/t_107.1.done moved to another server (new engine)
+srv2 sym10/out/t_107.10.done moved to another server (new engine)
+srv2 sym10/out/t_107.11.done moved to another server (new engine)
+srv2 sym10/out/t_107.12.done moved to another server (new engine)
+srv2 sym10/out/t_107.13.done moved to another server (new engine)
+srv2 sym10/out/t_107.14.done moved to another server (new engine)
+srv2 sym10/out/t_107.15.done moved to another server (new engine)
+srv2 sym10/out/t_107.2.done moved to another server (new engine)
+srv2 sym10/out/t_107.3.done moved to another server (new engine)
+srv2 sym10/out/t_107.4.done moved to another server (new engine)
+srv2 sym10/out/t_107.5.done moved to another server (new engine)
+srv2 sym10/out/t_107.6.done moved to another server (new engine)
+srv2 sym10/out/t_107.7.done moved to another server (new engine)
+srv2 sym10/out/t_107.8.done moved to another server (new engine)
+srv2 sym10/out/t_107.9.done moved to another server (new engine)
+srv2 sym10/out/t_110.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_111.done done: nodes 16, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_112.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_115.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_116.0.done moved to another server (new engine)
+srv2 sym10/out/t_116.1.done moved to another server (new engine)
+srv2 sym10/out/t_116.10.done moved to another server (new engine)
+srv2 sym10/out/t_116.11.done moved to another server (new engine)
+srv2 sym10/out/t_116.12.done moved to another server (new engine)
+srv2 sym10/out/t_116.13.done moved to another server (new engine)
+srv2 sym10/out/t_116.14.done moved to another server (new engine)
+srv2 sym10/out/t_116.15.done moved to another server (new engine)
+srv2 sym10/out/t_116.2.done moved to another server (new engine)
+srv2 sym10/out/t_116.3.done moved to another server (new engine)
+srv2 sym10/out/t_116.4.done moved to another server (new engine)
+srv2 sym10/out/t_116.5.done moved to another server (new engine)
+srv2 sym10/out/t_116.6.done moved to another server (new engine)
+srv2 sym10/out/t_116.7.done moved to another server (new engine)
+srv2 sym10/out/t_116.8.done moved to another server (new engine)
+srv2 sym10/out/t_116.9.done moved to another server (new engine)
+srv2 sym10/out/t_119.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_120.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_121.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_122.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_123.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_125.done done: nodes 2761432, leaves 0, distinct fingerprints 0 secs 1
+srv2 sym10/out/t_126.done done: nodes 2761432, leaves 0, distinct fingerprints 0 secs 1
+srv2 sym10/out/t_127.done done: nodes 2, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_128.done done: nodes 2, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_129.0.done moved to another server
+srv2 sym10/out/t_129.1.done moved to another server
+srv2 sym10/out/t_129.10.done moved to another server
+srv2 sym10/out/t_129.11.done moved to another server
+srv2 sym10/out/t_129.12.done moved to another server
+srv2 sym10/out/t_129.13.done moved to another server
+srv2 sym10/out/t_129.14.done moved to another server
+srv2 sym10/out/t_129.15.done moved to another server
+srv2 sym10/out/t_129.2.done moved to another server
+srv2 sym10/out/t_129.3.done moved to another server
+srv2 sym10/out/t_129.4.done moved to another server
+srv2 sym10/out/t_129.5.done moved to another server
+srv2 sym10/out/t_129.6.done moved to another server
+srv2 sym10/out/t_129.7.done moved to another server
+srv2 sym10/out/t_129.8.done moved to another server
+srv2 sym10/out/t_129.9.done moved to another server
+srv2 sym10/out/t_130.done done: nodes 1024, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_131.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_132.done done: nodes 1607414, leaves 0, distinct fingerprints 0 secs 1
+srv2 sym10/out/t_133.done done: nodes 513753, leaves 0, distinct fingerprints 0 secs 3
+srv2 sym10/out/t_134.done done: nodes 1024, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_135.done done: nodes 4, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_136.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_137.done done: nodes 11, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_138.done done: nodes 11, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_139.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_140.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_141.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_142.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_143.done done: nodes 4816, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_144.done done: nodes 4816, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_145.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_146.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_147.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_148.done done: nodes 11, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_149.done done: nodes 31, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_150.done done: nodes 11, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_151.done done: nodes 11, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_152.done done: nodes 11, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_153.done done: nodes 11, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_154.done done: nodes 11, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_155.done done: nodes 11, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_156.done done: nodes 11, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_157.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_158.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_159.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_160.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_161.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_162.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_163.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_164.done done: nodes 155, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_165.done done: nodes 155, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_166.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_167.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_168.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_169.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_170.done done: nodes 8405371, leaves 338272, distinct fingerprints 1 secs 1327
+srv2 sym10/out/t_171.done done: nodes 8405371, leaves 338272, distinct fingerprints 1 secs 1381
+srv2 sym10/out/t_172.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_173.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_174.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_175.0.done moved to another server
+srv2 sym10/out/t_175.1.done moved to another server
+srv2 sym10/out/t_175.10.done moved to another server
+srv2 sym10/out/t_175.11.done moved to another server
+srv2 sym10/out/t_175.12.done moved to another server
+srv2 sym10/out/t_175.13.done moved to another server
+srv2 sym10/out/t_175.14.done moved to another server
+srv2 sym10/out/t_175.15.done moved to another server
+srv2 sym10/out/t_175.2.done moved to another server
+srv2 sym10/out/t_175.3.done moved to another server
+srv2 sym10/out/t_175.4.done moved to another server
+srv2 sym10/out/t_175.5.done moved to another server
+srv2 sym10/out/t_175.6.done moved to another server
+srv2 sym10/out/t_175.7.done moved to another server
+srv2 sym10/out/t_175.8.done moved to another server
+srv2 sym10/out/t_175.9.done moved to another server
+srv2 sym10/out/t_176.0.done moved to another server
+srv2 sym10/out/t_176.1.done moved to another server
+srv2 sym10/out/t_176.10.done moved to another server
+srv2 sym10/out/t_176.11.done moved to another server
+srv2 sym10/out/t_176.12.done moved to another server
+srv2 sym10/out/t_176.13.done moved to another server
+srv2 sym10/out/t_176.14.done moved to another server
+srv2 sym10/out/t_176.15.done moved to another server
+srv2 sym10/out/t_176.2.done moved to another server
+srv2 sym10/out/t_176.3.done moved to another server
+srv2 sym10/out/t_176.4.done moved to another server
+srv2 sym10/out/t_176.5.done moved to another server
+srv2 sym10/out/t_176.6.done moved to another server
+srv2 sym10/out/t_176.7.done moved to another server
+srv2 sym10/out/t_176.8.done moved to another server
+srv2 sym10/out/t_176.9.done moved to another server
+srv2 sym10/out/t_177.done done: nodes 155, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_178.done done: nodes 155, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_179.done done: nodes 155, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_180.0.done moved to another server
+srv2 sym10/out/t_180.1.done moved to another server
+srv2 sym10/out/t_180.10.done moved to another server
+srv2 sym10/out/t_180.11.done moved to another server
+srv2 sym10/out/t_180.12.done moved to another server
+srv2 sym10/out/t_180.13.done moved to another server
+srv2 sym10/out/t_180.14.done moved to another server
+srv2 sym10/out/t_180.15.done moved to another server
+srv2 sym10/out/t_180.2.done moved to another server
+srv2 sym10/out/t_180.3.done moved to another server
+srv2 sym10/out/t_180.4.done moved to another server
+srv2 sym10/out/t_180.5.done moved to another server
+srv2 sym10/out/t_180.6.done moved to another server
+srv2 sym10/out/t_180.7.done moved to another server
+srv2 sym10/out/t_180.8.done moved to another server
+srv2 sym10/out/t_180.9.done moved to another server
+srv2 sym10/out/t_181.done done: nodes 155, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_182.done done: nodes 155, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_183.done done: nodes 155, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_184.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_185.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_186.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_187.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_188.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_189.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_190.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_191.done done: nodes 11, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_192.done done: nodes 31, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_193.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_194.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_195.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_196.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_197.done done: nodes 321, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_198.done done: nodes 68572, leaves 0, distinct fingerprints 0 secs 1
+srv2 sym10/out/t_199.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_200.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_201.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_202.done done: nodes 11, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_203.done done: nodes 671, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_204.done done: nodes 2708, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_205.done done: nodes 321, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_206.done done: nodes 11, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_207.done done: nodes 2101087, leaves 0, distinct fingerprints 0 secs 9
+srv2 sym10/out/t_208.done done: nodes 1374943, leaves 0, distinct fingerprints 0 secs 6
+srv2 sym10/out/t_209.done done: nodes 67611, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_210.done done: nodes 31, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_211.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_212.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_213.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_214.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_215.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_216.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_217.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_218.done done: nodes 31, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_219.done done: nodes 31, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_220.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_221.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_222.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_223.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_224.done done: nodes 31, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_225.done done: nodes 31, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_226.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_227.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_228.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_229.done done: nodes 9951, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_230.done done: nodes 26961, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_231.done done: nodes 91636, leaves 961, distinct fingerprints 1 secs 4
+srv2 sym10/out/t_232.done done: nodes 190991, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_233.done done: nodes 31, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_234.done done: nodes 9951, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_235.done done: nodes 81065, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_236.done done: nodes 190991, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_237.done done: nodes 31, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_238.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_239.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_240.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_241.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_242.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_243.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_244.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_245.0.done moved to another server
+srv2 sym10/out/t_245.1.done moved to another server
+srv2 sym10/out/t_245.10.done moved to another server
+srv2 sym10/out/t_245.11.done moved to another server
+srv2 sym10/out/t_245.12.done moved to another server
+srv2 sym10/out/t_245.13.done moved to another server
+srv2 sym10/out/t_245.14.done moved to another server
+srv2 sym10/out/t_245.15.done moved to another server
+srv2 sym10/out/t_245.2.done moved to another server
+srv2 sym10/out/t_245.3.done moved to another server
+srv2 sym10/out/t_245.4.done moved to another server
+srv2 sym10/out/t_245.5.done moved to another server
+srv2 sym10/out/t_245.6.done moved to another server
+srv2 sym10/out/t_245.7.done moved to another server
+srv2 sym10/out/t_245.8.done moved to another server
+srv2 sym10/out/t_245.9.done moved to another server
+srv2 sym10/out/t_246.done done: nodes 60648132, leaves 0, distinct fingerprints 0 secs 84
+srv2 sym10/out/t_247.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_248.done done: nodes 9947, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_249.done done: nodes 321, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_25.done done: nodes 1024, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_250.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_251.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_252.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_253.done done: nodes 9947, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_254.done done: nodes 667, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_255.done done: nodes 80100, leaves 0, distinct fingerprints 0 secs 1
+srv2 sym10/out/t_256.done done: nodes 27, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_257.done done: nodes 11, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_258.done done: nodes 11, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_259.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_26.done done: nodes 2085904, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_260.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_261.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_262.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_263.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_265.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_266.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_267.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_268.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_269.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_27.done done: nodes 2085904, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_270.done done: nodes 37, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_271.done done: nodes 37, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_272.done done: nodes 6, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_273.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_274.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_275.done done: nodes 37, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_276.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_277.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_278.done done: nodes 2, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_279.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_28.done done: nodes 2085904, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_280.done done: nodes 22, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_281.done done: nodes 22, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_282.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_283.done done: nodes 22, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_284.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_285.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_286.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_287.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_288.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_289.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_29.done done: nodes 2085904, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_290.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_291.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_292.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_293.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_294.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_295.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_296.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_297.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_298.done done: nodes 320, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_35.done done: nodes 1544, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_38.done done: nodes 195160172, leaves 0, distinct fingerprints 0 secs 12
+srv2 sym10/out/t_39.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_40.done done: nodes 456417724, leaves 0, distinct fingerprints 0 secs 62
+srv2 sym10/out/t_44.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_48.0.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12954
+srv2 sym10/out/t_48.1.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12985
+srv2 sym10/out/t_48.10.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12939
+srv2 sym10/out/t_48.11.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12931
+srv2 sym10/out/t_48.12.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12919
+srv2 sym10/out/t_48.13.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12951
+srv2 sym10/out/t_48.14.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12898
+srv2 sym10/out/t_48.15.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 13332
+srv2 sym10/out/t_48.2.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12933
+srv2 sym10/out/t_48.3.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12902
+srv2 sym10/out/t_48.4.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12859
+srv2 sym10/out/t_48.5.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 13038
+srv2 sym10/out/t_48.6.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12926
+srv2 sym10/out/t_48.7.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12867
+srv2 sym10/out/t_48.8.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 13138
+srv2 sym10/out/t_48.9.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12895
+srv2 sym10/out/t_49.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_5.0.done done: nodes 268754607135, leaves 0, distinct fingerprints 0 secs 7589
+srv2 sym10/out/t_5.1.done done: nodes 268754607135, leaves 0, distinct fingerprints 0 secs 7935
+srv2 sym10/out/t_5.10.done done: nodes 268754607135, leaves 0, distinct fingerprints 0 secs 7820
+srv2 sym10/out/t_5.11.done done: nodes 268754607135, leaves 0, distinct fingerprints 0 secs 7792
+srv2 sym10/out/t_5.12.done done: nodes 268754607135, leaves 0, distinct fingerprints 0 secs 7529
+srv2 sym10/out/t_5.13.done done: nodes 268754607135, leaves 0, distinct fingerprints 0 secs 7534
+srv2 sym10/out/t_5.14.done done: nodes 268754607135, leaves 0, distinct fingerprints 0 secs 7730
+srv2 sym10/out/t_5.15.done done: nodes 268754607135, leaves 0, distinct fingerprints 0 secs 7501
+srv2 sym10/out/t_5.2.done done: nodes 268754607135, leaves 0, distinct fingerprints 0 secs 7572
+srv2 sym10/out/t_5.3.done done: nodes 268754607135, leaves 0, distinct fingerprints 0 secs 7590
+srv2 sym10/out/t_5.4.done done: nodes 268754607135, leaves 0, distinct fingerprints 0 secs 7542
+srv2 sym10/out/t_5.5.done done: nodes 268754607135, leaves 0, distinct fingerprints 0 secs 7635
+srv2 sym10/out/t_5.6.done done: nodes 268754607135, leaves 0, distinct fingerprints 0 secs 7583
+srv2 sym10/out/t_5.7.done done: nodes 268754607135, leaves 0, distinct fingerprints 0 secs 7586
+srv2 sym10/out/t_5.8.done done: nodes 268754607135, leaves 0, distinct fingerprints 0 secs 7518
+srv2 sym10/out/t_5.9.done done: nodes 268754607135, leaves 0, distinct fingerprints 0 secs 7526
+srv2 sym10/out/t_53.0.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12908
+srv2 sym10/out/t_53.1.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12900
+srv2 sym10/out/t_53.10.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12858
+srv2 sym10/out/t_53.11.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12947
+srv2 sym10/out/t_53.12.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12816
+srv2 sym10/out/t_53.13.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 13166
+srv2 sym10/out/t_53.14.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 13076
+srv2 sym10/out/t_53.15.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12807
+srv2 sym10/out/t_53.2.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12927
+srv2 sym10/out/t_53.3.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12891
+srv2 sym10/out/t_53.4.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12959
+srv2 sym10/out/t_53.5.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12949
+srv2 sym10/out/t_53.6.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12883
+srv2 sym10/out/t_53.7.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12980
+srv2 sym10/out/t_53.8.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12923
+srv2 sym10/out/t_53.9.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12885
+srv2 sym10/out/t_54.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_58.0.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12947
+srv2 sym10/out/t_58.1.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12853
+srv2 sym10/out/t_58.10.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12935
+srv2 sym10/out/t_58.11.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12918
+srv2 sym10/out/t_58.12.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 13177
+srv2 sym10/out/t_58.13.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12889
+srv2 sym10/out/t_58.14.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12911
+srv2 sym10/out/t_58.15.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 13041
+srv2 sym10/out/t_58.2.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12957
+srv2 sym10/out/t_58.3.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12883
+srv2 sym10/out/t_58.4.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 13150
+srv2 sym10/out/t_58.5.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12895
+srv2 sym10/out/t_58.6.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12976
+srv2 sym10/out/t_58.7.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12842
+srv2 sym10/out/t_58.8.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12909
+srv2 sym10/out/t_58.9.done done: nodes 45100297564, leaves 0, distinct fingerprints 0 secs 12866
+srv2 sym10/out/t_59.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_60.done done: nodes 2, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_61.0.done done: nodes 1062247384, leaves 0, distinct fingerprints 0 secs 647
+srv2 sym10/out/t_61.1.done done: nodes 1062247384, leaves 0, distinct fingerprints 0 secs 650
+srv2 sym10/out/t_61.10.done done: nodes 1062247384, leaves 0, distinct fingerprints 0 secs 644
+srv2 sym10/out/t_61.11.done done: nodes 1062247384, leaves 0, distinct fingerprints 0 secs 634
+srv2 sym10/out/t_61.12.done done: nodes 1062247384, leaves 0, distinct fingerprints 0 secs 645
+srv2 sym10/out/t_61.13.done done: nodes 1062247384, leaves 0, distinct fingerprints 0 secs 670
+srv2 sym10/out/t_61.14.done done: nodes 1062247384, leaves 0, distinct fingerprints 0 secs 630
+srv2 sym10/out/t_61.15.done done: nodes 1062247384, leaves 0, distinct fingerprints 0 secs 646
+srv2 sym10/out/t_61.2.done done: nodes 1062247384, leaves 0, distinct fingerprints 0 secs 648
+srv2 sym10/out/t_61.3.done done: nodes 1062247384, leaves 0, distinct fingerprints 0 secs 638
+srv2 sym10/out/t_61.4.done done: nodes 1062247384, leaves 0, distinct fingerprints 0 secs 647
+srv2 sym10/out/t_61.5.done done: nodes 1062247384, leaves 0, distinct fingerprints 0 secs 633
+srv2 sym10/out/t_61.6.done done: nodes 1062247384, leaves 0, distinct fingerprints 0 secs 644
+srv2 sym10/out/t_61.7.done done: nodes 1062247384, leaves 0, distinct fingerprints 0 secs 636
+srv2 sym10/out/t_61.8.done done: nodes 1062247384, leaves 0, distinct fingerprints 0 secs 649
+srv2 sym10/out/t_61.9.done done: nodes 1062247384, leaves 0, distinct fingerprints 0 secs 642
+srv2 sym10/out/t_67.done done: nodes 2761432, leaves 0, distinct fingerprints 0 secs 1
+srv2 sym10/out/t_68.done done: nodes 4, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_69.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_70.done done: nodes 4841805, leaves 0, distinct fingerprints 0 secs 4
+srv2 sym10/out/t_71.0.done done: nodes 116065515, leaves 0, distinct fingerprints 0 secs 8
+srv2 sym10/out/t_71.1.done done: nodes 116111619, leaves 0, distinct fingerprints 0 secs 8
+srv2 sym10/out/t_71.10.done done: nodes 116102091, leaves 0, distinct fingerprints 0 secs 9
+srv2 sym10/out/t_71.11.done done: nodes 116123223, leaves 0, distinct fingerprints 0 secs 9
+srv2 sym10/out/t_71.12.done done: nodes 116132827, leaves 0, distinct fingerprints 0 secs 10
+srv2 sym10/out/t_71.13.done done: nodes 116102091, leaves 0, distinct fingerprints 0 secs 8
+srv2 sym10/out/t_71.14.done done: nodes 116138591, leaves 0, distinct fingerprints 0 secs 7
+srv2 sym10/out/t_71.15.done done: nodes 116102091, leaves 0, distinct fingerprints 0 secs 8
+srv2 sym10/out/t_71.2.done done: nodes 116065515, leaves 0, distinct fingerprints 0 secs 10
+srv2 sym10/out/t_71.3.done done: nodes 116128911, leaves 0, distinct fingerprints 0 secs 8
+srv2 sym10/out/t_71.4.done done: nodes 116096251, leaves 0, distinct fingerprints 0 secs 8
+srv2 sym10/out/t_71.5.done done: nodes 116065515, leaves 0, distinct fingerprints 0 secs 7
+srv2 sym10/out/t_71.6.done done: nodes 116128911, leaves 0, distinct fingerprints 0 secs 9
+srv2 sym10/out/t_71.7.done done: nodes 116080883, leaves 0, distinct fingerprints 0 secs 12
+srv2 sym10/out/t_71.8.done done: nodes 116117459, leaves 0, distinct fingerprints 0 secs 7
+srv2 sym10/out/t_71.9.done done: nodes 116132827, leaves 0, distinct fingerprints 0 secs 8
+srv2 sym10/out/t_74.done done: nodes 1024, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_75.done done: nodes 1024, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_77.done done: nodes 4, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_78.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_79.done done: nodes 4, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_80.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_81.done done: nodes 466981, leaves 0, distinct fingerprints 0 secs 3
+srv2 sym10/out/t_82.done done: nodes 4, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_83.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_84.done done: nodes 718897, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_85.done done: nodes 697, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_86.done done: nodes 4, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_87.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_88.done done: nodes 16, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_89.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_90.done done: nodes 23480, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_91.done done: nodes 276712, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_92.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_94.done done: nodes 42904696, leaves 0, distinct fingerprints 0 secs 21
+srv2 sym10/out/t_95.done done: nodes 670157224, leaves 0, distinct fingerprints 0 secs 1019
+srv2 sym10/out/t_96.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_97.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10/out/t_98.0.done sym10: n=10, d=72 free bits; per level: 3 0 18 3 0 6 10 14 18 secs 195626
+srv2 sym10/out/t_98.1.done sym10: n=10, d=72 free bits; per level: 3 0 18 3 0 6 10 14 18 secs 195620
+srv2 sym10/out/t_98.10.done moved to another server (new engine)
+srv2 sym10/out/t_98.11.done moved to another server (new engine)
+srv2 sym10/out/t_98.12.done moved to another server (new engine)
+srv2 sym10/out/t_98.13.done moved to another server (new engine)
+srv2 sym10/out/t_98.14.done moved to another server (new engine)
+srv2 sym10/out/t_98.15.done moved to another server (new engine)
+srv2 sym10/out/t_98.2.done sym10: n=10, d=72 free bits; per level: 3 0 18 3 0 6 10 14 18 secs 195543
+srv2 sym10/out/t_98.3.done sym10: n=10, d=72 free bits; per level: 3 0 18 3 0 6 10 14 18 secs 195531
+srv2 sym10/out/t_98.4.done sym10: n=10, d=72 free bits; per level: 3 0 18 3 0 6 10 14 18 secs 195462
+srv2 sym10/out/t_98.5.done sym10: n=10, d=72 free bits; per level: 3 0 18 3 0 6 10 14 18 secs 195419
+srv2 sym10/out/t_98.6.done sym10: n=10, d=72 free bits; per level: 3 0 18 3 0 6 10 14 18 secs 190603
+srv2 sym10/out/t_98.7.done sym10: n=10, d=72 free bits; per level: 3 0 18 3 0 6 10 14 18 secs 190467
+srv2 sym10/out/t_98.8.done sym10: n=10, d=72 free bits; per level: 3 0 18 3 0 6 10 14 18 secs 190288
+srv2 sym10/out/t_98.9.done sym10: n=10, d=72 free bits; per level: 3 0 18 3 0 6 10 14 18 secs 189984
+srv2 sym10/out/t_99.done done: nodes 1, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out/t_10.done done: nodes 536175, leaves 0, distinct fingerprints 0 secs 11658
+srv2 sym10b/out/t_20.done done: nodes 352460, leaves 0, distinct fingerprints 0 secs 6075
+srv2 sym10b/out/t_6.done done: nodes 3294, leaves 0, distinct fingerprints 0 secs 2
+srv2 sym10b/out/t_62.done done: nodes 368895, leaves 0, distinct fingerprints 0 secs 18252
+srv2 sym10b/out2/t_118.done done: nodes 9415267330, leaves 0, distinct fingerprints 0 secs 3812
+srv2 sym10b/out2/t_15.done done: nodes 3369391, leaves 0, distinct fingerprints 0 secs 9518
+srv2 sym10b/out3/t_11.0.done done: nodes 5290968194, leaves 0, distinct fingerprints 0 secs 13064
+srv2 sym10b/out3/t_114.1.done done: nodes 162, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out3/t_114.2.done done: nodes 132, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out3/t_114.3.done done: nodes 87, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out3/t_114.4.done done: nodes 85, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out3/t_114.5.done done: nodes 85, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out3/t_114.6.done done: nodes 85, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out3/t_114.7.done done: nodes 85, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out3/t_114.8.done done: nodes 85, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out3/t_114.9.done done: nodes 85, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out3/t_117.0.done done: nodes 27400835, leaves 0, distinct fingerprints 0 secs 59
+srv2 sym10b/out3/t_117.1.done done: nodes 43674703, leaves 0, distinct fingerprints 0 secs 56
+srv2 sym10b/out3/t_117.2.done done: nodes 43674778, leaves 0, distinct fingerprints 0 secs 56
+srv2 sym10b/out3/t_117.3.done done: nodes 301, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out3/t_117.4.done done: nodes 32651725, leaves 0, distinct fingerprints 0 secs 54
+srv2 sym10b/out3/t_117.5.done done: nodes 43674701, leaves 0, distinct fingerprints 0 secs 57
+srv2 sym10b/out3/t_117.6.done done: nodes 1421995118, leaves 0, distinct fingerprints 0 secs 2788
+srv2 sym10b/out3/t_117.7.done done: nodes 1142907318, leaves 0, distinct fingerprints 0 secs 2182
+srv2 sym10b/out3/t_117.8.done done: nodes 82672669, leaves 0, distinct fingerprints 0 secs 22
+srv2 sym10b/out3/t_117.9.done done: nodes 25483789, leaves 0, distinct fingerprints 0 secs 50
+srv2 sym10b/out3/t_16.0.done done: nodes 5290968194, leaves 0, distinct fingerprints 0 secs 13072
+srv2 sym10b/out3/t_21.0.done done: nodes 5290968194, leaves 0, distinct fingerprints 0 secs 13062
+srv2 sym10b/out3/t_41.0.done done: nodes 1749, leaves 0, distinct fingerprints 0 secs 3
+srv2 sym10b/out3/t_41.1.done done: nodes 136922368, leaves 0, distinct fingerprints 0 secs 1013
+srv2 sym10b/out3/t_41.2.done done: nodes 136922368, leaves 0, distinct fingerprints 0 secs 1010
+srv2 sym10b/out3/t_41.3.done done: nodes 1643200420, leaves 0, distinct fingerprints 0 secs 12022
+srv2 sym10b/out3/t_41.5.done done: nodes 33, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out3/t_41.6.done done: nodes 33, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out3/t_41.7.done done: nodes 44, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out3/t_41.9.done done: nodes 31, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out3/t_45.0.done done: nodes 1309027554, leaves 0, distinct fingerprints 0 secs 728
+srv2 sym10b/out3/t_46.0.done done: nodes 299671921, leaves 0, distinct fingerprints 0 secs 3264
+srv2 sym10b/out3/t_46.1.done done: nodes 279329013, leaves 0, distinct fingerprints 0 secs 3523
+srv2 sym10b/out3/t_46.2.done done: nodes 386764957, leaves 0, distinct fingerprints 0 secs 4563
+srv2 sym10b/out3/t_46.3.done done: nodes 350441907, leaves 0, distinct fingerprints 0 secs 4779
+srv2 sym10b/out3/t_46.4.done done: nodes 301183068, leaves 0, distinct fingerprints 0 secs 4784
+srv2 sym10b/out3/t_46.5.done done: nodes 297065941, leaves 0, distinct fingerprints 0 secs 3737
+srv2 sym10b/out3/t_46.6.done done: nodes 324166242, leaves 0, distinct fingerprints 0 secs 4647
+srv2 sym10b/out3/t_46.7.done done: nodes 421637079, leaves 0, distinct fingerprints 0 secs 4072
+srv2 sym10b/out3/t_46.8.done done: nodes 181117591, leaves 0, distinct fingerprints 0 secs 2591
+srv2 sym10b/out3/t_46.9.done done: nodes 309483151, leaves 0, distinct fingerprints 0 secs 3954
+srv2 sym10b/out3/t_7.2.done done: nodes 1730371204, leaves 0, distinct fingerprints 0 secs 37343
+srv2 sym10b/out3/t_7.3.done done: nodes 439723966, leaves 0, distinct fingerprints 0 secs 12020
+srv2 sym10b/out3/t_7.4.done done: nodes 14178249888, leaves 0, distinct fingerprints 0 secs 32393
+srv2 sym10b/out3/t_7.5.done done: nodes 14091213540, leaves 0, distinct fingerprints 0 secs 39572
+srv2 sym10b/out3/t_7.6.done done: nodes 110281, leaves 0, distinct fingerprints 0 secs 1
+srv2 sym10b/out3/t_7.7.done done: nodes 14022671334, leaves 0, distinct fingerprints 0 secs 37913
+srv2 sym10b/out3/t_7.8.done done: nodes 13820573911, leaves 0, distinct fingerprints 0 secs 39297
+srv2 sym10b/out3/t_7.9.done done: nodes 7608235964, leaves 0, distinct fingerprints 0 secs 63163
+srv2 sym10b/out3/t_72.0.done done: nodes 191598588277, leaves 0, distinct fingerprints 0 secs 189913
+srv2 sym10b/out4/t_113.0.done done: nodes 96, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out4/t_113.1.done done: nodes 4929098, leaves 0, distinct fingerprints 0 secs 2276
+srv2 sym10b/out4/t_113.2.done done: nodes 96, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out4/t_113.3.done done: nodes 94, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out4/t_113.4.done done: nodes 94, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out4/t_113.5.done done: nodes 94, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out4/t_113.6.done done: nodes 94, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out4/t_113.7.done done: nodes 94, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out4/t_113.8.done done: nodes 94, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out4/t_113.9.done done: nodes 94, leaves 0, distinct fingerprints 0 secs 0
+srv2 sym10b/out4/t_13.0.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_13.1.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_13.2.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_13.3.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_13.4.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_13.5.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_13.6.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_13.7.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_13.8.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_13.9.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_19.0.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_19.1.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_19.2.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_19.3.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_19.4.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_19.5.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_19.6.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_19.7.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_19.8.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_19.9.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_22.0.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_22.1.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_22.2.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_22.3.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_22.4.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_22.5.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_22.6.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_22.7.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_22.8.done excluded by the intertwiner lemma (proof, 2026-10-28)
+srv2 sym10b/out4/t_22.9.done excluded by the intertwiner lemma (proof, 2026-10-28)

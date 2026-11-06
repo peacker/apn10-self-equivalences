@@ -1,0 +1,24 @@
+7d2a655d532f0971	F12 i=1 u=66 a=314 b=568	1
+cc9135ebccd0fd0d	New (this work): F_4 coefficients, order-5 self-equivalence #1	1
+a94a9a1c9b6989eb	Budaghyan-Ivkovic-Kaleyski triplicate #3	1
+4ce138d3c68412fb	F13 i=3 k=0 a=1 b=1 c=236	1
+1ba0ae05c60f7c81	Budaghyan-Ivkovic-Kaleyski triplicate #5	1
+f52474390867bdf1	F13 i=3 k=0 a=236 b=236 c=237	1
+3db91379103daa29	Gold x^9	1
+4574310b7a889fc2	Budaghyan-Ivkovic-Kaleyski triplicate #6	1
+e584848b79b87840	Gold x^3	1
+fc409cf646cabcb1	New (this work): F_4 coefficients, order-5 self-equivalence #4	1
+9149aa6fb2d88edd	Beierle-Leander #1	1
+761eb83ea7e7ff28	F4 a=236	1
+d0f981f728367da2	F4 a=1	1
+0a0ea0bfcbf7b32b	New (this work): F_4 coefficients, order-5 self-equivalence #3	1
+026e1094aef26abe	F13 i=3 k=0 a=1 b=236 c=237	1
+cfcc301ea78df568	F13 i=3 k=0 a=1 b=236 c=1	1
+074896d2281f1e1f	Beierle-Leander #5	1
+403427c659007a97	F3 i=2 c=941 s=1007	1
+1a5b49709c2f9299	F13 i=3 k=2 a=236 b=0 c=0	1
+3b1918773555a014	Budaghyan-Ivkovic-Kaleyski triplicate #4	1
+dcffd811adb7bb59	New (this work): F_4 coefficients, order-5 self-equivalence #2	1
+b565c311d79990f4	F12 i=3 u=940 a=567 b=781	1
+f9a31e2c5521a8bb	Budaghyan-Ivkovic-Kaleyski triplicate #1	1
+113fbf45f546c519	F3 i=1 c=1014 s=807	1

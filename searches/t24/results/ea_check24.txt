@@ -1,0 +1,3 @@
+g3.254.lut e584848b79b87840 Gold x^3: equivalent to the apndb representative; 144 s
+g3.558.lut d0f981f728367da2 F4 a=1: equivalent to the apndb representative; 0 s
+g5.1838.lut 3db91379103daa29 Gold x^9: equivalent to the apndb representative; 72 s

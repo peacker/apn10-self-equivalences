@@ -1,0 +1,300 @@
+type	p	kind	A	B	settled_by	proof	search	core_hours	leaves	classes
+0	2	p,p	J1	J1	both	C BBF	complete	0.0	0	-
+1	2	p,p	J1	J2	both	C R BBF	complete	12.8	0	-
+2	2	p,p	J1	J3	proof	C BBF	none			-
+3	2	p,p	J1	J4	proof	C BBF	none			-
+4	2	p,p	J1	J5	proof	C BBF	none			-
+5	2	p,p	J2	J1	both	C BBF	complete	33.9	0	-
+6	2	p,p	J2	J2	both	C BBF	complete	0.0	0	-
+7	2	p,p	J2	J3	proof	C R BBF	partial			-
+8	2	p,p	J2	J4	proof	C BBF	none			-
+9	2	p,p	J2	J5	proof	C BBF	none			-
+10	2	p,p	J3	J1	both	C BBF	complete	3.2	0	-
+11	2	p,p	J3	J2	both	C BBF	complete	3.6	0	-
+12	2	p,p	J3	J3	proof	C BBF	none			-
+13	2	p,p	J3	J4	proof	C R BBF	partial			-
+14	2	p,p	J3	J5	proof	C BBF	none			-
+15	2	p,p	J4	J1	both	C BBF	complete	2.6	0	-
+16	2	p,p	J4	J2	both	C BBF	complete	3.6	0	-
+17	2	p,p	J4	J3	proof	C BBF	none			-
+18	2	p,p	J4	J4	proof	C BBF	none			-
+19	2	p,p	J4	J5	proof	R	partial			-
+20	2	p,p	J5	J1	both	C BBF	complete	1.7	0	-
+21	2	p,p	J5	J2	both	C BBF	complete	3.6	0	-
+22	2	p,p	J5	J3	proof	C BBF	partial			-
+23	2	p,p	J5	J4	proof	R	none			-
+24	2	p,p	J5	J5	search	-	complete (t24)	7500	3	Gold x^3; Gold x^9; F4 a=1
+25	2	p,1	J1	-	both	C BBF	complete	0.0	0	-
+26	2	p,1	J2	-	both	C BBF	complete	0.0	0	-
+27	2	p,1	J3	-	both	C BBF	complete	0.0	0	-
+28	2	p,1	J4	-	both	C BBF	complete	0.0	0	-
+29	2	p,1	J5	-	both	C BBF	complete	0.0	0	-
+30	2	1,p	-	J1	proof	R BBF	none			-
+31	2	1,p	-	J2	proof	C BBF	none			-
+32	2	1,p	-	J3	proof	C BBF	none			-
+33	2	1,p	-	J4	proof	C BBF	none			-
+34	2	1,p	-	J5	proof	C BBF	none			-
+35	3	p,p	1	1	both	C D BBF	complete	0.0	0	-
+36	3	p,p	1	1,1	proof	C D BBF	none			-
+37	3	p,p	1	1,1,1	proof	C D BBF	none			-
+38	3	p,p	1	1,1,1,1	both	C	complete	0.0	0	-
+39	3	p,p	1	1,1,1,1,1	both	C Q	complete	0.0	0	-
+40	3	p,p	1,1	1	both	C D BBF	complete	0.0	0	-
+41	3	p,p	1,1	1,1	proof	C D BBF	partial (t41s; empty by BBF, C, D)		0	-
+42	3	p,p	1,1	1,1,1	proof	C	none			-
+43	3	p,p	1,1	1,1,1,1	proof	C	none			-
+44	3	p,p	1,1	1,1,1,1,1	both	C Q	complete	0.0	0	-
+45	3	p,p	1,1,1	1	both	C D BBF	complete	0.2	0	-
+46	3	p,p	1,1,1	1,1	both	C	complete	11.1	0	-
+47	3	p,p	1,1,1	1,1,1	search	-	complete (t47)	16400	0	-
+48	3	p,p	1,1,1	1,1,1,1	both	C Q	complete	57.6	0	-
+49	3	p,p	1,1,1	1,1,1,1,1	both	C Q	complete	0.0	0	-
+50	3	p,p	1,1,1,1	1	proof	C	none			-
+51	3	p,p	1,1,1,1	1,1	proof	C	none			-
+52	3	p,p	1,1,1,1	1,1,1	proof	C	none			-
+53	3	p,p	1,1,1,1	1,1,1,1	both	Q	complete	57.5	0	-
+54	3	p,p	1,1,1,1	1,1,1,1,1	both	C Q	complete	0.0	0	-
+55	3	p,p	1,1,1,1,1	1	proof	lemma56	none			-
+56	3	p,p	1,1,1,1,1	1,1	proof	lemma56	none			-
+57	3	p,p	1,1,1,1,1	1,1,1	proof	Q	none			-
+58	3	p,p	1,1,1,1,1	1,1,1,1	both	Q	complete	57.5	0	-
+59	3	p,p	1,1,1,1,1	1,1,1,1,1	both	Q	complete	0.0	0	-
+60	3	p,1	1	-	both	C D BBF	complete	0.0	0	-
+61	3	p,1	1,1	-	both	C D BBF	complete	2.9	0	-
+62	3	p,1	1,1,1	-	both	C D BBF	complete	5.1	0	-
+63	3	p,1	1,1,1,1	-	proof	C D BBF	partial			-
+64	3	p,1	1,1,1,1,1	-	open	-	not exhaustive (4 searches)			16 known (conjectured complete)
+65	3	1,p	-	1	proof	C BBF	none			-
+66	3	1,p	-	1,1	proof	C BBF	none			-
+67	3	1,p	-	1,1,1	both	C BBF	complete	0.0	0	-
+68	3	1,p	-	1,1,1,1	both	C BBF	complete	0.0	0	-
+69	3	1,p	-	1,1,1,1,1	both	W=0	complete	0.0	0	-
+70	5	p,p	1	1	both	C D BBF	complete	0.0	0	-
+71	5	p,p	1	1,1	both	C	complete	0.0	0	-
+72	5	p,p	1,1	1	both	C	complete	52.8	0	-
+73	5	p,p	1,1	1,1	search	-	complete (sym10 + rerun)	12600	4536	24 classes: 20 known + 4 new (see PAPER_NOTES)
+74	5	p,1	1	-	both	C D BBF	complete	0.0	0	-
+75	5	p,1	1,1	-	both	C D BBF	complete	0.0	0	-
+76	5	1,p	-	1	proof	C BBF	none			-
+77	5	1,p	-	1,1	both	C BBF	complete	0.0	0	-
+78	7	p,p	1	1	both	C D BBF	complete	0.0	0	-
+79	7	p,p	1	3	both	C D BBF	complete	0.0	0	-
+80	7	p,p	1	1,1	both	C D	complete	0.0	0	-
+81	7	p,p	1	1,3	both	C D	complete	0.0	0	-
+82	7	p,p	1	3,3	both	C D	complete	0.0	0	-
+83	7	p,p	1	1,1,1	both	C	complete	0.0	0	-
+84	7	p,p	1	1,1,3	both	C D	complete	0.0	0	-
+85	7	p,p	1	1,3,3	both	C D	complete	0.0	0	-
+86	7	p,p	1	3,3,3	both	C D	complete	0.0	0	-
+87	7	p,p	1,1	1	both	C D	complete	0.0	0	-
+88	7	p,p	1,1	3	both	C D	complete	0.0	0	-
+89	7	p,p	1,1	1,1	both	C	complete	0.0	0	-
+90	7	p,p	1,1	1,3	both	C D	complete	0.0	0	-
+91	7	p,p	1,1	3,3	both	C D	complete	0.0	0	-
+92	7	p,p	1,1	1,1,1	both	C	complete	0.0	0	-
+93	7	p,p	1,1	1,1,3	both	C	complete	953.2	0	-
+94	7	p,p	1,1	1,3,3	both	C D	complete	0.0	0	-
+95	7	p,p	1,1	3,3,3	both	C D	complete	0.3	0	-
+96	7	p,p	1,3	1	both	C D	complete	0.0	0	-
+97	7	p,p	1,3	1,1	both	C D	complete	0.0	0	-
+98	7	p,p	1,3	1,3	both	C D	complete	1384.6	0	-
+99	7	p,p	1,3	1,1,1	both	C D	complete	0.0	0	-
+100	7	p,p	1,3	1,1,3	both	C D	complete	335.4	0	-
+101	7	p,p	1,1,1	1	both	C	complete	0.0	0	-
+102	7	p,p	1,1,1	3	both	C D	complete	0.0	0	-
+103	7	p,p	1,1,1	1,1	both	C	complete	0.0	0	-
+104	7	p,p	1,1,1	1,3	both	C	complete	0.0	0	-
+105	7	p,p	1,1,1	3,3	both	C D	complete	0.0	0	-
+106	7	p,p	1,1,1	1,1,1	both	R	complete	0.0	0	-
+107	7	p,p	1,1,1	1,1,3	both	C R	complete	3.1	0	-
+108	7	p,p	1,1,1	1,3,3	both	C R	complete	5.2	0	-
+109	7	p,p	1,1,1	3,3,3	proof	C R D	partial			-
+110	7	p,p	1,1,3	1	both	C R D	complete	0.0	0	-
+111	7	p,p	1,1,3	3	both	C R D	complete	0.0	0	-
+112	7	p,p	1,1,3	1,1	both	C R D	complete	0.0	0	-
+113	7	p,p	1,1,3	1,3	both	C R	complete	0.6	0	-
+114	7	p,p	1,1,3	3,3	proof	C R D	partial			-
+115	7	p,p	1,1,3	1,1,1	both	C D	complete	0.0	0	-
+116	7	p,p	1,1,3	1,1,3	search	-	complete	6.3	0	-
+117	7	p,p	1,1,3	1,3,3	both	C	complete	1.5	0	-
+118	7	p,p	1,1,3	3,3,3	both	C D	complete	1.1	0	-
+119	7	p,1	1	-	both	C D BBF	complete	0.0	0	-
+120	7	p,1	1,1	-	both	C D BBF	complete	0.0	0	-
+121	7	p,1	1,3	-	both	C D BBF	complete	0.0	0	-
+122	7	p,1	1,1,1	-	both	W=0 D	complete	0.0	0	-
+123	7	p,1	1,1,3	-	both	C D	complete	0.0	0	-
+124	7	1,p	-	1	proof	C BBF	none			-
+125	7	1,p	-	1,1	both	C BBF	complete	0.0	0	-
+126	7	1,p	-	1,3	both	C BBF	complete	0.0	0	-
+127	7	1,p	-	1,1,1	both	C	complete	0.0	0	-
+128	7	1,p	-	1,1,3	both	C	complete	0.0	0	-
+129	11	p,p	1	1	search	-	complete	3.1	250	Beierle-Leander #5
+130	11	p,1	1	-	both	Wong	complete	0.0	0	-
+131	11	1,p	-	1	both	W=0	complete	0.0	0	-
+132	17	p,p	1	1	search	-	complete	0.0	0	-
+133	17	p,p	1	3	both	C D	complete	0.0	0	-
+134	17	p,1	1	-	both	C D BBF	complete	0.0	0	-
+135	17	1,p	-	1	both	C BBF	complete	0.0	0	-
+136	31	p,p	1	1	both	C	complete	0.0	0	-
+137	31	p,p	1	3	both	C D	complete	0.0	0	-
+138	31	p,p	1	5	both	C D	complete	0.0	0	-
+139	31	p,p	1	7	both	C D	complete	0.0	0	-
+140	31	p,p	1	11	both	C D	complete	0.0	0	-
+141	31	p,p	1	15	both	C D	complete	0.0	0	-
+142	31	p,p	1	1,1	both	C	complete	0.0	0	-
+143	31	p,p	1	1,3	both	C	complete	0.0	0	-
+144	31	p,p	1	1,5	both	C	complete	0.0	0	-
+145	31	p,p	1	1,7	both	C	complete	0.0	0	-
+146	31	p,p	1	1,11	both	C	complete	0.0	0	-
+147	31	p,p	1	1,15	both	C	complete	0.0	0	-
+148	31	p,p	1	3,3	both	C D	complete	0.0	0	-
+149	31	p,p	1	3,5	both	C D	complete	0.0	0	-
+150	31	p,p	1	3,7	both	C D	complete	0.0	0	-
+151	31	p,p	1	3,11	both	C D	complete	0.0	0	-
+152	31	p,p	1	3,15	both	C D	complete	0.0	0	-
+153	31	p,p	1	5,5	both	C D	complete	0.0	0	-
+154	31	p,p	1	5,7	both	C D	complete	0.0	0	-
+155	31	p,p	1	5,11	both	C D	complete	0.0	0	-
+156	31	p,p	1	5,15	both	C D	complete	0.0	0	-
+157	31	p,p	1	7,7	both	W=0 D	complete	0.0	0	-
+158	31	p,p	1	7,11	both	W=0 D	complete	0.0	0	-
+159	31	p,p	1	7,15	both	W=0 D	complete	0.0	0	-
+160	31	p,p	1	11,11	both	W=0 D	complete	0.0	0	-
+161	31	p,p	1	11,15	both	W=0 D	complete	0.0	0	-
+162	31	p,p	1	15,15	both	W=0 D	complete	0.0	0	-
+163	31	p,p	1,1	1	both	C	complete	0.0	0	-
+164	31	p,p	1,1	3	both	C	complete	0.0	0	-
+165	31	p,p	1,1	5	both	C	complete	0.0	0	-
+166	31	p,p	1,1	7	both	W=0	complete	0.0	0	-
+167	31	p,p	1,1	11	both	W=0	complete	0.0	0	-
+168	31	p,p	1,1	15	both	W=0	complete	0.0	0	-
+169	31	p,p	1,1	1,1	both	Wong	complete	0.0	0	-
+170	31	p,p	1,1	1,3	search	-	complete	0.4	338272	F3 i=1 c=1014
+171	31	p,p	1,1	1,5	search	-	complete	0.4	338272	F3 i=2 c=941
+172	31	p,p	1,1	1,7	both	C	complete	0.0	0	-
+173	31	p,p	1,1	1,11	both	C	complete	0.0	0	-
+174	31	p,p	1,1	1,15	both	C	complete	0.0	0	-
+175	31	p,p	1,1	3,3	search	-	complete	1.8	492032	Gold x^3
+176	31	p,p	1,1	3,5	search	-	complete	7.4	3189280	Beierle-Leander #3; F12 x7; F13 x3
+177	31	p,p	1,1	3,7	both	C	complete	0.0	0	-
+178	31	p,p	1,1	3,11	both	C	complete	0.0	0	-
+179	31	p,p	1,1	3,15	both	C	complete	0.0	0	-
+180	31	p,p	1,1	5,5	search	-	complete	1.9	492032	Gold x^9
+181	31	p,p	1,1	5,7	both	C	complete	0.0	0	-
+182	31	p,p	1,1	5,11	both	C	complete	0.0	0	-
+183	31	p,p	1,1	5,15	both	C	complete	0.0	0	-
+184	31	p,p	1,1	7,7	both	W=0	complete	0.0	0	-
+185	31	p,p	1,1	7,11	both	W=0	complete	0.0	0	-
+186	31	p,p	1,1	7,15	both	W=0	complete	0.0	0	-
+187	31	p,p	1,1	11,11	both	W=0	complete	0.0	0	-
+188	31	p,p	1,1	11,15	both	W=0	complete	0.0	0	-
+189	31	p,p	1,1	15,15	both	W=0	complete	0.0	0	-
+190	31	p,p	1,3	1	both	C	complete	0.0	0	-
+191	31	p,p	1,3	3	both	C	complete	0.0	0	-
+192	31	p,p	1,3	5	both	C	complete	0.0	0	-
+193	31	p,p	1,3	7	both	C	complete	0.0	0	-
+194	31	p,p	1,3	11	both	C	complete	0.0	0	-
+195	31	p,p	1,3	15	both	C	complete	0.0	0	-
+196	31	p,p	1,3	1,1	both	C	complete	0.0	0	-
+197	31	p,p	1,3	1,3	both	C	complete	0.0	0	-
+198	31	p,p	1,3	1,5	search	-	complete	0.0	0	-
+199	31	p,p	1,3	1,7	both	C	complete	0.0	0	-
+200	31	p,p	1,3	1,11	both	C	complete	0.0	0	-
+201	31	p,p	1,3	1,15	both	C	complete	0.0	0	-
+202	31	p,p	1,3	3,3	both	C	complete	0.0	0	-
+203	31	p,p	1,3	3,5	both	C	complete	0.0	0	-
+204	31	p,p	1,3	3,7	both	C	complete	0.0	0	-
+205	31	p,p	1,3	3,11	both	C	complete	0.0	0	-
+206	31	p,p	1,3	3,15	both	C	complete	0.0	0	-
+207	31	p,p	1,3	5,5	search	-	complete	0.0	0	-
+208	31	p,p	1,3	5,7	search	-	complete	0.0	0	-
+209	31	p,p	1,3	5,11	search	-	complete	0.0	0	-
+210	31	p,p	1,3	5,15	both	C	complete	0.0	0	-
+211	31	p,p	1,3	7,7	both	C	complete	0.0	0	-
+212	31	p,p	1,3	7,11	both	C	complete	0.0	0	-
+213	31	p,p	1,3	7,15	both	C	complete	0.0	0	-
+214	31	p,p	1,3	11,11	both	C	complete	0.0	0	-
+215	31	p,p	1,3	11,15	both	C	complete	0.0	0	-
+216	31	p,p	1,3	15,15	both	C	complete	0.0	0	-
+217	31	p,p	1,5	1	both	W=0	complete	0.0	0	-
+218	31	p,p	1,5	3	both	C	complete	0.0	0	-
+219	31	p,p	1,5	5	both	C	complete	0.0	0	-
+220	31	p,p	1,5	7	both	C	complete	0.0	0	-
+221	31	p,p	1,5	11	both	C	complete	0.0	0	-
+222	31	p,p	1,5	15	both	C	complete	0.0	0	-
+223	31	p,p	1,5	1,1	both	W=0	complete	0.0	0	-
+224	31	p,p	1,5	1,3	both	C	complete	0.0	0	-
+225	31	p,p	1,5	1,5	both	C	complete	0.0	0	-
+226	31	p,p	1,5	1,7	both	C	complete	0.0	0	-
+227	31	p,p	1,5	1,11	both	C	complete	0.0	0	-
+228	31	p,p	1,5	1,15	both	C	complete	0.0	0	-
+229	31	p,p	1,5	3,3	both	C	complete	0.0	0	-
+230	31	p,p	1,5	3,5	both	C	complete	0.0	0	-
+231	31	p,p	1,5	3,7	search	-	complete	0.0	961	Beierle-Leander #1
+232	31	p,p	1,5	3,11	both	C	complete	0.0	0	-
+233	31	p,p	1,5	3,15	both	C	complete	0.0	0	-
+234	31	p,p	1,5	5,5	both	C	complete	0.0	0	-
+235	31	p,p	1,5	5,7	search	-	complete	0.0	0	-
+236	31	p,p	1,5	5,11	both	C	complete	0.0	0	-
+237	31	p,p	1,5	5,15	both	C	complete	0.0	0	-
+238	31	p,p	1,5	7,7	both	C	complete	0.0	0	-
+239	31	p,p	1,5	7,11	both	C	complete	0.0	0	-
+240	31	p,p	1,5	7,15	both	C	complete	0.0	0	-
+241	31	p,p	1,5	11,11	both	C	complete	0.0	0	-
+242	31	p,p	1,5	11,15	both	C	complete	0.0	0	-
+243	31	p,p	1,5	15,15	both	C	complete	0.0	0	-
+244	31	p,p	1,15	1	both	C	complete	0.0	0	-
+245	31	p,p	1,15	3	both	C	complete	1.2	0	-
+246	31	p,p	1,15	5	both	C	complete	0.0	0	-
+247	31	p,p	1,15	1,1	both	C	complete	0.0	0	-
+248	31	p,p	1,15	1,3	both	C	complete	0.0	0	-
+249	31	p,p	1,15	1,5	both	C	complete	0.0	0	-
+250	31	p,p	1,15	1,7	both	C	complete	0.0	0	-
+251	31	p,p	1,15	1,11	both	C	complete	0.0	0	-
+252	31	p,p	1,15	1,15	both	C	complete	0.0	0	-
+253	31	p,p	1,15	3,3	both	C	complete	0.0	0	-
+254	31	p,p	1,15	3,5	both	C	complete	0.0	0	-
+255	31	p,p	1,15	3,7	search	-	complete	0.0	0	-
+256	31	p,p	1,15	3,11	both	C	complete	0.0	0	-
+257	31	p,p	1,15	5,5	both	C	complete	0.0	0	-
+258	31	p,p	1,15	5,11	both	C	complete	0.0	0	-
+259	31	p,1	1	-	both	C D BBF	complete	0.0	0	-
+260	31	p,1	1,1	-	both	W=0	complete	0.0	0	-
+261	31	p,1	1,3	-	both	W=0	complete	0.0	0	-
+262	31	p,1	1,5	-	both	W=0	complete	0.0	0	-
+263	31	p,1	1,15	-	both	C	complete	0.0	0	-
+264	31	1,p	-	1	proof	C BBF	none			-
+265	31	1,p	-	1,1	both	W=0	complete	0.0	0	-
+266	31	1,p	-	1,3	both	W=0	complete	0.0	0	-
+267	31	1,p	-	1,5	both	W=0	complete	0.0	0	-
+268	31	1,p	-	1,15	both	W=0	complete	0.0	0	-
+269	73	p,p	1	1	both	C R	complete	0.0	0	-
+270	73	p,p	1	3	both	C R D	complete	0.0	0	-
+271	73	p,p	1	5	both	C R D	complete	0.0	0	-
+272	73	p,p	1	9	both	C R D	complete	0.0	0	-
+273	73	p,p	1	11	both	W=0 D	complete	0.0	0	-
+274	73	p,p	1	13	both	W=0 D	complete	0.0	0	-
+275	73	p,p	1	17	both	C R D	complete	0.0	0	-
+276	73	p,p	1	25	both	W=0 D	complete	0.0	0	-
+277	73	p,1	1	-	both	W=0 D	complete	0.0	0	-
+278	73	1,p	-	1	both	C	complete	0.0	0	-
+279	127	p,p	1	1	both	C	complete	0.0	0	-
+280	127	p,p	1	3	both	C D	complete	0.0	0	-
+281	127	p,p	1	5	both	C D	complete	0.0	0	-
+282	127	p,p	1	7	both	C D	complete	0.0	0	-
+283	127	p,p	1	9	both	C D	complete	0.0	0	-
+284	127	p,p	1	11	both	C D	complete	0.0	0	-
+285	127	p,p	1	13	both	C D	complete	0.0	0	-
+286	127	p,p	1	15	both	C D	complete	0.0	0	-
+287	127	p,p	1	19	both	C D	complete	0.0	0	-
+288	127	p,p	1	21	both	C D	complete	0.0	0	-
+289	127	p,p	1	23	both	C D	complete	0.0	0	-
+290	127	p,p	1	27	both	C D	complete	0.0	0	-
+291	127	p,p	1	29	both	C D	complete	0.0	0	-
+292	127	p,p	1	31	both	C D	complete	0.0	0	-
+293	127	p,p	1	43	both	C D	complete	0.0	0	-
+294	127	p,p	1	47	both	C D	complete	0.0	0	-
+295	127	p,p	1	55	both	C D	complete	0.0	0	-
+296	127	p,p	1	63	both	C D	complete	0.0	0	-
+297	127	p,1	1	-	both	C D BBF	complete	0.0	0	-
+298	127	1,p	-	1	both	C BBF	complete	0.0	0	-

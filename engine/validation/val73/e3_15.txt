@@ -1,0 +1,4 @@
+sym10: n=10, d=90 free bits; per level: 10 2 0 32 10 2 0 16 18
+greedy basis: 1091584 pruned
+symmetry: skipped 0 values (symdepth 0, z = 20); checkpoints 0 calls, 0 pruned (za = 20)
+done: nodes 34786, leaves 1, distinct fingerprints 1

@@ -1,0 +1,2 @@
+shard counters: depth 0: 0, depth 10: 27588802
+done: nodes 7758789, leaves 0, distinct fingerprints 0
