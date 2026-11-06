@@ -45,3 +45,9 @@ M < 5; the known ones are known not to be).
 EA check (2026-11-02, t73_final/ea_check.txt): the 515 printed leaves form exactly 24 EA-classes, each equivalent
 to its apndb representative (certificates re-checked). The other 4,021 leaves were only fingerprinted (same
 ortho-derivative spectra as these 24). See PAPER_NOTES.md for the exact claim.
+
+## Short forms (2026-11-06)
+`short_forms.txt`: the fewest-term univariate form of each new class over all its type-73 leaves (24, 25, 26, 26
+terms, all coefficients in F_4). `check_short_forms.py` checks that each one is APN, quadratic and in its class
+(about 2 minutes). Random sparse F_4 polynomials over the 45 quadratic exponents, with 2 to 12 terms
+(1.8e8 trials), gave only published classes.
