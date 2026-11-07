@@ -47,7 +47,7 @@ Last run: all 43 checks passed, 270 s from a fresh clone (macOS, Apple M5 Pro, o
 | The generic search engine is exhaustive and reproducible | `engine/sym10.c`, `engine/sym10f73.c`, `engine/validation/` | type 231 re-run (91,636 nodes, 961 leaves, as on the server); 12 forced type-73 runs (in `verify.py`) | 20 s |
 | Search-only types with APN functions (129, 170, 171, 175, 176, 180, 231): every leaf printed again and EA-tested | `searches/fpgap/` | `python3 searches/fpgap/check_fp.py` (in `verify.py`); full re-run: `run_all.sh` | rerun: search 9 core-hours, EA checks about 90 core-hours so far; check 2 s |
 | **Type 24** (coefficients in F_32): exactly 3 classes, Gold x^3, x^9 and x^3 + Tr(x^9) | `searches/t24/` (normal form `form24.py`, plane lemma, solver `c/full24g.c`, `run24.sh`, outputs `results/t24_out.tar.gz`, EA check `results/ea_check24.txt`) | `python3 searches/t24/check_run.py`; EA certificates recomputed in `verify.py`; full re-run: 4,096 jobs of `run24.sh` | 7,500 core-hours; check 1 min |
-| **Type 47**: empty | `searches/t47/` (stage 1 `stage1.py`, `stage1b.py` -> 806 classes `cls/`; rank-h lemma; solvers `stage2g.c`, `stage2i.c`; outputs `results/t47_out.tar.gz`) | `python3 searches/t47/check_coverage.py` (in `verify.py`): 703 classes dead, 8,056 slices of the other 103 all searched, no leaf | 16,400 core-hours; check 1 min |
+| **Type 47**: empty | `searches/t47/` (stage 1 `stage1.py`, `stage1b.py` -> 806 classes `cls/`; rank-h lemma; solvers `stage2g.c`, `stage2i.c`; outputs `results/t47_out.tar.gz`) | `python3 searches/t47/check_coverage.py` (in `verify.py`): 703 classes dead, 8,056 slices of the other 103 all searched, no leaf | 13,261 core-hours; check 1 min |
 | **Type 73** (coefficients in F_4): exactly 24 classes, 20 published and 4 new | `searches/t73/final/` (first run, 192 pieces), `searches/t73/rerun_all/` (rerun printing every leaf, 3,072 shards; `ea_all.txt`: every one of the 4,536 leaves EA-tested) | `check73.py` (rerun = first run, piece by piece) and the counts of `ea_all.txt` in `verify.py`; one EA certificate per class recomputed; full EA re-check: `python3 searches/t73/rerun_all/ea_all.py` (about 30 min) | 12,600 + 5,800 (rerun) core-hours |
 | The 4 new classes are APN, quadratic, and differ from all 25 published classes | `data/quadratic_classes.tsv` (copy of apndb `n10/quadratic_classes.tsv`), `searches/new10/` (univariate forms over F_4; shortest forms in `short_forms.txt`, checked by `check_short_forms.py`) | in `verify.py` (APN test, degree, ortho-derivative spectra) | seconds |
 | Type 41 is empty | BBF (`proofs/bbf.py`), criteria C and D; the partial search is in `searches/t41/` (not needed) | in `verify.py` | - |
@@ -60,7 +60,7 @@ core-hours, from the `.done` files of the finished runs). Per type:
 
 | Type | Search | Core-hours |
 |---|---|---|
-| 47 | dedicated solver (stage2g, stage2i), 8,056 slices | 16,400 |
+| 47 | dedicated solver (stage2g, stage2i), 8,056 slices | 13,261 |
 | 73 | `sym10`, 192 pieces (plus 381 for the first 32-piece run; the rerun printing every leaf took about 5,800 more) | 12,600 |
 | 24 | dedicated solver `full24g`, 4,096 jobs | 7,500 |
 | 98 | `sym10` | 1,385 |
