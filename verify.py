@@ -124,7 +124,7 @@ check("master table: 242 both, 38 proof only, 18 search only, 1 open (type 64), 
       "{'both': 242, 'proof': 38, 'search': 18, 'contains APN': 10, 'open': 1}" in r.stdout, r.stdout.splitlines()[0] if r.stdout else "")
 rows = [l.rstrip("\n").split("\t") for l in open(mt)][1:]
 ch = sum(float(x[8]) for x in rows if x[8])
-check("master table: search cost at least 39,500 core-hours", ch >= 39500, f"{ch:,.0f} core-hours in the core_hours column")
+check("master table: search cost at least 36,000 core-hours", ch >= 36000, f"{ch:,.0f} core-hours in the core_hours column")
 
 # ------------------------------------------------------------------ 3. engine
 section("3. engine")

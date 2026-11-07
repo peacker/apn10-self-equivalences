@@ -55,8 +55,8 @@ Last run: all 43 checks passed, 270 s from a fresh clone (macOS, Apple M5 Pro, o
 
 ## Cost of the searches
 
-The heavy searches took about 40,000 core-hours (column `core_hours` of `proofs/master_table.tsv`: 39,517
-core-hours, from the `.done` files of the runs). Per type:
+The heavy searches took about 36,000 core-hours (column `core_hours` of `proofs/master_table.tsv`: 36,378
+core-hours, from the `.done` files of the finished runs). Per type:
 
 | Type | Search | Core-hours |
 |---|---|---|
@@ -68,8 +68,8 @@ core-hours, from the `.done` files of the runs). Per type:
 | 100 | `sym10` | 335 |
 | the other 254 searched types | `sym10` | 344 in total |
 
-The summed run times of the stored type-47 jobs give 13,261 hours. The rest of the 16,400 is stage2g work on slices
-that was stopped and redone with stage2i. Not counted above: the fingerprint-gap rerun (`searches/fpgap`), the
+For type 47 we count the summed run times of the stored finished jobs. Earlier stage2g work on slices that was
+stopped and redone with stage2i (about 3,100 more core-hours) is not counted. Also not counted above: the fingerprint-gap rerun (`searches/fpgap`), the
 partial type-41 runs, the type-64 searches and the Knuth estimates.
 
 ## Layout

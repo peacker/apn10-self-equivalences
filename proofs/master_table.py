@@ -44,10 +44,10 @@ CLASSES = {
     24: "Gold x^3; Gold x^9; F4 a=1",
     73: "24 classes: 20 known + 4 new (see PAPER_NOTES)",
     64: "16 known (conjectured complete)",
-    129: "Beierle-Leander #5", 170: "F3 i=1 c=1014", 171: "F3 i=2 c=941", 175: "Gold x^3", 180: "Gold x^9",
-    176: "Beierle-Leander #3; F12 x7; F13 x3", 231: "Beierle-Leander #1"}
+    129: "Gold x^3; Gold x^9; Beierle-Leander #5; F13 k=2", 170: "F3 i=1 c=1014", 171: "F3 i=2 c=941", 175: "Gold x^3", 180: "Gold x^9",
+    176: "Beierle-Leander #3; F12 x6; F13 x4", 231: "Beierle-Leander #1"}
 SPECIAL = {  # type -> (search, core-hours, leaves)
-    24: ("complete (t24)", "7500", "3"), 47: ("complete (t47)", "16400", "0"),
+    24: ("complete (t24)", "7500", "3"), 47: ("complete (t47)", "13261", "0"),
     73: ("complete (sym10 + rerun)", "12600", "4536"), 41: ("partial (t41s; empty by BBF, C, D)", "", "0"),
     64: ("not exhaustive (4 searches)", "", "")}
 rows = []; summary = collections.Counter()
