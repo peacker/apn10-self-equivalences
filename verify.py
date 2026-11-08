@@ -17,7 +17,7 @@ Sections:
     type-47 solvers (stage2g, stage2i) at n = 6 (the 6 Gold completions).
  4. stored search results: type 24 (4,096 jobs, 3 leaves), type 47 (all 8,056 slices covered, no leaf),
     type 73 (rerun agrees with the first run piece by piece; 4,536 leaves, EA results for all of them),
-    fingerprint-gap reruns (fpgap, current status).
+    fingerprint-gap reruns (fpgap, complete).
  5. the 4 new classes: APN, degree 2, ortho-derivative invariants as in the paper; type 64 contains exactly
     16 of the 29 known classes (iso64.py).
  6. EA certificates recomputed (exact search with explicit (L1, L2), certificate re-checked) for the 3 type-24
@@ -207,12 +207,13 @@ check("type 73: ea_all.txt has all 4,536 leaves EA-equivalent to an apndb repres
 cl = {l.split("\t")[0] for l in open(os.path.join(T73, "final", "classes.txt"))}
 check("type 73: the 24 classes of final/classes.txt are the 24 classes of the rerun", cl == invs)
 FP = os.path.join(ROOT, "searches", "fpgap")
-untar(os.path.join(FP, "status.tar.gz"), FP, "status")
+untar(os.path.join(FP, "status.tar.xz"), FP, "status")
 r = run([sys.executable, "searches/fpgap/check_fp.py"])
 m = re.search(r"(\d+) agree, (\d+) differ .*EA chunks done (\d+), ended (\d+); leaves equivalent (\d+), failed (\d+)", r.stdout)
-check("fpgap (rerun of the search-only types printing every leaf): 67 of 67 jobs agree, no EA failure so far",
-      bool(m) and m.group(1) == "67" and m.group(6) == "0",
-      f"EA chunks finished {m.group(3)} of 641, leaves equivalent {m.group(5)} (run still in progress)" if m else r.stdout[:200])
+check("fpgap (rerun of the search-only types printing every leaf): 67 of 67 jobs agree, 641 of 641 EA chunks, "
+      "all 4,851,099 leaves EA-equivalent to a known class",
+      bool(m) and m.group(1) == "67" and m.group(3) == m.group(4) == "641" and m.group(5) == "4851099" and m.group(6) == "0",
+      r.stdout.splitlines()[0] if r.stdout else "")
 
 # ------------------------------------------------------------------ 5. new classes
 section("5. the four new classes")

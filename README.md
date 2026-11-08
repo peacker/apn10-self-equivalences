@@ -45,7 +45,7 @@ Last run: all 43 checks passed, 270 s from a fresh clone (macOS, Apple M5 Pro, o
 | The bound of Baudrin et al. (DCC 2025, Cor. 3) excludes the 65 types with dim Fix(A) + dim Fix(B) >= 12 (among them type 41) | `proofs/bbf.py` -> `proofs/bbf_excluded.txt` | in `verify.py` | 1 s |
 | Master table: 242 types by proof and search, 38 by proof only, 18 by search only, type 64 open | `proofs/master_table.py` (inputs: `types/types10.tsv`, `proofs10.txt`, `lemma_dual.txt`, `bbf_excluded.txt`, `search_status.txt`, `server_done.txt`) -> `proofs/master_table.tsv` | in `verify.py` | 1 s |
 | The generic search engine is exhaustive and reproducible | `engine/sym10.c`, `engine/sym10f73.c`, `engine/validation/` | type 231 re-run (91,636 nodes, 961 leaves, as on the server); 12 forced type-73 runs (in `verify.py`) | 20 s |
-| Search-only types with APN functions (129, 170, 171, 175, 176, 180, 231): every leaf printed again and EA-tested | `searches/fpgap/` | `python3 searches/fpgap/check_fp.py` (in `verify.py`); full re-run: `run_all.sh` | rerun: search 9 core-hours, EA checks about 90 core-hours so far; check 2 s |
+| Search-only types with APN functions (129, 170, 171, 175, 176, 180, 231): every leaf printed again and EA-tested | `searches/fpgap/` | `python3 searches/fpgap/check_fp.py` (in `verify.py`); full re-run: `run_all.sh` | rerun complete (2026-11-08): 67 of 67 jobs agree, all 4,851,099 leaves EA-equivalent to a known class; search 9 core-hours, EA checks 1,332 core-hours; check 2 s |
 | **Type 24** (coefficients in F_32): exactly 3 classes, Gold x^3, x^9 and x^3 + Tr(x^9) | `searches/t24/` (normal form `form24.py`, plane lemma, solver `c/full24g.c`, `run24.sh`, outputs `results/t24_out.tar.gz`, EA check `results/ea_check24.txt`) | `python3 searches/t24/check_run.py`; EA certificates recomputed in `verify.py`; full re-run: 4,096 jobs of `run24.sh` | 7,500 core-hours; check 1 min |
 | **Type 47**: empty | `searches/t47/` (stage 1 `stage1.py`, `stage1b.py` -> 806 classes `cls/`; rank-h lemma; solvers `stage2g.c`, `stage2i.c`; outputs `results/t47_out.tar.gz`) | `python3 searches/t47/check_coverage.py` (in `verify.py`): 703 classes dead, 8,056 slices of the other 103 all searched, no leaf | 13,261 core-hours; check 1 min |
 | **Type 73** (coefficients in F_4): exactly 24 classes, 20 published and 4 new | `searches/t73/final/` (first run, 192 pieces), `searches/t73/rerun_all/` (rerun printing every leaf, 3,072 shards; `ea_all.txt`: every one of the 4,536 leaves EA-tested) | `check73.py` (rerun = first run, piece by piece) and the counts of `ea_all.txt` in `verify.py`; one EA certificate per class recomputed; full EA re-check: `python3 searches/t73/rerun_all/ea_all.py` (about 30 min) | 12,600 + 5,800 (rerun) core-hours |
@@ -83,7 +83,7 @@ partial type-41 runs, the type-64 searches and the Knuth estimates.
 | `searches/t47/` | type 47: `stage1.py`, `stage1b.py`, `cls/` (806 classes), `s2/` (rank-h filter), `stage2.c`, `stage2g.c`, `stage2i.c`, `gold6.py` (n = 6 validation), job lists, run scripts, `check_coverage.py`, `results/` |
 | `searches/t73/` | type 73: `final/` (first complete run: `classes.txt`, `ea_check.py`/`.txt`, LUTs, outputs `out5.tar.gz`), `rerun_all/` (rerun with every leaf: `run73a.sh`, `check73.py`, `ea_all.py`/`.txt`, outputs `out.tar.gz`) |
 | `searches/new10/` | the 4 new classes: LUTs, raw engine output, univariate forms (`univariate.py`), spectra, comparison with Helleseth-Ichanska-Kaleyski |
-| `searches/fpgap/` | rerun of the search-only types with APN functions, printing every leaf, and EA check of every leaf: `search_job.sh`, `ea_job.sh`, `ea_leaves.py`, `run_all.sh`, `check_fp.py`, `status.txt`, `status.tar.gz` |
+| `searches/fpgap/` | rerun of the search-only types with APN functions, printing every leaf, and EA check of every leaf: `search_job.sh`, `ea_job.sh`, `ea_leaves.py`, `run_all.sh`, `check_fp.py`, `status.txt`, `status.tar.xz` |
 | `searches/t64/` | type 64: Hermitian criterion (`herm.py`), membership of the known classes (`iso64.py`), point-by-point solver (`t64.c`), switching (`switch64.py`, `bfs64.py`, `sw2.c`), sparse polynomials (`poly64.c`), structured search `tri10/` |
 | `searches/t41/` | type 41: the split partial run (not needed: BBF, C and D prove it empty) |
 | `lib/apnsearch/` | Python library: EA-equivalence with certificates (`equivalence.py`, options `kernels`, `transitive`), ortho-derivative invariants (`invariants.py`), C core |
@@ -120,12 +120,11 @@ The run scripts were written for Linux servers. They wait while the load is high
 `/proc/loadavg`) and run at nice 19. They expect the binaries and the input files in the working directory.
 `searches/t24/run24.sh` was reconstructed from the job outputs; the other scripts are the originals.
 
-## Status of running work
+## Fingerprint-gap rerun
 
-The fingerprint-gap rerun (`searches/fpgap`) was still running when this repository was assembled.
-`status.txt` and `status.tar.gz` hold its state on 2026-11-06: all 67 search jobs agree with the original runs,
-and 581 of 641 EA chunks are done (1,458,154 leaves EA-equivalent to an apndb representative, 0 failures).
-The final status will be added when the run ends.
+The fingerprint-gap rerun (`searches/fpgap`) finished on 2026-11-08. `status.txt` and `status.tar.xz` hold its
+final state: all 67 search jobs agree with the original runs, all 641 EA chunks ended, and all 4,851,099 leaves
+are EA-equivalent to an apndb representative (0 failures). The leaf counts per type and class are in `status.txt`.
 
 ## Conventions
 

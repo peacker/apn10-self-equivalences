@@ -9,7 +9,7 @@ and in the author's archive. They are available on request.
 
 | Archive in this repository | Unpacked size | Content |
 |---|---|---|
-| `searches/fpgap/status.tar.gz` (17 MB) | 112 MB | `status/out` (67 search `.done` files) and `status/ea` (one line per printed leaf: hash, invariant, class, result) of the fingerprint-gap rerun, state of 2026-11-06 17:55 |
+| `searches/fpgap/status.tar.xz` (45 MB) | 328 MB | `status/out` (67 search `.done` files) and `status/ea` (one line per printed leaf: hash, invariant, class, result) of the fingerprint-gap rerun, final state (complete on 2026-11-08) |
 | `searches/t73/rerun_all/out.tar.gz` (3.4 MB) | 42 MB | the 3,072 shard outputs of the type-73 rerun (every leaf as a LUT) |
 | `searches/t73/final/out5.tar.gz` (1 MB) | 4.3 MB | the 192 piece outputs of the first complete type-73 run |
 | `searches/t47/results/t47_out.tar.gz` (1.3 MB) | 49 MB | outputs of all finished type-47 jobs (stage2g `out2`, stage2i `outi`, synced from two servers) |
@@ -20,7 +20,7 @@ and in the author's archive. They are available on request.
 
 | Data | Size | Where it lives | Why not included |
 |---|---|---|---|
-| Printed leaves of the fingerprint-gap rerun (`out/t_*.out.gz`, one LUT per leaf, about 1.46 million leaves) | estimated over 1 GB (1.46 million LUTs of about 4 kB, gzip -1) | server only (`fpgap/out/`) | too large; every leaf is EA-checked in `status/ea` (included); `search_job.sh` regenerates them |
+| Printed leaves of the fingerprint-gap rerun (`out/t_*.out.gz`, one LUT per leaf, 4,851,099 leaves) | estimated about 3 GB (4.85 million LUTs of about 4 kB, gzip -1) | server only (`fpgap/out/`) | too large; every leaf is EA-checked in `status/ea` (included); `search_job.sh` regenerates them |
 | Raw `.out`/`.err` files of the generic `sym10` runs over the 299 types | not copied locally | servers (`sym10/out`, `sym10b/out2` ... `out5`) | summarized in `proofs/server_done.txt` (first line of every `.done` file: nodes, leaves, seconds) and `proofs/search_status.txt`; the leaves of the types with APN functions are re-printed by `searches/fpgap` |
 | First type-73 run (32 pieces, `out4/old73`, 381 core-hours) | not copied locally | server | superseded by the 192-piece run and the rerun (included) |
 | `t24/c/q75/` | 369 MB | `learning/sym10/t24/c/q75` | Kim-like permutation side study (75 affine classes of quadratic permutations of F_2^5); not used by the type-24 classification |
