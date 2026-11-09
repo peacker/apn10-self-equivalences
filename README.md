@@ -9,8 +9,8 @@ The paper classifies the quadratic APN functions F of F_2^10 that have a linear 
 order, i.e. beta(Ax, Ay) = B beta(x, y) for the polar form beta of F. Up to conjugation and powers there are 299
 such types (A, B). Each type is settled by a proof criterion, by an exhaustive search, or by both. Type 64 stays
 open. The repository contains everything needed to re-check each claim. `verify.py` re-runs the cheap parts and
-checks the stored outputs of the expensive searches in about 5 minutes. The searches themselves took about
-40,000 core-hours and are not re-run by `verify.py`.
+checks the stored outputs of the expensive searches in about 5 minutes. The production searches took about
+36,000 core-hours and are not re-run by `verify.py`.
 
 ## Requirements
 
@@ -51,7 +51,7 @@ Last run: all 43 checks passed, 270 s from a fresh clone (macOS, Apple M5 Pro, o
 | **Type 73** (coefficients in F_4): exactly 24 classes, 20 published and 4 new | `searches/t73/final/` (first run, 192 pieces), `searches/t73/rerun_all/` (rerun printing every leaf, 3,072 shards; `ea_all.txt`: every one of the 4,536 leaves EA-tested) | `check73.py` (rerun = first run, piece by piece) and the counts of `ea_all.txt` in `verify.py`; one EA certificate per class recomputed; full EA re-check: `python3 searches/t73/rerun_all/ea_all.py` (about 30 min) | 12,600 + 5,800 (rerun) core-hours |
 | The 4 new classes are APN, quadratic, and differ from all 25 published classes | `data/quadratic_classes.tsv` (copy of apndb `n10/quadratic_classes.tsv`), `searches/new10/` (univariate forms over F_4; shortest forms in `short_forms.txt`, checked by `check_short_forms.py`) | in `verify.py` (APN test, degree, ortho-derivative spectra) | seconds |
 | Type 41 is empty | BBF (`proofs/bbf.py`), criteria C and D; the partial search is in `searches/t41/` (not needed) | in `verify.py` | - |
-| **Type 64** (canonical triplicates) is open; 16 of the 29 known classes lie in it; four searches find nothing else | `searches/t64/` (`iso64.py`, `herm.py`, `t64.c`, `switch64.py`, `bfs64.py`, `sw2.c`, `poly64.c`, `tri10/`) | `python3 searches/t64/iso64.py` (in `verify.py`); `python3 searches/t64/herm.py` (Hermitian criterion on x^3, x^9, x^3 + Tr(x^9)) | 1 min |
+| **Type 64** (canonical triplicates) is open; 16 of the 29 known classes lie in it; four searches find nothing else | `searches/t64/` (`iso64.py`, `herm.py`, `t64.c`, `switch64.py`, `bfs64.py`, `sw2.c`, `poly64.c`, `tri10/`) | `python3 searches/t64/iso64.py` (in `verify.py`); `python3 searches/t64/herm.py` (Hermitian criterion on x^3, x^9, x^3 + Tr(x^9)); `python3 searches/t64/rankdist64.py` (rank distributions of V and C for the 16 classes, in `verify.py`) | 1 min |
 
 ## Cost of the searches
 
@@ -84,7 +84,7 @@ partial type-41 runs, the type-64 searches and the Knuth estimates.
 | `searches/t73/` | type 73: `final/` (first complete run: `classes.txt`, `ea_check.py`/`.txt`, LUTs, outputs `out5.tar.gz`), `rerun_all/` (rerun with every leaf: `run73a.sh`, `check73.py`, `ea_all.py`/`.txt`, outputs `out.tar.gz`) |
 | `searches/new10/` | the 4 new classes: LUTs, raw engine output, univariate forms (`univariate.py`), spectra, comparison with Helleseth-Ichanska-Kaleyski |
 | `searches/fpgap/` | rerun of the search-only types with APN functions, printing every leaf, and EA check of every leaf: `search_job.sh`, `ea_job.sh`, `ea_leaves.py`, `run_all.sh`, `check_fp.py`, `status.txt`, `status.tar.xz` |
-| `searches/t64/` | type 64: Hermitian criterion (`herm.py`), membership of the known classes (`iso64.py`), point-by-point solver (`t64.c`), switching (`switch64.py`, `bfs64.py`, `sw2.c`), sparse polynomials (`poly64.c`), structured search `tri10/` |
+| `searches/t64/` | type 64: Hermitian criterion (`herm.py`), rank distributions (`rankdist64.py`), membership of the known classes (`iso64.py`), point-by-point solver (`t64.c`), switching (`switch64.py`, `bfs64.py`, `sw2.c`), sparse polynomials (`poly64.c`), structured search `tri10/` |
 | `searches/t41/` | type 41: the split partial run (not needed: BBF, C and D prove it empty) |
 | `lib/apnsearch/` | Python library: EA-equivalence with certificates (`equivalence.py`, options `kernels`, `transitive`), ortho-derivative invariants (`invariants.py`), C core |
 | `data/quadratic_classes.tsv` | the 29 known quadratic APN classes of F_2^10 (25 published + 4 new): name, invariant, M, LUT |

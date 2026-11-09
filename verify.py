@@ -234,6 +234,10 @@ r = run([sys.executable, "searches/t64/iso64.py"])
 yes = [l.split(" |Isom")[0] for l in r.stdout.splitlines() if "TYPE64=YES" in l]
 check("type 64: exactly 16 of the 29 known classes have the self-equivalence (omega, I); none of the 4 new ones",
       len(yes) == 16 and not any(y.startswith("New") for y in yes))
+r = run([sys.executable, "searches/t64/rankdist64.py"])
+rd = [l for l in r.stdout.splitlines() if l.strip()]
+check("type 64: in all 16 known classes, V has ranks {4: 341, 5: 682} and C = V^perp has {3: 1705, 4: 12958, 5: 18104}",
+      len(rd) == 16 and all("dim V 10 {4: 341, 5: 682}" in l and "dim C 15 {3: 1705, 4: 12958, 5: 18104}" in l for l in rd))
 
 # ------------------------------------------------------------------ 6. EA certificates
 if "--skip-ea" not in sys.argv:

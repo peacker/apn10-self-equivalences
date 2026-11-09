@@ -21,7 +21,8 @@ After conjugating A to the Frobenius x -> x^4, both functions have all coefficie
 univariate.py; the linear terms can be dropped up to EA-equivalence). This is the "(10, 2)" case of
 Ichanska-Berg-Kaleyski-Yu (ePrint 2024/1838), whose exhaustive search they report as infeasible (partial runs
 only, no new class reported). It is Beierle-Leander's class 140 (code github.com/cbe90/quadratic_apn): their
-randomized search there found nothing in about 16 CPU-days.
+randomized search over most n = 10 types (Beierle-Leander, IEEE TIT 2022, Sec. 4: "a few CPU days at most" per
+class at n = 8; no time stated for n = 10) found Beierle-Leander #1 and #5 in this type, but none of our 4 classes.
 
 ## Literature check (agent, 2026-10-29)
 No source up to October 2026 lists an n = 10 quadratic APN class beyond our 25; no printed spectrum matches.
