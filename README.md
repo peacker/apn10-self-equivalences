@@ -18,8 +18,15 @@ checks the stored outputs of the expensive searches in about 5 minutes. The prod
 - a C compiler (`cc`; the C core of `lib/apnsearch` is compiled on first import into `~/.cache/apnsearch`,
   override with `APNSEARCH_BUILD=<dir>`)
 
-Tested on macOS 26 (Apple clang 16, Python 3.13, NumPy 2.2). The searches were run on Linux servers
-(gcc, `nice 19`, see `engine/polite.sh`).
+## Environment
+
+- Field: F_2^10 = F_{2^10} with the polynomial x^10 + x^3 + 1 (`0x409`), polynomial basis; vectors are integers.
+- F_4 inside F_{2^10}: {0, 1, 236, 237}, with omega = 236.
+- Type 24 (coefficients in F_32): F_32 with the polynomial x^5 + x^2 + 1.
+- Searches: Linux servers with 2 x AMD EPYC 7763 (256 threads, 1 TB RAM), C compiled with gcc
+  `-O3 -march=native` (the exact gcc version of the servers was not recorded), run at `nice 19` (see
+  `engine/polite.sh`).
+- Local checks: macOS 26, Apple clang 16, Python 3.13, NumPy 2.2.
 
 ## Quick start
 
@@ -30,7 +37,37 @@ python3 verify.py --skip-ea    # without recomputing EA certificates
 
 `verify.py` prints one line per check and `ALL CHECKS PASSED` at the end (exit status 1 otherwise). It unpacks
 the `.tar.gz` archives of stored outputs next to themselves on first use (git ignores the unpacked copies).
-Last run: all 43 checks passed, 270 s from a fresh clone (macOS, Apple M5 Pro, one core).
+Last run (2026-11-13): all 45 checks passed, 217 s (macOS, Apple M5 Pro, one core; archives already unpacked).
+
+## Checking the proofs quickly
+
+Each script below is self-contained, deterministic and runs in seconds (`python3 -I`, Python 3 standard library;
+`kim6_f8.py` also uses NumPy and `lib/apnsearch`).
+
+```sh
+python3 -I proofs/check_certificates.py   # the 280 exclusion certificates (Table III), independent checker, 2 s
+python3 -I types/recount_table2.py        # independent recount of Table II (299 types)
+python3 -I searches/t24/kim6_f8.py        # n = 6: a x^5 + a x^33 + x^40 (a = g^54 in F_8) is EA-equivalent to Kim's function
+python3 -I searches/t47/brute6.py         # n = 6: type-47 solver against a brute force over all 2^18 completions, 15 s
+python3 -I tools/check_manifest.py        # SHA-256 of every tracked file (MANIFEST.sha256); or: shasum -a 256 -c MANIFEST.sha256
+```
+
+`proofs/certificates10.jsonl` has one line per type excluded by proof: the type, the criterion (the first that
+applies, in the order of Table III: `W0`, `C` compression on invariant subspaces, `R` restriction, `Q` order three,
+`WONG` compression with Wong sequences, `ODD` odd dimension over F_4), the matrices A and B (column bitmasks,
+column i = A e_i), a basis of W(A, B) (per basis vector the 45 values beta(e_i, e_j), pairs ordered (0,1), (0,2),
+(1,2), (0,3), ...) and the witness: a and a basis of D for C and WONG, a basis of D for R, dim U and dim Fix(B)
+for Q. It is written by `proofs/make_certificates.py` (from `W/`, which `types/make_w.sh` writes; it uses the
+search code of `proofs10.py` and `wong10.py`). `proofs/check_certificates.py` imports nothing from the
+repository. For every certificate it rebuilds the linear system beta(Ax, Ay) = B beta(x, y) (450 unknowns) from
+A and B, computes its rank r, checks that the stored basis has 450 - r independent solutions (so it spans all of
+W(A, B)), and then checks the inequality of the criterion. Expected output:
+
+```
+certificates checked: 280 types (280 of the 299 types), 0 failed
+first criterion: W0 31, C 237, R 4, Q 4, WONG 2, ODD 2   (Table III: W=0 31, C 237, R 4, Q 4, Wong 2, odd 2; total 280)
+ALL 280 CERTIFICATES VALID
+```
 
 ## Claims and how to re-check them
 
@@ -39,6 +76,7 @@ Last run: all 43 checks passed, 270 s from a fresh clone (macOS, Apple M5 Pro, o
 | There are 299 types (A, B) of prime order at n = 10 (60 at n = 6, 107 at n = 8) | `types/enumerate.py`, `types/types{6,8,10}.tsv` | `python3 types/enumerate.py 10` (in `verify.py`) | seconds |
 | The space W of polar forms of each type | `types/sym_setup.py`, `types/make_w.sh`; `engine/W3/` (the 35 spaces used by the searches) | `types/make_w.sh` writes `W/w_ID.txt` for all 299 types; deterministic, equal to `engine/W3` (in `verify.py`) | 1 min |
 | Proof criteria C (compression), R (restriction + Chevalley-Warning), Q (order 3), W=0 prove 276 types | `proofs/proofs10.py` -> `proofs/proofs10.txt` | `python3 proofs/proofs10.py W` (in `verify.py`) | 10 s |
+| Exclusion certificates of the 280 types excluded by proof (Table III: 31 W=0, 237 C, 4 R, 4 Q, 2 Wong, 2 odd) | `proofs/make_certificates.py` -> `proofs/certificates10.jsonl`; checker `proofs/check_certificates.py` | `python3 -I proofs/check_certificates.py` (in `verify.py`) | 2 s |
 | Wong criterion proves types 130, 169 | `proofs/wong10.py` -> `proofs/wong10.txt` | `python3 proofs/wong10.py W 130 169` (in `verify.py`) | 1 s |
 | Odd-dimension lemma ("lemma56") excludes types 55-59, in particular 55, 56 | `proofs/lemma56/check56.py` (numerical check of the lemma) | `python3 proofs/lemma56/check56.py 56` (in `verify.py`) | 1 s |
 | Dual intertwiner lemma D excludes 95 types | `proofs/lemma_dual.py` -> `proofs/lemma_dual.txt` | in `verify.py` | 1 s |
@@ -76,11 +114,11 @@ partial type-41 runs, the type-64 searches and the Knuth estimates.
 
 | Path | Content |
 |---|---|
-| `types/` | `enumerate.py` (types of prime-order (A, B), Beierle-Leander style), `types{6,8,10}.tsv`, `sym_setup.py` (the space W and the centraliser bases, input of `sym10`), `make_w.sh`, `reorder.py`, `classify.py` (name LUTs by the ortho-derivative invariant) |
-| `proofs/` | `proofs10.py`/`.txt`, `wong10.py`/`.txt`, `lemma_dual.py`/`.txt`, `lemma56/check56.py`, `bbf.py`/`bbf_excluded.txt`, `master_table.py`/`.tsv`, `search_status.txt` (per type: which server runs are complete), `server_done.txt` (first line of every server `.done` file; machine names replaced by `srv1`, `srv2`) |
+| `types/` | `enumerate.py` (types of prime-order (A, B), Beierle-Leander style), `recount_table2.py` (independent recount of Table II), `types{6,8,10}.tsv`, `sym_setup.py` (the space W and the centraliser bases, input of `sym10`), `make_w.sh`, `reorder.py`, `classify.py` (name LUTs by the ortho-derivative invariant) |
+| `proofs/` | `proofs10.py`/`.txt`, `wong10.py`/`.txt`, `make_certificates.py`, `certificates10.jsonl`, `check_certificates.py`, `lemma_dual.py`/`.txt`, `lemma56/check56.py`, `bbf.py`/`bbf_excluded.txt`, `master_table.py`/`.tsv`, `search_status.txt` (per type: which server runs are complete), `server_done.txt` (first line of every server `.done` file; machine names replaced by `srv1`, `srv2`) |
 | `engine/` | `sym10.c` (generic symmetric DFS over W; usage in the header), `sym10f73.c` (same search, faster checkpoints, `-all` prints every leaf), run scripts (`run_type.sh`, `run_fast.sh`, `run_cfg.sh`, `run_strong.sh`, `run_both.sh`, `polite.sh`), Knuth estimates (`costs10.tsv`, `knuth_both.tsv`, `knuth_sym.tsv`, ...), `W3/` (W spaces of the hard types), batch files, `intertwine.py`, `gen_force.py`, `force_*.txt`, `validation/` (runs on known types, n = 6, 8 and forced type-73 prefixes) |
-| `searches/t24/` | type 24: `form24.py`, `topbent.py`, `sparse_sub.py`, `c/full24.c` (n = 6 validation), `c/full24g.c` (production), `run24.sh`, `check_run.py`, `results/` |
-| `searches/t47/` | type 47: `stage1.py`, `stage1b.py`, `cls/` (806 classes), `s2/` (rank-h filter), `stage2.c`, `stage2g.c`, `stage2i.c`, `gold6.py` (n = 6 validation), job lists, run scripts, `check_coverage.py`, `results/` |
+| `searches/t24/` | type 24: `kim6_f8.py` (n = 6: Kim's class has a representative with coefficients in F_8), `form24.py`, `topbent.py`, `sparse_sub.py`, `c/full24.c` (n = 6 validation), `c/full24g.c` (production), `run24.sh`, `check_run.py`, `results/` |
+| `searches/t47/` | type 47: `stage1.py`, `stage1b.py`, `cls/` (806 classes), `s2/` (rank-h filter), `stage2.c`, `stage2g.c`, `stage2i.c`, `gold6.py` and `brute6.py` (n = 6 validation), job lists, run scripts, `check_coverage.py`, `results/` |
 | `searches/t73/` | type 73: `final/` (first complete run: `classes.txt`, `ea_check.py`/`.txt`, LUTs, outputs `out5.tar.gz`), `rerun_all/` (rerun with every leaf: `run73a.sh`, `check73.py`, `ea_all.py`/`.txt`, outputs `out.tar.gz`) |
 | `searches/new10/` | the 4 new classes: LUTs, raw engine output, univariate forms (`univariate.py`), spectra, comparison with Helleseth-Ichanska-Kaleyski |
 | `searches/fpgap/` | rerun of the search-only types with APN functions, printing every leaf, and EA check of every leaf: `search_job.sh`, `ea_job.sh`, `ea_leaves.py`, `run_all.sh`, `check_fp.py`, `status.txt`, `status.tar.xz` |
@@ -89,6 +127,7 @@ partial type-41 runs, the type-64 searches and the Knuth estimates.
 | `lib/apnsearch/` | Python library: EA-equivalence with certificates (`equivalence.py`, options `kernels`, `transitive`), ortho-derivative invariants (`invariants.py`), C core |
 | `data/quadratic_classes.tsv` | the 29 known quadratic APN classes of F_2^10 (25 published + 4 new): name, invariant, M, LUT |
 | `DATA.md` | raw data not included, with sizes |
+| `tools/check_manifest.py`, `MANIFEST.sha256` | SHA-256 of every tracked file |
 
 ## Building and running the searches
 
