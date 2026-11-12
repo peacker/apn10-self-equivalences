@@ -32,7 +32,7 @@ known sporadic APN instances in dimension 10": check by hand), Kaleyski-Sunde 20
 ## Helleseth-Ichanska-Kaleyski ePrint 2026/2401 (read 2026-10-30)
 Their n = 10 functions F_l, F_1, F_2, F_3 (Sec. IV, hik26.py) are triplicate #1, #6, #4, #3 of our 25; their G_1,
 G_2 are BHK (F13-type, in our 25). Our spectra equal their Table IV. Neither candidate matches. Both added to
-apndb (commit 97efc43); to be included as original results in our paper (PAPER_NOTES.md).
+apndb (commit 97efc43); reported as original results in the paper (Theorem 10 and Appendix A).
 Note: these two LUTs satisfy F(Ax) = A F(x) only up to a linear term (engine output convention); univariate.py now
 prints the quadratic part only. Quadratic parts: 32 and 35 terms, all coefficients in F_4.
 
@@ -45,7 +45,7 @@ our invariant (it separates all 29 known classes). None is CCZ-equivalent to a p
 M < 5; the known ones are known not to be).
 EA check (2026-11-02, t73_final/ea_check.txt): the 515 printed leaves form exactly 24 EA-classes, each equivalent
 to its apndb representative (certificates re-checked). The other 4,021 leaves were only fingerprinted (same
-ortho-derivative spectra as these 24). See PAPER_NOTES.md for the exact claim.
+ortho-derivative spectra as these 24). See the paper, Section VI-A, for the exact claim.
 
 ## Short forms (2026-11-06)
 `short_forms.txt`: the fewest-term univariate form of each new class over all its type-73 leaves (24, 25, 26, 26

@@ -39,5 +39,5 @@ switchings exactly, without a cap. Since EA-equivalence need not respect the F_4
 several inequivalent spaces V; `sw2` switched from one space per class only.
 
 `t64.c` is a point-by-point exhaustive solver (each V containing H_1 = diag(0, 1, 1, 1, 1) exactly once); it was
-used for Knuth estimates (`leaves_knuth.txt`) and cannot finish on type 64. `mc4.py` is a small Monte-Carlo
+used for Knuth estimates (`leaves_knuth.txt`, empty: no probe reached a leaf) and cannot finish on type 64. `mc4.py` is a small Monte-Carlo
 experiment on 4 x 4 Hermitian matrices (rank of random subspaces), not a search of type 64.
