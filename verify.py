@@ -22,7 +22,11 @@ Sections:
  5. the 4 new classes: APN, degree 2, ortho-derivative invariants as in the paper; type 64 contains exactly
     16 of the 29 known classes (iso64.py).
  6. EA certificates recomputed (exact search with explicit (L1, L2), certificate re-checked) for the 3 type-24
-    leaves, one leaf of each of the 24 type-73 classes, and a few type-231 leaves.
+    leaves, one leaf of each of the 24 type-73 classes, and a few type-231 leaves (a sample: the full EA re-checks
+    of all leaves are separate long runs, see README "Three ways to check").
+ 7. independent checks of stored certificates and representatives: Table II recount, Kim's class over F_8 (n = 6),
+    type-47 brute force at n = 6, type-47 stage 1 regenerated, plane action of type 24, M of the new classes.
+Every subprocess runs in a sanitized environment (printed at the start); solver options are passed explicitly.
 Exit status 1 if any check fails.
 """
 import glob, hashlib, os, re, shutil, subprocess, sys, tarfile, tempfile, time
@@ -44,8 +48,30 @@ def check(item, cond, detail=""):
         failures.append(item)
 
 
-def run(args, cwd=ROOT, **kw):
-    return subprocess.run(args, cwd=cwd, capture_output=True, text=True, **kw)
+# Sanitized environment for every subprocess: nothing is inherited except the locations of the tools, so solver
+# options read from the environment (GE, PART, PLANT, MINKEY, KNUTH, KDEPTH, SEED, CHEAPONLY, STAT, PROG, OUT, PREFIX,
+# XONLY, LISTP, SHOWX, ...) are never set by accident. Options a check needs are passed explicitly and logged.
+def _clean_env():
+    dirs = [os.path.dirname(sys.executable)]       # python3 of the scripts that call it (make_w.sh)
+    dirs += [os.path.dirname(os.path.realpath(p)) for p in (shutil.which("cc"), shutil.which("bash")) if p]
+    path = os.pathsep.join(dict.fromkeys(dirs + ["/usr/bin", "/bin"]))
+    env = {"PATH": path, "HOME": os.environ.get("HOME", TMP), "LC_ALL": "C", "LANG": "C", "PYTHONHASHSEED": "0",
+           "OMP_NUM_THREADS": "1", "OPENBLAS_NUM_THREADS": "1"}
+    if os.environ.get("APNSEARCH_BUILD"):          # where lib/apnsearch caches its compiled C core
+        env["APNSEARCH_BUILD"] = os.environ["APNSEARCH_BUILD"]
+    return env
+
+
+ENV = _clean_env()
+PY = [sys.executable, "-I"]
+
+
+def run(args, cwd=ROOT, env=None, **kw):
+    e = dict(ENV)
+    if env:
+        e.update(env)
+        print("    env " + " ".join(f"{k}={v}" for k, v in env.items()) + " for " + " ".join(map(str, args))[:100], flush=True)
+    return subprocess.run(args, cwd=cwd, env=e, capture_output=True, text=True, **kw)
 
 
 def same_file(path, text):
@@ -80,9 +106,12 @@ def is_apn(F):
 
 
 # ------------------------------------------------------------------ 1. types
+print("subprocess environment: " + " ".join(f"{k}={v}" for k, v in ENV.items()), flush=True)
+print(f"python {sys.version.split()[0]}, numpy {np.__version__}, cc: "
+      + (run(["cc", "--version"]).stdout.splitlines() or ["?"])[0], flush=True)
 section("1. types")
 for n, cnt in ((6, 60), (8, 107), (10, 299)):
-    r = run([sys.executable, "types/enumerate.py", str(n)])
+    r = run(PY + ["types/enumerate.py", str(n)])
     check(f"enumerate.py {n} reproduces types/types{n}.tsv ({cnt} types)",
           r.returncode == 0 and same_file(os.path.join(ROOT, "types", f"types{n}.tsv"), r.stdout)
           and len(r.stdout.splitlines()) == cnt)
@@ -95,35 +124,33 @@ w3 = sorted(glob.glob(os.path.join(ROOT, "engine", "W3", "w_*.txt")))
 check("make_w.sh writes the W spaces of all 299 types", r.returncode == 0 and len(os.listdir(W)) == 299)
 check(f"the {len(w3)} W spaces used by the searches (engine/W3) are reproduced byte for byte",
       all(open(f).read() == open(os.path.join(W, os.path.basename(f))).read() for f in w3))
-r = run([sys.executable, "proofs/proofs10.py", W])
+r = run(PY + ["proofs/proofs10.py", W])
 check("proofs10.py reproduces proofs/proofs10.txt", r.returncode == 0 and same_file("proofs/proofs10.txt", r.stdout))
 crit = [l.split("\t")[6] for l in r.stdout.splitlines()]
 cnt = {k: sum(1 for c in crit if c.startswith(k)) for k in ("C(", "R(", "Q(", "W=0")}
 check("criteria C, R, Q, W=0 prove 276 types (237 C, 4 R, 4 Q, 31 W=0)",
       sum(c != "-" for c in crit) == 276 and cnt == {"C(": 237, "R(": 4, "Q(": 4, "W=0": 31}, str(cnt))
-r = run([sys.executable, "proofs/wong10.py", W, "130", "169"])
+r = run(PY + ["proofs/wong10.py", W, "130", "169"])
 check("wong10.py proves types 130, 169 (reproduces proofs/wong10.txt)",
       r.returncode == 0 and same_file("proofs/wong10.txt", r.stdout) and r.stdout.count("proof:") == 2)
-r = run([sys.executable, "proofs/lemma_dual.py"])
+r = run(PY + ["proofs/lemma_dual.py"])
 check("lemma_dual.py reproduces proofs/lemma_dual.txt (95 types)", r.returncode == 0
       and same_file("proofs/lemma_dual.txt", r.stdout) and "95 types excluded" in r.stdout)
-r = run([sys.executable, "proofs/bbf.py"])
+r = run(PY + ["proofs/bbf.py"])
 check("bbf.py reproduces proofs/bbf_excluded.txt (65 types, dim Fix A + dim Fix B >= 12)", r.returncode == 0
       and same_file("proofs/bbf_excluded.txt", r.stdout) and len(r.stdout.split()) == 65)
 for t in ("55", "56"):
-    r = run([sys.executable, "proofs/lemma56/check56.py", t, "40"])
+    r = run(PY + ["proofs/lemma56/check56.py", t, "40"])
     m = re.search(r"per sample: min (\d+)", r.stdout)
     check(f"check56.py {t}: some a has dim ker beta_w(a, .) >= 8 in every sample", bool(m) and int(m.group(1)) >= 8)
-r = run([sys.executable, "-I", "proofs/check_certificates.py"])
+r = run(PY + ["proofs/check_certificates.py"])
 check("check_certificates.py: all 280 exclusion certificates valid (W0 31, C 237, R 4, Q 4, Wong 2, odd 2)",
       r.returncode == 0 and "ALL 280 CERTIFICATES VALID" in r.stdout, r.stdout.splitlines()[1] if r.stdout.count("\n") > 1 else r.stdout)
 mt = os.path.join(ROOT, "proofs", "master_table.tsv")
-before = open(mt).read()
-r = run([sys.executable, "proofs/master_table.py"])
-after = open(mt).read()
-if after != before:
-    open(mt, "w").write(before)
-check("master_table.py reproduces proofs/master_table.tsv", r.returncode == 0 and after == before)
+mt_new = os.path.join(TMP, "master_table.tsv")
+r = run(PY + ["proofs/master_table.py", "-o", mt_new])
+check("master_table.py (written to a temporary file) reproduces proofs/master_table.tsv",
+      r.returncode == 0 and os.path.exists(mt_new) and open(mt_new).read() == open(mt).read())
 check("master table: 242 both, 38 proof only, 18 search only, 1 open (type 64), 10 types with APN functions",
       "{'both': 242, 'proof': 38, 'search': 18, 'contains APN': 10, 'open': 1}" in r.stdout, r.stdout.splitlines()[0] if r.stdout else "")
 rows = [l.rstrip("\n").split("\t") for l in open(mt)][1:]
@@ -141,7 +168,7 @@ for src in ("sym10", "sym10f73"):
 check("sym10.c and sym10f73.c compile", ok)
 t = time.time()
 r = subprocess.run([os.path.join(B, "sym10f73"), "-dfs", "-dedupe", "-all"], stdin=open(os.path.join(W, "w_231.txt")),
-                   capture_output=True, text=True)
+                   env=ENV, capture_output=True, text=True)
 leaves231 = [l.split()[1] for l in r.stdout.splitlines() if l.startswith("K")]
 check("type 231 exhaustive: nodes 91636, leaves 961 (as the server run in proofs/server_done.txt)",
       "done: nodes 91636, leaves 961" in r.stderr and len(leaves231) == 961
@@ -154,7 +181,8 @@ for k in (0, 7, 15, 30, 45, 60, 75, 90, 105, 120, 135, 141):
     for b in ("sym10", "sym10f73"):
         p = subprocess.run([os.path.join(B, b), "-dfs", "-dedupe", "-symdepth", "45", "-cp", "3", "10", "-nsin", "24",
                             "-nsamp", "12", "-cpfix", "8", "-force", os.path.join(V, f"f_{k}.txt")],
-                           stdin=open(os.path.join(ROOT, "engine", "W3", "w_73.txt")), capture_output=True, text=True)
+                           stdin=open(os.path.join(ROOT, "engine", "W3", "w_73.txt")), env=ENV, capture_output=True,
+                           text=True)
         outs.append(p.stdout + p.stderr)
     same &= outs[0] == outs[1]
     ref = open(os.path.join(V, f"e_cp_{k}.txt")).read()
@@ -162,6 +190,31 @@ for k in (0, 7, 15, 30, 45, 60, 75, 90, 105, 120, 135, 141):
     ok &= key(outs[0]) == key(ref) and sum(l.startswith("K") for l in outs[0].splitlines()) == 1
 check("12 forced-prefix type-73 runs: same nodes, leaves, pruned checkpoints as engine/validation/val73", ok)
 check("sym10 and sym10f73 give identical output on these runs", same)
+# regression: -nonorm must still consume the block of beta(e_0, e_1) representatives of the W file (the centraliser
+# bases after it are parsed as without -nonorm), and only the normalisation is dropped. n = 6 type 30 (Gold, Kim).
+r6 = run(PY + ["types/sym_setup.py", "6", "--amat", "2,4,8,15,16,32", "--bmat", "2,4,8,15,16,32", "-o",
+                os.path.join(TMP, "w6_30.txt")])
+ok = r6.returncode == 0
+res = {}
+for b in ("sym10", "sym10f73"):
+    for opt in ([], ["-nonorm"]):
+        p = subprocess.run([os.path.join(B, b), "-dfs", "-dedupe"] + opt, stdin=open(os.path.join(TMP, "w6_30.txt")),
+                           env=ENV, capture_output=True, text=True)
+        res[(b, tuple(opt))] = (p.returncode, re.search(r"z = (\d+)\).*za = (\d+)\)", p.stderr).groups(),
+                                re.search(r"leaves (\d+)", p.stderr).group(1),
+                                sorted(l.split()[0] for l in p.stdout.splitlines() if l.startswith("K")))
+ok &= all(v[0] == 0 and v[1] == ("8", "8") for v in res.values())
+ok &= all(res[(b, ())][2] == "384" and res[(b, ("-nonorm",))][2] == "12960" for b in ("sym10", "sym10f73"))
+ok &= len({tuple(v[3]) for v in res.values()}) == 1 and len(res[("sym10", ())][3]) == 2
+check("-nonorm regression (n = 6, type 30): W file parsed the same (z = za = 8), 384 leaves normalised and 12,960 "
+      "without, the same 2 fingerprints (Gold, Kim) in all four runs", ok)
+# node limit: not exhaustive -> exit status 3, INCOMPLETE marker, progress file without DONE
+prog = os.path.join(TMP, "limit.prog")
+p = subprocess.run([os.path.join(B, "sym10f73"), "-dfs", "-dedupe", "-limit", "1000", "-progress", prog],
+                   stdin=open(os.path.join(W, "w_231.txt")), env=ENV, capture_output=True, text=True)
+pr = open(prog).read() if os.path.exists(prog) else ""
+check("node limit: sym10f73 -limit exits with status 3, prints INCOMPLETE, progress file not DONE",
+      p.returncode == 3 and "INCOMPLETE" in p.stderr and "INCOMPLETE" in pr and "DONE" not in pr, f"exit {p.returncode}")
 
 section("3b. dedicated solvers (types 24, 47): validation runs")
 T24 = os.path.join(ROOT, "searches", "t24")
@@ -172,14 +225,14 @@ ok = all(run(c).returncode == 0 for c in (
     ["cc", "-O3", "-DKU=2", "-DMZ=2", "-o", os.path.join(B, "stage2g6"), os.path.join(T47, "stage2g.c")],
     ["cc", "-O3", "-DKU=2", "-DMZ=2", "-o", os.path.join(B, "stage2i6"), os.path.join(T47, "stage2i.c")]))
 check("full24.c, full24g.c, stage2g.c, stage2i.c compile", ok)
-r = run([os.path.join(B, "full24_3"), "all"], env=dict(os.environ, GE="3"))
+r = run([os.path.join(B, "full24_3"), "all"], env={"GE": "3"})
 check("type-24 normal form at n = 6 (m = 3, all S): 32 leaves, all APN (Gold and Kim)", "leaves 32, APN 32" in r.stdout + r.stderr)
 for pl, ge in (("1", "3"), ("2", "3")):
-    r = run([os.path.join(B, "full24g")], env=dict(os.environ, PLANT=pl, GE=ge, MINKEY="1"))
+    r = run([os.path.join(B, "full24g")], env={"PLANT": pl, "GE": ge, "MINKEY": "1"})
     m = re.search(r"plant %s: (\d+) of 155 group images pass the canonical test, (\d+) give leaves" % pl, r.stdout + r.stderr)
     check(f"full24g planted test {pl} (GE = {ge}): every image passing the canonical test gives a leaf",
           bool(m) and int(m.group(1)) > 0 and m.group(1) == m.group(2), m.group(0) if m else (r.stdout + r.stderr)[-200:])
-g6 = run([sys.executable, os.path.join(T47, "gold6.py"), "3"]).stdout
+g6 = run(PY + [os.path.join(T47, "gold6.py"), "3"]).stdout
 open(os.path.join(TMP, "g6.txt"), "w").write(g6)
 ref = sorted(open(os.path.join(T47, "g6_found.txt")).read().split())
 for b in ("stage2g6", "stage2i6"):
@@ -189,18 +242,22 @@ for b in ("stage2g6", "stage2i6"):
 
 # ------------------------------------------------------------------ 4. stored results
 section("4. stored search results")
-r = run([sys.executable, "searches/t24/check_run.py"])
-check("type 24: 4,096 jobs rc 0, exactly 3 leaves (Gold x^3, Gold x^9, F4 a=1), all APN",
+r = run(PY + ["searches/t24/check_run.py"])
+check("type 24: exactly the 4,096 job ids, each once, rc 0, no limit marker; exactly 3 leaves (Gold x^3, Gold x^9, "
+      "F4 a=1), all APN",
       r.returncode == 0, r.stdout.splitlines()[0] if r.stdout else r.stderr[-300:])
-r = run([sys.executable, "searches/t47/check_coverage.py"])
-check("type 47: 806 classes, 703 dead by the rank-h lemma, all 8,056 slices of the other 103 searched, no leaf",
+r = run(PY + ["searches/t47/check_coverage.py"])
+check("type 47: 806 classes, 703 dead by the rank-h lemma, all 8,056 slices of the other 103 searched, no leaf "
+      "(LISTP exit codes checked, solver rebuilt, duplicated records agree)",
       r.returncode == 0, " / ".join(r.stdout.splitlines()[:2]))
 T73 = os.path.join(ROOT, "searches", "t73")
 untar(os.path.join(T73, "final", "out5.tar.gz"), os.path.join(T73, "final"), "out5")
 untar(os.path.join(T73, "rerun_all", "out.tar.gz"), os.path.join(T73, "rerun_all"), "e1")
-r = run([sys.executable, "searches/t73/rerun_all/check73.py"])
-check("type 73: rerun (3,072 shards) agrees with the first run on all 192 pieces; 4,536 leaves",
-      "pieces checked 192: 192 agree, 0 differ; 0 not complete; leaves in complete pieces 4536" in r.stdout)
+r = run(PY + ["searches/t73/rerun_all/check73.py"])
+check("type 73: exactly the 192 pieces and 3,072 shards, each once and complete; rerun agrees with the first run on "
+      "all 192 pieces; 4,536 distinct leaves, equal to the leaf set of ea_all.txt",
+      r.returncode == 0 and "pieces checked 192: 192 agree, 0 differ; 0 not complete; leaves in complete pieces 4536" in r.stdout
+      and "EA set = emitted set: True" in r.stdout)
 dn = glob.glob(os.path.join(T73, "rerun_all", "e?", "out", "*.done"))
 check("type 73 rerun: 3,072 jobs, all rc 0", len(dn) == 3072 and all(open(f).read().startswith("rc 0") for f in dn))
 ea = [l.split() for l in open(os.path.join(T73, "rerun_all", "ea_all.txt"))]
@@ -212,11 +269,13 @@ cl = {l.split("\t")[0] for l in open(os.path.join(T73, "final", "classes.txt"))}
 check("type 73: the 24 classes of final/classes.txt are the 24 classes of the rerun", cl == invs)
 FP = os.path.join(ROOT, "searches", "fpgap")
 untar(os.path.join(FP, "status.tar.xz"), FP, "status")
-r = run([sys.executable, "searches/fpgap/check_fp.py"])
+r = run(PY + ["searches/fpgap/check_fp.py"])
 m = re.search(r"(\d+) agree, (\d+) differ .*EA chunks done (\d+), ended (\d+); leaves equivalent (\d+), failed (\d+)", r.stdout)
-check("fpgap (rerun of the search-only types printing every leaf): 67 of 67 jobs agree, 641 of 641 EA chunks, "
-      "all 4,851,099 leaves EA-equivalent to a known class",
-      bool(m) and m.group(1) == "67" and m.group(3) == m.group(4) == "641" and m.group(5) == "4851099" and m.group(6) == "0",
+check("fpgap (rerun of the search-only types printing every leaf): exactly the 67 job ids, 67 agree and 0 differ; "
+      "exactly the 641 EA chunk ids, record counts per chunk as the leaves; all 4,851,099 leaves EA-equivalent to a "
+      "known class",
+      r.returncode == 0 and bool(m) and m.group(1) == "67" and m.group(2) == "0" and m.group(3) == m.group(4) == "641"
+      and m.group(5) == "4851099" and m.group(6) == "0",
       r.stdout.splitlines()[0] if r.stdout else "")
 
 # ------------------------------------------------------------------ 5. new classes
@@ -232,13 +291,22 @@ for inv, spec in SPEC.items():
     got = " ".join(f"{a}:{b}" for a, b in d)
     check(f"{row[0]}: APN, degree 2, invariant {inv}, ortho-derivative spectrum as in the paper",
           is_apn(F) and algebraic_degree(F, 10) == 2 and inv_of(F) == inv and got == spec, f"M = {row[2]}")
-others = [i for i in KNOWN if i not in SPEC]
-check("the 4 new invariants differ from the 25 published classes", len(others) == 25 and not set(SPEC) & set(others))
-r = run([sys.executable, "searches/t64/iso64.py"])
+full = {}
+for inv, row in KNOWN.items():
+    F = np.array(list(map(int, row[4].split(","))))
+    full[inv] = repr(ortho_invariant(F, 10))          # full invariant tuple, not the truncated hash
+check("full ortho-derivative invariants of the 29 representatives (data/quadratic_classes.tsv): each matches its "
+      "stored hash, and the 29 tuples are pairwise distinct (so the 4 new classes differ from the 25 published ones)",
+      len(KNOWN) == 29 and all(hashlib.sha1(t.encode()).hexdigest()[:16] == inv for inv, t in full.items())
+      and len(set(full.values())) == 29 and sum(KNOWN[i][0].startswith("New") for i in full) == 4)
+r = run(PY + ["searches/new10/recompute_M.py"])
+check("M recomputed exhaustively for N1-N4 from the short forms and from the tsv LUTs: 3, 4, 4, 4 (recompute_M.py)",
+      r.returncode == 0 and "M OK" in r.stdout, " / ".join(l.split(":")[1].strip() for l in r.stdout.splitlines()[:4] if ":" in l))
+r = run(PY + ["searches/t64/iso64.py"])
 yes = [l.split(" |Isom")[0] for l in r.stdout.splitlines() if "TYPE64=YES" in l]
 check("type 64: exactly 16 of the 29 known classes have the self-equivalence (omega, I); none of the 4 new ones",
       len(yes) == 16 and not any(y.startswith("New") for y in yes))
-r = run([sys.executable, "searches/t64/rankdist64.py"])
+r = run(PY + ["searches/t64/rankdist64.py"])
 rd = [l for l in r.stdout.splitlines() if l.strip()]
 check("type 64: in all 16 known classes, V has ranks {4: 341, 5: 682} and C = V^perp has {3: 1705, 4: 12958, 5: 18104}",
       len(rd) == 16 and all("dim V 10 {4: 341, 5: 682}" in l and "dim C 15 {3: 1705, 4: 12958, 5: 18104}" in l for l in rd))
@@ -277,6 +345,21 @@ if "--skip-ea" not in sys.argv:
     good = [F for F in sample if inv_of(F) == "9149aa6fb2d88edd" and ea_ok(F, "9149aa6fb2d88edd")]
     check(f"type 231: {len(sample)} sampled leaves EA-equivalent to Beierle-Leander #1", len(good) == len(sample),
           f"{time.time() - t:.1f} s")
+
+section("7. independent checks of stored certificates and representatives")
+for script, args, item, marker in (
+        ("types/recount_table2.py", [], "recount_table2.py: independent recount of Table II, 299 types", "total 299"),
+        ("searches/t24/kim6_f8.py", [], "kim6_f8.py: a x^5 + a x^33 + x^40 (a = g^54) is APN and EA-equivalent to Kim's "
+         "function (certificate checked)", "OK"),
+        ("searches/t24/planes_check.py", [], "planes_check.py: the 155 automorphisms of x^3 and x^5 act regularly on the "
+         "155 planes of F_32", "REGULAR ACTION OK"),
+        ("searches/t47/brute6.py", [], "brute6.py: type 47 at n = 6, brute force over all 2^18 completions: 144 APN, "
+         "6 after normalization, equal to the solver output, all Gold", "OK"),
+        ("searches/t47/regen_stage1.py", [], "regen_stage1.py: the 806 type-47 stage-1 classes regenerated and equal to "
+         "cls/ (with |Stab| * |orbit| = |GL(3, 4)|)", "TYPE 47 STAGE 1 REPRODUCED")):
+    t = time.time()
+    r = run(PY + [script] + args)
+    check(item, r.returncode == 0 and marker in r.stdout.splitlines()[-1], f"{time.time() - t:.0f} s")
 
 shutil.rmtree(TMP, ignore_errors=True)
 print(f"\n{'ALL CHECKS PASSED' if not failures else 'FAILED: ' + '; '.join(failures)} ({time.time() - T0:.0f} s)")

@@ -17,6 +17,8 @@
  * beta(e_0, e_1) normalisation. Needs the Z(B) basis at the end of W.txt (sym_setup.py).
  * -cp K1 K2: input-side checkpoint pruning when beta is complete on V_k, K1 <= k <= K2 (needs the Z(A) basis);
  * -nsin M: number of sampled input maps per k (default 24).
+ * -limit NODES: stop after NODES nodes; the run is then NOT exhaustive: stderr gets "INCOMPLETE: node limit",
+ * the -progress file ends with "INCOMPLETE" instead of "DONE", and the exit status is 3.
  * -progress FILE: every 60 s write elapsed time, nodes, estimated explored fraction and time left to FILE.
  * -offset FILE: lines "pair value": affine search space, beta = offset + span(W) (from intertwine.py).
  * -force FILE: lines "pair value": the value of beta on that pair is fixed (e.g. beta on Fix(A) x Fix(A) fixed to a
@@ -465,13 +467,13 @@ static time_t t_start, t_last;
 static void progress_write(int final) {
     double f = 0, mult = 1;
     for (int d = 0; d <= MAXP && pcnt_path[d] > 0; d++) { f += mult * pidx_path[d] / pcnt_path[d]; mult /= pcnt_path[d]; }
-    if (final) f = 1;
+    if (final == 1) f = 1;
     time_t now = time(0);
     double el = difftime(now, t_start), left = f > 0 ? el * (1 - f) / f : -1;
     FILE *fp = fopen(progress_file, "w");
     if (fp) {
         fprintf(fp, "elapsed_s %.0f nodes %lld leaves %lld fraction %.6f est_left_s %.0f%s\n", el, nodes, leaves, f, left,
-                final ? " DONE" : "");
+                final == 1 ? " DONE" : final == 2 ? " INCOMPLETE (node limit reached)" : "");
         fclose(fp);
     }
     t_last = now;
@@ -573,9 +575,10 @@ int main(int argc, char **argv) {
         kcount[pp]++;
     }
     for (int p = 0; p < P; p++) if (kfirst[p] < 0) kfirst[p] = 0;
-    int nrep = 0;
-    if (scanf("%d", &nrep) == 1 && !nonorm) {
-        for (int q = 0; q < nrep; q++) { int x; if (scanf("%d", &x) == 1) allowed01[x] = 1; }
+    int nrep = 0;                  /* the representative block is always consumed; it is used only without -nonorm */
+    if (scanf("%d", &nrep) == 1 && nrep >= 0) {
+        for (int q = 0; q < nrep; q++) { int x; if (scanf("%d", &x) != 1 || x < 0 || x >= N) return 1; if (!nonorm) allowed01[x] = 1; }
+        if (nonorm) for (int x = 0; x < N; x++) allowed01[x] = 1;
     } else for (int x = 0; x < N; x++) allowed01[x] = 1;
     if (scanf("%d", &z) == 1 && z > 0 && z <= MAXZ) {
         for (int j = 0; j < z; j++) for (int i = 0; i < n; i++) { int x; if (scanf("%d", &x) != 1) return 1; Mz[j][i] = (uint16_t)x; }
@@ -646,13 +649,15 @@ int main(int argc, char **argv) {
         level_start(1);
         t_start = t_last = time(0);
         dfs(0, 0);
-        if (progress_file) progress_write(1);
+        int limited = node_limit >= 0 && nodes >= node_limit;
+        if (progress_file) progress_write(limited ? 2 : 1);
         if (gb_F >= 0) fprintf(stderr, "greedy basis: %lld pruned\n", gb_pruned);
         fprintf(stderr, "symmetry: skipped %lld values (symdepth %d, z = %d); checkpoints %lld calls, %lld pruned (za = %d)\n",
                 sym_skipped, symdepth, z, cp_calls, cp_pruned, za);
         fprintf(stderr, "shard counters: depth %d: %lld, depth %d: %lld\n", pshard_depth, pshard_count, shard_depth, shard_count);
         fprintf(stderr, "done: nodes %lld, leaves %lld, distinct fingerprints %lld%s\n", nodes, leaves, distinct,
-                (node_limit >= 0 && nodes >= node_limit) ? " (node limit reached)" : "");
+                limited ? " (node limit reached)" : "");
+        if (limited) { fprintf(stderr, "INCOMPLETE: node limit %lld reached, the search is not exhaustive\n", node_limit); return 3; }
     }
     return 0;
 }

@@ -4,8 +4,9 @@ search cost, and the quadratic APN classes it contains.
 Inputs: types10.tsv, proofs10.txt (criteria C/R/Q/W=0), lemma_dual.txt, bbf_excluded.txt (Baudrin et al. 2025 bound), search_status.txt (per-type search
 completeness from the server .done files, 2026-11-05), server_done.txt (first line of every .done file, with secs;
 machine labels srv1, srv2 replace the original server names).
-Special runs (t24, t47, t73, t41s, type 64) are entered by hand below. Output: master_table.tsv."""
-import collections, os, re
+Special runs (t24, t47, t73, t41s, type 64) are entered by hand below. Output: master_table.tsv (or OUT).
+usage: master_table.py [-o OUT]"""
+import collections, os, re, sys
 here = os.path.dirname(os.path.abspath(__file__))
 P = lambda f: os.path.join(here, f)
 types = [l.rstrip("\n").split("\t") for l in open(os.path.join(here, "..", "types", "types10.tsv"))]
@@ -64,7 +65,8 @@ for t in types:
     summary[how] += 1
     if cl != "-": summary["contains APN"] += 1
     rows.append((ty, p, kind, t[3], t[4], how, pr, s, ch, lv, cl))
-with open(P("master_table.tsv"), "w") as f:
+outp = sys.argv[sys.argv.index("-o") + 1] if "-o" in sys.argv else P("master_table.tsv")
+with open(outp, "w") as f:
     f.write("type\tp\tkind\tA\tB\tsettled_by\tproof\tsearch\tcore_hours\tleaves\tclasses\n")
     for r in rows: f.write("\t".join(map(str, r)) + "\n")
 print(dict(summary))

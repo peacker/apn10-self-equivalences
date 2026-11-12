@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Type 24: check the stored outputs of the full24g run (results/t24_out.tar.gz, unpacked to results/out/).
-Every one of the 4,096 jobs (Gold exponent GE = 3, 5 and part R = 0..2047 of 2048) must have a .done file with
-"rc 0" and a summary line in its .out; the leaves are the lines of the .lut files ("tag LUT" or a bare LUT).
+Exactly the 4,096 jobs (Gold exponent GE = 3, 5 and part R = 0..2047 of 2048) must be present, each once (no extra
+records, no duplicate archive members), with a .done file "rc 0", a .lut file and a summary line in its .out for
+its own GE and PART, without any limit marker; the leaves are the lines of the .lut files ("tag LUT" or a bare LUT).
 Prints the number of jobs, the summed run time, the leaves, and for each leaf the APN test and the
 ortho-derivative invariant with its apndb name. Expected: 4,096 jobs, 3 leaves (g3.254 Gold x^3, g3.558 F4 a=1,
 g5.1838 Gold x^9). The EA certificates are in results/ea_check24.py / ea_check24.txt."""
@@ -30,14 +31,24 @@ def is_apn(F):
 
 
 want = {f"g{ge}.{r}" for ge in (3, 5) for r in range(2048)}
+with tarfile.open(os.path.join(res, "t24_out.tar.gz")) as t:     # one archive member per job file, no duplicates
+    members = [m.name for m in t.getmembers() if m.isfile()]
+dup_members = len(members) - len(set(members))
+done_tags = [os.path.basename(d)[:-5] for d in glob.glob(os.path.join(out, "*.done"))]
+lut_tags = {os.path.basename(f)[:-4] for f in glob.glob(os.path.join(out, "*.lut"))}
 ok_jobs, secs, bad = set(), 0, []
-for d in glob.glob(os.path.join(out, "*.done")):
-    tag = os.path.basename(d)[:-5]; s = open(d).read()
-    o = open(d[:-5] + ".out").read()
-    if s.startswith("rc 0") and re.search(r"leaves \d+ APN \d+", o):
+for tag in sorted(want):
+    d = os.path.join(out, tag + ".done")
+    if not os.path.exists(d) or not os.path.exists(d[:-5] + ".out"):
+        bad.append(tag); continue
+    s = open(d).read(); o = open(d[:-5] + ".out").read()
+    ge, r = tag[1:].split(".")
+    if (s.startswith("rc 0 ") and re.search(r"leaves \d+ APN \d+", o) and f"GE {ge} PART {r}/2048:" in o
+            and "limit" not in (s + o).lower() and "INCOMPLETE" not in s + o):
         ok_jobs.add(tag); secs += int(re.search(r"secs (\d+)", s).group(1))
     else:
         bad.append(tag)
+extra = (set(done_tags) | lut_tags) - want
 leaves = []
 for f in sorted(glob.glob(os.path.join(out, "*.lut"))):
     for line in open(f):
@@ -45,7 +56,8 @@ for f in sorted(glob.glob(os.path.join(out, "*.lut"))):
         if not w: continue
         lut = w[1:] if len(w) > 2 else (w[1] if len(w) == 2 else w[0]).split(",")
         leaves.append((os.path.basename(f)[:-4], np.array(list(map(int, lut)))))
-print(f"jobs finished with rc 0 and a summary: {len(ok_jobs & want)} of {len(want)} (bad {len(bad)}); "
+print(f"jobs finished with rc 0 and a summary for their own GE/PART: {len(ok_jobs)} of {len(want)} (bad {len(bad)}, "
+      f"extra records {len(extra)}, duplicate archive members {dup_members}, .lut files {len(lut_tags)}); "
       f"summed run time {secs / 3600:.0f} core-hours; leaves {len(leaves)}")
 names = []
 for tag, F in leaves:
@@ -53,6 +65,6 @@ for tag, F in leaves:
     apn = is_apn(F)
     names.append((tag, known.get(inv, "NOT IN APNDB"), apn))
     print(f"  {tag}: APN {apn}, invariant {inv} = {known.get(inv, 'NOT IN APNDB')}")
-ok = ok_jobs == want and sorted(names) == [("g3.254", "Gold x^3", True), ("g3.558", "F4 a=1", True), ("g5.1838", "Gold x^9", True)]
+ok = ok_jobs == want and not extra and not dup_members and lut_tags == want and sorted(names) == [("g3.254", "Gold x^3", True), ("g3.558", "F4 a=1", True), ("g5.1838", "Gold x^9", True)]
 print("TYPE 24 RUN OK" if ok else "TYPE 24 RUN FAILED")
 sys.exit(0 if ok else 1)

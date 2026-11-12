@@ -1,11 +1,11 @@
-/* Type 24 full classification: plane formulation + canonical plane (see ../../REDESIGN.md, "Type 24: plane
-   formulation"). Normal form (form24.py): F(p, q) = (G(p) + S(p, p) + mu(p, q), D(p) + S(q, p) + G(q)).
+/* Type 24 full classification: plane formulation + canonical plane (see ../NOTES.md and the paper, Section
+   "Type 24"). Normal form (form24.py): F(p, q) = (G(p) + S(p, p) + mu(p, q), D(p) + S(q, p) + G(q)).
    F is APN iff the diag conditions hold and, for every plane U = <a, p> of F^m, Dp(a, p) avoids Forb(U)
    (Forb depends only on the columns S(., u), u in U).
-   Orbit reduction: Aut(G) = {x -> l x^(2^k)} acts regularly on the planes of F_32 (planes.py); Forb transforms by an
-   affine map, so key(U) = (|Forb|, affine dim, sorted sizes of the three parts) is invariant. We keep only
-   solutions where U0 = <e_0, e_1> has the maximal key among all planes (ties kept). Sound for any group action that
-   is transitive on planes.
+   Orbit reduction: Aut(G) = {x -> l x^(2^k)} acts regularly on the planes of F_32 (../planes_check.py); Forb
+   transforms by an affine map, so key(U) = (|Forb|, affine dim, sorted sizes of the three parts) is invariant. We keep
+   only solutions where U0 = <e_0, e_1> has the maximal key among all planes (ties kept; with env MINKEY, as in the
+   production run run24.sh, the minimal key). Sound for any group action that is transitive on planes.
    Order: S columns 0..3 (S only, canonical check on every new plane), then column-4 options (S only), then Dp on
    span(e_0..e_3) with stored plane masks, then Dp(., e_4) for each column-4 option.
    usage: full24d   env GE = Gold exponent, OUT = LUT file, PROG = progress seconds,
