@@ -35,9 +35,10 @@ and Forb(P), is translated by one vector: sizes, intersections and the affine di
 
 ## Automorphisms of G
 
-The maps L(x) = lambda x^(2^k) (lambda in F_32^*, 0 <= k < 5) satisfy G o L = N o G with N linear. Applied as
-(s, t) -> (L s, L t) on the input and N on both output halves, they commute with A and keep mu. They map Forb(P) to
-N^{-1} Forb(L P), with the three parts permuted. So the key below of L P after the map equals the key of P before.
+The maps L(x) = lambda x^(2^k) (lambda in F_32^*, 0 <= k < 5) satisfy G o L = N o G with N linear. Such a map
+sends F to F' = diag(N^{-1}, N^{-1}) o F o diag(L, L) (inverse N on both output halves, so that mu is kept:
+N^{-1} mu(L x, L y) = mu(x, y)). It commutes with A and replaces nu by nu'(x, y) = N^{-1} nu(L x, L y). Hence
+Forb_F'(P) = N^{-1} Forb_F(L P), with the three parts permuted, and key_F'(P) = key_F(L P).
 
 Regular action (paper, Lemma "regular"). The 155 maps act regularly on the 155 planes of F_32. Proof: it suffices
 that only the identity fixes a plane P. The group has order 155, prime to 3! = 6, so an element g fixing P (it
@@ -56,8 +57,9 @@ inside the current span has a strictly smaller key than <e_0, e_1> (ties are kep
 
 ## Coverage
 
-Let F be APN of type 24. By the normal form it is EA-equivalent to a function as above. Choose a plane P of
-smallest key. By the regular action exactly one automorphism of G moves P to <e_0, e_1>. Then reduce nu modulo T;
+Let F be APN of type 24. By the normal form it is EA-equivalent to a function as above. Choose a plane P_0 of
+smallest key. By the regular action there is exactly one automorphism L of G with L <e_0, e_1> = P_0. Then
+key_F'(<e_0, e_1>) = key_F(P_0) <= key_F(L P) = key_F'(P) for every plane P. Then reduce nu modulo T;
 this does not change any key. The result has <e_0, e_1> of smallest key among all planes, so it passes every key
 test (which rejects only strictly smaller keys), and it satisfies (i) and (ii), so the exhaustive search below the
 key tests reaches it as a leaf. Hence every class of type 24 has at least one leaf. The run is split into 4,096 jobs

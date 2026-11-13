@@ -49,7 +49,9 @@ of each new fingerprint (7 in all, far below the table size `MAXK`). All 16 seed
 `check_sw2.py SW2 SEED N STEP START` is an independent check: it imports nothing from `sw2.c` or `switch64.py`,
 builds its own complement, reduces Kx q modulo Uq for all 2^17 vectors at once, counts the good planes, checks that
 V itself is among them exactly once, checks every other completion to be APN by the full difference table, and
-compares the count with `sw2 -umax N -ustep STEP -ustart START` on the same subspaces U. `verify.py` runs it on 20
+compares the count with `sw2 -umax N -ustep STEP -ustart START` on the same subspaces U. It accepts the run
+only if `sw2` exits with status 0, prints exactly one summary line, and its subspace counter has the value implied
+by N, STEP and START. `verify.py` runs it on 20
 subspaces spread over the 174,251 for seeds 1 and 3 (about 2 min). Larger samples that agreed: seed 1 (100 U, 300
 completions), seed 3 (100 U, 4), seed 2 (50 U, 0), seed 12 (50 U, 1). Planted errors in `sw2.c` are detected
 (dropping half of the candidates: 0 instead of 9 completions; not skipping V: 12 instead of 9). Dropping a few of

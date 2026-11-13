@@ -76,8 +76,8 @@ of every type-73 leaf (`searches/t73/rerun_all/ea_all.py`, about 30 minutes).
 `verify.py` prints the sanitized environment of its subprocesses, the Python, NumPy and compiler versions, one line
 per check and `ALL CHECKS PASSED` at the end (exit status 1 otherwise). It unpacks the `.tar.gz` archives of stored
 outputs next to themselves on first use (git ignores the unpacked copies).
-Last run (2026-11-13): all 53 checks passed in 370 s (macOS 26.3, Apple M5 Pro, one core; archives already
-unpacked).
+Last run (2026-11-13, second review round, `TMPDIR` set to a private directory): all 56 checks passed in 444 s
+(macOS 26.3, Apple M5 Pro, one core; archives already unpacked).
 
 ### The certificate file
 

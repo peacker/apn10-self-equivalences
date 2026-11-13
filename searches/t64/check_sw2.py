@@ -195,11 +195,20 @@ def main():
         picked += 1
     r = subprocess.run([exe] + list(map(str, V)) + ["-umax", str(N), "-ustep", str(step), "-ustart", str(start)],
                        capture_output=True, text=True)
-    m = re.search(r"subspaces (\d+), new spaces (\d+)", r.stderr)
-    sw = int(m.group(2))
-    ok = sw == total
-    print(f"seed {line}: {picked} subspaces U; independent count of V' != V: {total}; sw2: {sw}; "
-          f"{'agree' if ok else 'DIFFER'}", flush=True)
+    # sw2 must exit 0 and print exactly one summary line. Its "subspaces" counter counts every subspace it stepped
+    # over (processed or skipped by -ustep). sw2 processes the indices = START mod STEP below N * STEP and stops at
+    # the first such index >= N * STEP, so the counter is N * STEP + (START mod STEP) + 1, or 174,251 if the loop
+    # runs to the end.
+    m = re.findall(r"^subspaces (\d+), new spaces (\d+)$", r.stderr, re.M)
+    if r.returncode != 0 or len(m) != 1:
+        print(f"seed {line}: sw2 exit status {r.returncode}, {len(m)} summary lines: INVALID RUN", flush=True)
+        sys.exit(1)
+    stepped, sw = int(m[0][0]), int(m[0][1])
+    stop = N * step + start % step
+    expected = stop + 1 if stop < 174251 else 174251
+    ok = stepped == expected and picked == N and sw == total
+    print(f"seed {line}: {picked} subspaces U; independent count of V' != V: {total}; sw2: {sw} "
+          f"(stepped over {stepped}, expected {expected}); {'agree' if ok else 'DIFFER'}", flush=True)
     sys.exit(0 if ok else 1)
 
 

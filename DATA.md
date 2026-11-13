@@ -20,7 +20,7 @@ and in the author's archive. They are available on request.
 
 | Data | Size | Where it lives | Why not included |
 |---|---|---|---|
-| Printed leaves of the fingerprint-gap rerun (`out/t_*.out.gz`, one LUT per leaf, 4,851,099 leaves) | estimated about 3 GB (4.85 million LUTs of about 4 kB, gzip -1) | server only (`fpgap/out/`) | too large; every leaf is EA-checked in `status/ea` (included); `search_job.sh` regenerates them |
+| Printed leaves of the fingerprint-gap rerun (`out/t_*.out.gz`, one LUT per leaf, 4,851,099 leaves) | 7.8 GB (201 files, checked on the server on 2026-11-13) | one server (`fpgap/out/`); available on request | too large; every leaf is EA-checked in `status/ea` (included); `search_job.sh` regenerates them (about 9 core-hours), and re-checking all equivalences then takes about 1,300 core-hours |
 | Raw `.out`/`.err` files of the generic `sym10` runs over the 299 types | not copied locally | servers (`sym10/out`, `sym10b/out2` ... `out5`) | summarized in `proofs/server_done.txt` (first line of every `.done` file: nodes, leaves, seconds) and `proofs/search_status.txt`; the leaves of the types with APN functions are re-printed by `searches/fpgap` |
 | First type-73 run (32 pieces, `out4/old73`, 381 core-hours) | not copied locally | server | superseded by the 192-piece run and the rerun (included) |
 | `t24/c/q75/` | 369 MB | `learning/sym10/t24/c/q75` | Kim-like permutation side study (75 affine classes of quadratic permutations of F_2^5); not used by the type-24 classification |
