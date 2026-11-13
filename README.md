@@ -24,10 +24,11 @@ checks the stored outputs of the expensive searches in about 6 minutes (see "Thr
 - F_4 inside F_{2^10}: {0, 1, 236, 237}, with omega = 236.
 - Type 24 (coefficients in F_32): F_32 with the polynomial x^5 + x^2 + 1.
 - Searches: four Linux servers (Docker containers, Ubuntu 22.04) with 2 x AMD EPYC 7763 (256 threads, 1 TB RAM),
-  C compiled with gcc `-O3 -march=native`, run at `nice 19` (see `engine/polite.sh`). The gcc version was not
-  logged by the runs. A binary compiled on one of the servers during the campaign records
-  `GCC: (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0` in its `.comment` section, so that server used gcc 11.4.0; the
-  other three could not be reached when this was written and are assumed to use the same image.
+  C compiled with gcc `-O3 -march=native`, run at `nice 19` (see `engine/polite.sh`). The runs did not log the
+  gcc version. Queried on 2026-11-13, three of the four servers report gcc `(Ubuntu 11.4.0-1ubuntu1~22.04.3)
+  11.4.0`, Ubuntu 22.04.5 LTS, Python 3.10.12 and NumPy 1.24.3; a binary compiled on one of them during the
+  campaign records the same gcc in its `.comment` section. The fourth server refused the key (its home directory
+  had been reset) and was not checked.
 - Local checks (tested versions): macOS 26.3 (Apple M5 Pro; Python is an x86_64 build running under Rosetta 2,
   so `cc` called from it builds x86_64), Apple clang 16.0.0 (clang-1600.0.26.6), Python 3.13.3, NumPy 2.2.4.
 - Every sanitized subprocess environment (`verify.py`, `searches/t47/*.py`) sets `TMPDIR` to a temporary directory
