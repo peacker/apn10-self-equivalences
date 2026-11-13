@@ -24,7 +24,9 @@ checks the stored outputs of the expensive searches in about 6 minutes (see "Thr
 - F_4 inside F_{2^10}: {0, 1, 236, 237}, with omega = 236.
 - Type 24 (coefficients in F_32): F_32 with the polynomial x^5 + x^2 + 1.
 - Searches: three Linux servers (Docker containers, Ubuntu 22.04) with 2 x AMD EPYC 7763 (256 threads, 1 TB RAM),
-  C compiled with gcc `-O3 -march=native`, run at `nice 19` (see `engine/polite.sh`). The runs did not log the
+  C compiled with gcc `-O3 -march=native`, run at `nice 19` (see `engine/polite.sh`). The servers were shared; our
+  container could use at most 200 threads per server (`cpu.max`). Every job is single-threaded; a core-hour is one
+  hour of wall-clock time of one job on one hardware thread (`secs` in the `.done` files), not a dedicated core. The runs did not log the
   gcc version. Queried on 2026-11-13, all three servers report gcc `(Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0`,
   Ubuntu 22.04.5 LTS, Python 3.10.12 and NumPy 1.24.3; a binary compiled on one of them during the campaign
   records the same gcc in its `.comment` section.
