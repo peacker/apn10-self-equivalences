@@ -34,6 +34,31 @@ a Knuth estimate of about 4.5e57 nodes).
 | Random sparse polynomials | `poly64.c`, `classify_poly.py` | random polynomials with 2 to 14 of the 25 type-64 monomials, coefficients in F_4, F_32 or F_1024 | `polyout/` |
 | Codimension-1 switching BFS (superseded) | `switch64.py`, `bfs64.py` | class-level BFS from the 16 known classes; **capped**: at most `max_new = 8` new spaces per hyperplane, `reps = 2` representatives expanded per class, and the solutions modulo the hyperplane are enumerated from m = 1 upward and cut at the cap | `bfs64.out`, `sw64.out` |
 
+### Why `sw2` is exact for each 8-dim subspace U, and how this is checked
+
+For a point q, the map H -> Hq sends the Hermitian matrices into q^perp (dimension 9 over F_2), and V' is APN iff
+this map has rank 9 on V' for every q. Write V' = U + <a, b> with a, b in a fixed complement of U (17-dim; every
+10-dim V' containing U arises from exactly one plane <a, b> of the complement). If dim Uq = 7, aq and bq must be
+independent modulo Uq; if dim Uq = 8, they must not both lie in Uq. `sw2` tests exactly these conditions with a
+basis of linear forms of q^perp / Uq, over all 2^17 - 1 candidates a and all planes {a, b, a + b} (each counted
+once), with no cap; the only plane it does not report is V itself. It counts **every** good V' (`new spaces` in
+`sw2out/s*.err`; the sum over the 16 seeds is 522,753 + 4 x 511 + 2 x 2,553 = 529,903), computes the fingerprint
+(a 64-bit hash of the differential spectrum of the ortho-derivative) of **every** good V', and prints the first V'
+of each new fingerprint (7 in all, far below the table size `MAXK`). All 16 seed runs finished all 174,251 subspaces.
+
+`check_sw2.py SW2 SEED N STEP START` is an independent check: it imports nothing from `sw2.c` or `switch64.py`,
+builds its own complement, reduces Kx q modulo Uq for all 2^17 vectors at once, counts the good planes, checks that
+V itself is among them exactly once, checks every other completion to be APN by the full difference table, and
+compares the count with `sw2 -umax N -ustep STEP -ustart START` on the same subspaces U. `verify.py` runs it on 20
+subspaces spread over the 174,251 for seeds 1 and 3 (about 2 min). Larger samples that agreed: seed 1 (100 U, 300
+completions), seed 3 (100 U, 4), seed 2 (50 U, 0), seed 12 (50 U, 1). Planted errors in `sw2.c` are detected
+(dropping half of the candidates: 0 instead of 9 completions; not skipping V: 12 instead of 9). Dropping a few of
+the 341 point conditions did not change the output on the subspaces tested, because the conditions are highly
+redundant; such a mutant is then correct on those subspaces.
+
+What remains unchecked in `sw2` is the fingerprint step: only the first V' per fingerprint is named by its full
+invariant, and no V' is certified EA-equivalent to a known class.
+
 The codimension-1 BFS is superseded by `sw2`, which computes, for each seed, all codimension-1 (and codimension-2)
 switchings exactly, without a cap. Since EA-equivalence need not respect the F_4-structure, a class may contain
 several inequivalent spaces V; `sw2` switched from one space per class only.

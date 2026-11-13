@@ -10,8 +10,8 @@ About 40 s. usage: python3 -I searches/t47/regen_stage1.py   (exit status 1 on a
 import filecmp, glob, os, pickle, shutil, subprocess, sys, tempfile
 
 here = os.path.dirname(os.path.abspath(__file__))
-env = {"PATH": os.environ.get("PATH", "/usr/bin:/bin"), "LC_ALL": "C"}
 tmp = tempfile.mkdtemp(prefix="t47stage1_")
+env = {"PATH": os.environ.get("PATH", "/usr/bin:/bin"), "LC_ALL": "C", "TMPDIR": tmp}
 ok = True
 try:
     for s in ("stage1.py", "stage1b.py"):

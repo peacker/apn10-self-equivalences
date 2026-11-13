@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Class-level BFS over codimension-1 Hermitian switching (switch64.neighbours) from the 16 known classes of
+"""SUPERSEDED, NOT USED AS EVIDENCE IN THE PAPER (capped: max_new = 8 per hyperplane, REPS per class; see README.md).
+Class-level BFS over codimension-1 Hermitian switching (switch64.neighbours) from the 16 known classes of
 type 64 (seeds64.txt), in parallel. Expands up to REPS representatives per class. New classes go to OUT.new_luts.
 usage: bfs64.py [--reps K] [--procs P] [--rounds R] OUT_PREFIX"""
 import os, sys

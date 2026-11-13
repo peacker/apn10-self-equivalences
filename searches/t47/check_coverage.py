@@ -23,12 +23,12 @@ if not os.path.isdir(out):
             t.extractall(out, filter="data")
         except TypeError:
             t.extractall(out)
-ENV = {"PATH": os.environ.get("PATH", "/usr/bin:/bin"), "LC_ALL": "C"}   # no solver options inherited
-tmp = None
+tmp = tempfile.mkdtemp(prefix="t47cov_")      # inside the caller's TMPDIR, if set
+# no solver options inherited; TMPDIR points to our own directory so the compiler's temporary files stay there
+ENV = {"PATH": os.environ.get("PATH", "/usr/bin:/bin"), "LC_ALL": "C", "TMPDIR": tmp}
 if "--stage2i" in sys.argv:
     exe = sys.argv[sys.argv.index("--stage2i") + 1]
 else:
-    tmp = tempfile.mkdtemp(prefix="t47cov_")
     exe = os.path.join(tmp, "stage2i")
     subprocess.run(["cc", "-O3", "-DKU=3", "-DMZ=4", "-o", exe, os.path.join(here, "stage2i.c")], check=True, env=ENV)
 errors = []

@@ -56,7 +56,8 @@ def _clean_env():
     dirs += [os.path.dirname(os.path.realpath(p)) for p in (shutil.which("cc"), shutil.which("bash")) if p]
     path = os.pathsep.join(dict.fromkeys(dirs + ["/usr/bin", "/bin"]))
     env = {"PATH": path, "HOME": os.environ.get("HOME", TMP), "LC_ALL": "C", "LANG": "C", "PYTHONHASHSEED": "0",
-           "OMP_NUM_THREADS": "1", "OPENBLAS_NUM_THREADS": "1"}
+           "OMP_NUM_THREADS": "1", "OPENBLAS_NUM_THREADS": "1",
+           "TMPDIR": TMP}                         # compiler temporary files go to our own temporary directory
     if os.environ.get("APNSEARCH_BUILD"):          # where lib/apnsearch caches its compiled C core
         env["APNSEARCH_BUILD"] = os.environ["APNSEARCH_BUILD"]
     return env
@@ -347,7 +348,14 @@ if "--skip-ea" not in sys.argv:
           f"{time.time() - t:.1f} s")
 
 section("7. independent checks of stored certificates and representatives")
+SW2 = os.path.join(B, "sw2")
+check("sw2.c (type-64 codimension-2 switching) compiles",
+      run(["cc", "-O3", "-o", SW2, os.path.join("searches", "t64", "sw2.c")]).returncode == 0)
 for script, args, item, marker in (
+        ("searches/t64/check_sw2.py", [SW2, "1", "20", "8712", "7"], "check_sw2.py: sw2 on seed 1 (x^3), 20 subspaces "
+         "U spread over all 174,251: same number of completions V' != V as an independent count, all APN", "agree"),
+        ("searches/t64/check_sw2.py", [SW2, "3", "20", "8712", "11"], "check_sw2.py: the same on seed 3 (F4 a=1)",
+         "agree"),
         ("types/recount_table2.py", [], "recount_table2.py: independent recount of Table II, 299 types", "total 299"),
         ("searches/t24/kim6_f8.py", [], "kim6_f8.py: a x^5 + a x^33 + x^40 (a = g^54) is APN and EA-equivalent to Kim's "
          "function (certificate checked)", "OK"),

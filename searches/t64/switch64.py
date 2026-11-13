@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 """Search for new classes in type 64 by Hermitian switching.
 
+SUPERSEDED, NOT USED AS EVIDENCE IN THE PAPER. As run (bfs64.py), neighbours() stops after max_new solutions per
+hyperplane U and enumerates the solution coset from small combinations upward, so the run was not exhaustive; only
+reps representatives per class were expanded. sw2.c does every codimension-1 (and -2) switching exactly, without a
+cap (independent check: check_sw2.py). This file is kept for lut_of and inv_hash, used by classify_*.py.
+
 An APN function of type 64 is a 10-dim space V of Hermitian 5x5 matrices over F_4 such that every point of PG(4, 4)
 is killed (H q = 0) by exactly one nonzero element of V. Codimension-1 switching: keep a hyperplane U of V and
 replace the tenth basis element by H'. Points killed by U need H' q not in U q, a hyperplane of q^perp (9-dim):
 one affine equation l_q(H' q) = 1. Points not killed by U are killed exactly once by the new coset automatically.
-So all neighbours sharing U are the solutions of one affine system (exact, nothing missed).
+So all neighbours sharing U are the solutions of one affine system (exact only without the max_new cap).
 Classes are named by the ortho-derivative invariant (classify.py's hash) and compared with apndb/n10.
 usage: switch64.py [--rounds R] [--reps K] OUT_PREFIX   (BFS over classes; K representatives expanded per class)"""
 import hashlib, os, random, sys
